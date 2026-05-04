@@ -1,10 +1,8 @@
 /**
  * moodys-scraper.js
- * ─────────────────────────────────────────────────────────────────────────────
  * Playwright scraper for events.moodys.com
- * Handles Cookiebot consent banner, clicks "Load more" until exhausted,
- * then writes all events to events.json
- * ─────────────────────────────────────────────────────────────────────────────
+ * Clicks "Load more" until exhausted, extracts structured event fields,
+ * writes events.json — no hardcoded event data anywhere.
  */
 
 const { chromium } = require("playwright");
@@ -17,6 +15,38 @@ const SETTLE_MS  = 3000;
 const MAX_CLICKS = 40;
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+// Parse a raw date string like:
+//   "Wednesday, 15 April | 09:00 - 13:45 MYT"
+//   "Tuesday, 12 May 2026 | VNT"
+//   "Monday, May 4 - Wednesday, May 6, 2026 | Manchester Grand Hyatt | San Diego, CA"
+// into { date, time, location }
+function parseDateField(raw = "") {
+  if (!raw) return { date: "", time: "", location: "" };
+
+  const parts = raw.split("|").map(s => s.trim());
+  const datePart = parts[0] || "";
+
+  // Look for a time pattern like "09:00 - 13:45 MYT" or "14:00 BST"
+  const timeMatch = raw.match(/\d{1,2}:\d{2}(?:\s*[-–]\s*\d{1,2}:\d{2})?\s*[A-Z]{2,4}/);
+  const time = timeMatch ? timeMatch[0].trim() : "";
+
+  // The second pipe-separated segment sometimes contains venue/city
+  // e.g. "Manchester Grand Hyatt | San Diego, CA"
+  let location = "";
+  if (parts.length >= 3) {
+    location = parts.slice(1).filter(p => !p.match(/^\d{1,2}:\d{2}/)).join(", ");
+  } else if (parts.length === 2 && !parts[1].match(/^\d{1,2}:\d{2}/)) {
+    // Not a time — could be a timezone-only like "VNT" or a location
+    const tzOnly = /^[A-Z]{2,5}$/.test(parts[1]);
+    if (!tzOnly) location = parts[1];
+  }
+
+  // Clean date: remove the time portion from datePart
+  const date = datePart.replace(timeMatch ? timeMatch[0] : "", "").trim().replace(/\s+/g, " ");
+
+  return { date, time, location };
+}
 
 (async () => {
   console.log("▶  Launching Chromium (headless)…");
@@ -38,100 +68,51 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
   page.on("console", () => {});
   page.on("pageerror", () => {});
 
-  // ── 1. Navigate ───────────────────────────────────────────────────────────
+  // 1. Navigate
   console.log(`▶  Navigating to ${URL} …`);
   await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 60_000 });
-  await sleep(4000); // let JS + Cookiebot fully render
+  await sleep(4000);
 
-  // ── 2. Handle Cookiebot consent banner ────────────────────────────────────
-  // The banner has id="CybotCookiebotDialog" and blocks all pointer events
-  // until dismissed. We try three approaches in order:
-  //   A) Click the official "Allow all" / "Accept" button
-  //   B) If that fails, forcefully remove the overlay from the DOM via JS
+  // 2. Dismiss Cookiebot
   console.log("▶  Handling Cookiebot consent banner…");
-
   try {
-    // Wait for Cookiebot dialog to appear
     await page.waitForSelector("#CybotCookiebotDialog", { timeout: 10_000 });
-    console.log("   Cookiebot dialog detected.");
-
-    // Try clicking the Allow All button (Cookiebot's standard button IDs)
     const allowBtn = await page.$(
       "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll, " +
       "#CybotCookiebotDialogBodyButtonAccept, " +
-      "button[id*='Allow'], button[id*='Accept'], " +
-      "a[id*='CybotCookiebotDialogBodyButtonAccept']"
+      "button[id*='Allow'], button[id*='Accept']"
     );
-
     if (allowBtn && await allowBtn.isVisible()) {
       await allowBtn.click();
-      console.log("   ✓ Clicked Cookiebot Accept button.");
+      console.log("   ✓ Clicked Accept button.");
       await sleep(1500);
-    } else {
-      throw new Error("Accept button not found or not visible");
-    }
+    } else throw new Error("button not visible");
   } catch (e) {
-    console.log(`   Accept button approach failed (${e.message}) — force-removing overlay via JS…`);
-
-    // Nuclear option: remove the dialog and underlay directly from the DOM
+    console.log(`   Falling back to DOM removal (${e.message})…`);
     await page.evaluate(() => {
-      // Remove all Cookiebot-related elements
-      const ids = [
-        "CybotCookiebotDialog",
-        "CybotCookiebotDialogBodyUnderlay",
-        "CybotCookiebotDialogBodyOverlay",
-        "cookiebanner",
-      ];
-      ids.forEach(id => document.getElementById(id)?.remove());
-
-      // Also remove any fixed/sticky overlays that block pointer events
-      document.querySelectorAll(
-        "[id*='Cybot'], [id*='cookie'], [id*='consent'], [class*='cookie-banner'], [class*='consent-banner']"
-      ).forEach(el => el.remove());
-
-      // Restore body scroll/pointer if it was locked
+      ["CybotCookiebotDialog", "CybotCookiebotDialogBodyUnderlay",
+       "CybotCookiebotDialogBodyOverlay"].forEach(id => document.getElementById(id)?.remove());
+      document.querySelectorAll("[id*='Cybot'],[class*='cookie-banner'],[class*='consent']")
+        .forEach(el => el.remove());
       document.body.style.overflow = "";
       document.body.style.pointerEvents = "";
-      document.documentElement.style.overflow = "";
     });
-
-    console.log("   ✓ Overlay removed from DOM.");
-    await sleep(1000);
+    await sleep(800);
   }
-
-  // Verify overlay is gone before proceeding
-  const overlayStillExists = await page.$("#CybotCookiebotDialogBodyUnderlay");
-  if (overlayStillExists) {
-    console.log("   Overlay still in DOM — forcing removal one more time…");
-    await page.evaluate(() => {
-      document.getElementById("CybotCookiebotDialogBodyUnderlay")?.remove();
-      document.getElementById("CybotCookiebotDialog")?.remove();
-    });
-    await sleep(500);
-  }
-
   console.log("   ✓ Page unblocked.");
 
-  // ── 3. Wait for calendar to render ───────────────────────────────────────
-  console.log("▶  Waiting for event calendar…");
+  // 3. Wait for calendar
   try {
-    await page.waitForSelector(
-      "[class*='calendar'], [class*='event'], article, li[class]",
-      { timeout: 20_000 }
-    );
-  } catch {
-    console.log("   (Calendar selector timed out — continuing anyway)");
-  }
+    await page.waitForSelector("[class*='calendar'], [class*='event'], article", { timeout: 20_000 });
+  } catch { console.log("   (Calendar wait timed out — continuing)"); }
   await sleep(2000);
 
-  // ── 4. Click "Load more" until exhausted ─────────────────────────────────
+  // 4. Click Load More until gone
   console.log("▶  Clicking 'Load more' until exhausted…");
   let clicks = 0;
 
   async function getLoadMoreBtn() {
-    const els = await page.$$(
-      "button, a[role='button'], [class*='load-more'], [class*='loadmore']"
-    );
+    const els = await page.$$("button, a[role='button']");
     for (const el of els) {
       try {
         const txt = (await el.innerText()).trim().toLowerCase();
@@ -144,44 +125,30 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
   while (clicks < MAX_CLICKS) {
     const btn = await getLoadMoreBtn();
-    if (!btn) {
-      console.log(`✓  No 'Load more' found — all events loaded after ${clicks} click(s).`);
-      break;
-    }
+    if (!btn) { console.log(`✓  All events loaded after ${clicks} click(s).`); break; }
 
-    const before = await page.$$eval(
-      "a[href*='events.moodys.com']", els => els.length
-    ).catch(() => 0);
-
+    const before = await page.$$eval("a[href*='events.moodys.com']", els => els.length).catch(() => 0);
     await btn.scrollIntoViewIfNeeded();
     await sleep(400);
 
-    // Use dispatchEvent as fallback in case anything still intercepts the click
-    try {
-      await btn.click({ timeout: 5000 });
-    } catch {
-      console.log("   Regular click blocked — using JS click fallback…");
-      await btn.evaluate(el => el.click());
-    }
+    try { await btn.click({ timeout: 5000 }); }
+    catch { await btn.evaluate(el => el.click()); }
 
     clicks++;
-    console.log(`   Click ${clicks} — waiting for new content…`);
+    console.log(`   Click ${clicks}…`);
 
     try {
       await page.waitForFunction(
         prev => document.querySelectorAll("a[href*='events.moodys.com']").length > prev,
-        before,
-        { timeout: SETTLE_MS }
+        before, { timeout: SETTLE_MS }
       );
     } catch { /* timeout OK */ }
 
     await sleep(1500);
   }
 
-  if (clicks >= MAX_CLICKS) console.warn(`⚠  Hit safety cap of ${MAX_CLICKS} clicks.`);
-
-  // ── 5. Extract all events ─────────────────────────────────────────────────
-  console.log("▶  Extracting events from DOM…");
+  // 5. Extract structured event data
+  console.log("▶  Extracting events…");
 
   const raw = await page.evaluate(() => {
     const results = [];
@@ -189,34 +156,42 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
     document.querySelectorAll("a[href]").forEach(link => {
       const href = link.href || "";
+
+      // Only keep links to actual event sub-pages
       if (
         !href.includes("events.moodys.com") ||
-        href === "https://events.moodys.com/" ||
-        href === "https://events.moodys.com" ||
+        href.replace(/\/$/, "") === "https://events.moodys.com" ||
         href.includes("#") ||
         href.includes("sign-in") ||
         href.includes("faq") ||
         href.includes("moodys.com/") && !href.includes("events.moodys.com") ||
         seen.has(href)
       ) return;
-
       seen.add(href);
 
       const card =
         link.closest("li, article, [class*='card'], [class*='event-item'], [class*='item']")
-        || link.parentElement
-        || link;
+        || link.parentElement || link;
 
-      const getText = sel => card.querySelector(sel)?.innerText?.trim() || "";
+      const get = sel => card.querySelector(sel)?.innerText?.trim() || "";
 
-      results.push({
-        title:       getText("h2,h3,h4,[class*='title'],[class*='heading'],[class*='name']")
-                     || link.innerText?.trim() || "",
-        date:        getText("[class*='date'],[class*='schedule'],[class*='time'],time"),
-        type:        getText("[class*='type'],[class*='badge'],[class*='label'],[class*='format'],[class*='tag']"),
-        description: getText("[class*='desc'],[class*='subtitle'],[class*='intro'],p"),
-        url:         href,
-      });
+      // Event name: h2/h3/h4 inside card, NOT the type badge
+      const name = get("h2, h3, h4, [class*='title'], [class*='heading']")
+                   || link.innerText?.trim() || "";
+
+      // Type badge (e.g. "In-Person Conference", "Webinar")
+      const type = get("[class*='type'],[class*='badge'],[class*='label'],[class*='format'],[class*='tag']");
+
+      // Raw date/time/location string
+      const dateRaw = get("[class*='date'],[class*='schedule'],[class*='time'],time");
+
+      // Description
+      const description = get("[class*='desc'],[class*='subtitle'],[class*='intro'],p");
+
+      // Location may appear explicitly in a location/venue element
+      const locationRaw = get("[class*='location'],[class*='venue'],[class*='place'],[class*='city']");
+
+      results.push({ name, type, dateRaw, locationRaw, description, url: href });
     });
 
     return results;
@@ -224,21 +199,38 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
   console.log(`   Raw: ${raw.length} items`);
 
-  // ── 6. Deduplicate ────────────────────────────────────────────────────────
+  // 6. Dedup by URL
   const seenUrls = new Set();
-  const events = raw.filter(ev => {
+  const deduped = raw.filter(ev => {
     if (!ev.url || seenUrls.has(ev.url)) return false;
     seenUrls.add(ev.url);
     return true;
   });
 
-  console.log(`✓  ${events.length} unique events`);
+  // 7. Parse structured date/time/location fields
+  const events = deduped.map(ev => {
+    const { date, time, location } = parseDateField(ev.dateRaw);
+    return {
+      name:        ev.name,
+      type:        ev.type,
+      date:        date,
+      time:        time,
+      location:    ev.locationRaw || location,
+      description: ev.description,
+      url:         ev.url,
+    };
+  });
 
-  // ── 7. Write output ───────────────────────────────────────────────────────
+  // 8. Filter out entries with no meaningful name
+  const filtered = events.filter(ev => ev.name && ev.name.length > 3);
+
+  console.log(`✓  ${filtered.length} unique events after dedup + filter`);
+
+  // 9. Write output
   fs.writeFileSync(OUT_FILE, JSON.stringify({
     scrapedAt:   new Date().toISOString(),
-    totalEvents: events.length,
-    events,
+    totalEvents: filtered.length,
+    events:      filtered,
   }, null, 2));
 
   console.log(`✓  Written → ${OUT_FILE}`);
