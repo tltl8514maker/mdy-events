@@ -3,7 +3,6 @@
  * ─────────────────────────────────────────────────────────────────────────────
  * Playwright scraper for events.moodys.com
  * Clicks "Load more" until exhausted, then dumps all event cards to events.json
- * Runs headlessly in GitHub Actions or locally.
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
@@ -38,88 +37,135 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
   page.on("console", () => {});
   page.on("pageerror", () => {});
 
-  // 1. Navigate
+  // ── 1. Navigate ───────────────────────────────────────────────────────────
+  // Use "domcontentloaded" — "networkidle" times out because the page
+  // continuously polls in the background and never fully goes quiet.
   console.log(`▶  Navigating to ${URL} …`);
-  await page.goto(URL, { waitUntil: "networkidle", timeout: 90_000 });
-  await sleep(3000);
+  await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 60_000 });
 
-  // 2. Dismiss cookie/consent banner if present
+  // Wait for the event calendar section to appear in the DOM
+  console.log("▶  Waiting for calendar to render…");
   try {
-    const btn = await page.$("button:has-text('Accept'), button:has-text('Accept All')");
-    if (btn) { await btn.click(); await sleep(800); console.log("   Dismissed consent banner."); }
+    await page.waitForSelector(
+      "[class*='calendar'], [class*='event'], article, li[class]",
+      { timeout: 30_000 }
+    );
+  } catch {
+    console.log("   (Selector wait timed out — continuing anyway)");
+  }
+
+  // Extra settle for JS-rendered content
+  await sleep(4000);
+
+  // ── 2. Dismiss cookie / consent banner ───────────────────────────────────
+  try {
+    const btn = await page.$(
+      "button:has-text('Accept'), button:has-text('Accept All'), button:has-text('I Agree')"
+    );
+    if (btn && await btn.isVisible()) {
+      await btn.click();
+      await sleep(800);
+      console.log("   Dismissed consent banner.");
+    }
   } catch { /* none */ }
 
-  // 3. Click "Load more" until it disappears
+  // ── 3. Click "Load more" until it disappears ──────────────────────────────
   console.log("▶  Clicking 'Load more' until exhausted…");
   let clicks = 0;
 
   async function getLoadMoreBtn() {
-    const els = await page.$$("button, a[role='button']");
+    const els = await page.$$("button, a[role='button'], [class*='load-more'], [class*='loadmore']");
     for (const el of els) {
       try {
         const txt = (await el.innerText()).trim().toLowerCase();
         const vis = await el.isVisible();
         if (vis && /^(load more|show more|view more|more events)$/.test(txt)) return el;
-      } catch { /* stale */ }
+      } catch { /* stale handle */ }
     }
     return null;
   }
 
   while (clicks < MAX_CLICKS) {
     const btn = await getLoadMoreBtn();
-    if (!btn) { console.log(`✓  Done — all events loaded after ${clicks} click(s).`); break; }
+    if (!btn) {
+      console.log(`✓  No 'Load more' found — all events loaded after ${clicks} click(s).`);
+      break;
+    }
 
     const before = await page.$$eval(
-      "[class*='event'], [class*='card'], article, li",
+      "a[href*='events.moodys.com']",
       els => els.length
     ).catch(() => 0);
 
     await btn.scrollIntoViewIfNeeded();
-    await sleep(300);
+    await sleep(400);
     await btn.click();
     clicks++;
-    console.log(`   Click ${clicks}…`);
+    console.log(`   Click ${clicks} — waiting for new content…`);
 
+    // Wait until new event links appear, or timeout after SETTLE_MS
     try {
       await page.waitForFunction(
-        prev => document.querySelectorAll(
-          "[class*='event'], [class*='card'], article, li"
-        ).length > prev,
+        prev => document.querySelectorAll("a[href*='events.moodys.com']").length > prev,
         before,
         { timeout: SETTLE_MS }
       );
-    } catch { /* timeout OK */ }
+    } catch { /* timeout OK — content may have loaded differently */ }
 
-    await sleep(1000);
+    await sleep(1500);
   }
 
-  // 4. Extract events
-  console.log("▶  Extracting events…");
+  if (clicks >= MAX_CLICKS) console.warn(`⚠  Hit safety cap of ${MAX_CLICKS} clicks.`);
+
+  // ── 4. Extract events ─────────────────────────────────────────────────────
+  console.log("▶  Extracting events from DOM…");
 
   const raw = await page.evaluate(() => {
     const results = [];
     const seen = new Set();
 
-    document.querySelectorAll("a[href*='events.moodys.com']").forEach(link => {
-      const href = link.href;
-      if (!href || seen.has(href)) return;
+    // Target all anchor tags that link to Moody's event sub-pages
+    document.querySelectorAll("a[href]").forEach(link => {
+      const href = link.href || "";
+
+      // Only keep links to actual event pages (have a path segment after the domain)
+      if (
+        !href.includes("events.moodys.com") ||
+        href === "https://events.moodys.com/" ||
+        href === "https://events.moodys.com" ||
+        href.includes("#") ||
+        href.includes("sign-in") ||
+        href.includes("faq") ||
+        seen.has(href)
+      ) return;
+
       seen.add(href);
 
-      const card = link.closest("li, article, [class*='card'], [class*='event-item']") || link;
+      // Walk up the DOM to find the enclosing card element
+      const card =
+        link.closest("li, article, [class*='card'], [class*='event-item'], [class*='item']")
+        || link.parentElement
+        || link;
+
+      const getText = (sel) =>
+        card.querySelector(sel)?.innerText?.trim() || "";
 
       results.push({
-        title: card.querySelector("h2,h3,h4,[class*='title']")?.innerText?.trim() || link.innerText?.trim() || "",
-        date:  card.querySelector("[class*='date'],[class*='schedule'],time")?.innerText?.trim() || "",
-        type:  card.querySelector("[class*='type'],[class*='badge'],[class*='label'],[class*='format']")?.innerText?.trim() || "",
-        description: card.querySelector("[class*='desc'],[class*='subtitle'],p")?.innerText?.trim() || "",
-        url: href,
+        title:       getText("h2,h3,h4,[class*='title'],[class*='heading'],[class*='name']")
+                     || link.innerText?.trim() || "",
+        date:        getText("[class*='date'],[class*='schedule'],[class*='time'],time"),
+        type:        getText("[class*='type'],[class*='badge'],[class*='label'],[class*='format'],[class*='tag']"),
+        description: getText("[class*='desc'],[class*='subtitle'],[class*='intro'],p"),
+        url:         href,
       });
     });
 
     return results;
   });
 
-  // 5. Dedup
+  console.log(`   Raw extraction: ${raw.length} items`);
+
+  // ── 5. Deduplicate ────────────────────────────────────────────────────────
   const seenUrls = new Set();
   const events = raw.filter(ev => {
     if (!ev.url || seenUrls.has(ev.url)) return false;
@@ -127,16 +173,18 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
     return true;
   });
 
-  console.log(`✓  ${events.length} unique events extracted`);
+  console.log(`✓  ${events.length} unique events after dedup`);
 
-  // 6. Write
-  fs.writeFileSync(OUT_FILE, JSON.stringify({
-    scrapedAt: new Date().toISOString(),
+  // ── 6. Write output ───────────────────────────────────────────────────────
+  const output = {
+    scrapedAt:   new Date().toISOString(),
     totalEvents: events.length,
     events,
-  }, null, 2));
+  };
 
+  fs.writeFileSync(OUT_FILE, JSON.stringify(output, null, 2));
   console.log(`✓  Written → ${OUT_FILE}`);
+
   await browser.close();
   process.exit(0);
 })();
