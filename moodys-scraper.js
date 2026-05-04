@@ -2,7 +2,8 @@
  * moodys-scraper.js
  * ─────────────────────────────────────────────────────────────────────────────
  * Playwright scraper for events.moodys.com
- * Clicks "Load more" until exhausted, then dumps all event cards to events.json
+ * Handles Cookiebot consent banner, clicks "Load more" until exhausted,
+ * then writes all events to events.json
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
@@ -38,49 +39,105 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
   page.on("pageerror", () => {});
 
   // ── 1. Navigate ───────────────────────────────────────────────────────────
-  // Use "domcontentloaded" — "networkidle" times out because the page
-  // continuously polls in the background and never fully goes quiet.
   console.log(`▶  Navigating to ${URL} …`);
   await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 60_000 });
+  await sleep(4000); // let JS + Cookiebot fully render
 
-  // Wait for the event calendar section to appear in the DOM
-  console.log("▶  Waiting for calendar to render…");
+  // ── 2. Handle Cookiebot consent banner ────────────────────────────────────
+  // The banner has id="CybotCookiebotDialog" and blocks all pointer events
+  // until dismissed. We try three approaches in order:
+  //   A) Click the official "Allow all" / "Accept" button
+  //   B) If that fails, forcefully remove the overlay from the DOM via JS
+  console.log("▶  Handling Cookiebot consent banner…");
+
+  try {
+    // Wait for Cookiebot dialog to appear
+    await page.waitForSelector("#CybotCookiebotDialog", { timeout: 10_000 });
+    console.log("   Cookiebot dialog detected.");
+
+    // Try clicking the Allow All button (Cookiebot's standard button IDs)
+    const allowBtn = await page.$(
+      "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll, " +
+      "#CybotCookiebotDialogBodyButtonAccept, " +
+      "button[id*='Allow'], button[id*='Accept'], " +
+      "a[id*='CybotCookiebotDialogBodyButtonAccept']"
+    );
+
+    if (allowBtn && await allowBtn.isVisible()) {
+      await allowBtn.click();
+      console.log("   ✓ Clicked Cookiebot Accept button.");
+      await sleep(1500);
+    } else {
+      throw new Error("Accept button not found or not visible");
+    }
+  } catch (e) {
+    console.log(`   Accept button approach failed (${e.message}) — force-removing overlay via JS…`);
+
+    // Nuclear option: remove the dialog and underlay directly from the DOM
+    await page.evaluate(() => {
+      // Remove all Cookiebot-related elements
+      const ids = [
+        "CybotCookiebotDialog",
+        "CybotCookiebotDialogBodyUnderlay",
+        "CybotCookiebotDialogBodyOverlay",
+        "cookiebanner",
+      ];
+      ids.forEach(id => document.getElementById(id)?.remove());
+
+      // Also remove any fixed/sticky overlays that block pointer events
+      document.querySelectorAll(
+        "[id*='Cybot'], [id*='cookie'], [id*='consent'], [class*='cookie-banner'], [class*='consent-banner']"
+      ).forEach(el => el.remove());
+
+      // Restore body scroll/pointer if it was locked
+      document.body.style.overflow = "";
+      document.body.style.pointerEvents = "";
+      document.documentElement.style.overflow = "";
+    });
+
+    console.log("   ✓ Overlay removed from DOM.");
+    await sleep(1000);
+  }
+
+  // Verify overlay is gone before proceeding
+  const overlayStillExists = await page.$("#CybotCookiebotDialogBodyUnderlay");
+  if (overlayStillExists) {
+    console.log("   Overlay still in DOM — forcing removal one more time…");
+    await page.evaluate(() => {
+      document.getElementById("CybotCookiebotDialogBodyUnderlay")?.remove();
+      document.getElementById("CybotCookiebotDialog")?.remove();
+    });
+    await sleep(500);
+  }
+
+  console.log("   ✓ Page unblocked.");
+
+  // ── 3. Wait for calendar to render ───────────────────────────────────────
+  console.log("▶  Waiting for event calendar…");
   try {
     await page.waitForSelector(
       "[class*='calendar'], [class*='event'], article, li[class]",
-      { timeout: 30_000 }
+      { timeout: 20_000 }
     );
   } catch {
-    console.log("   (Selector wait timed out — continuing anyway)");
+    console.log("   (Calendar selector timed out — continuing anyway)");
   }
+  await sleep(2000);
 
-  // Extra settle for JS-rendered content
-  await sleep(4000);
-
-  // ── 2. Dismiss cookie / consent banner ───────────────────────────────────
-  try {
-    const btn = await page.$(
-      "button:has-text('Accept'), button:has-text('Accept All'), button:has-text('I Agree')"
-    );
-    if (btn && await btn.isVisible()) {
-      await btn.click();
-      await sleep(800);
-      console.log("   Dismissed consent banner.");
-    }
-  } catch { /* none */ }
-
-  // ── 3. Click "Load more" until it disappears ──────────────────────────────
+  // ── 4. Click "Load more" until exhausted ─────────────────────────────────
   console.log("▶  Clicking 'Load more' until exhausted…");
   let clicks = 0;
 
   async function getLoadMoreBtn() {
-    const els = await page.$$("button, a[role='button'], [class*='load-more'], [class*='loadmore']");
+    const els = await page.$$(
+      "button, a[role='button'], [class*='load-more'], [class*='loadmore']"
+    );
     for (const el of els) {
       try {
         const txt = (await el.innerText()).trim().toLowerCase();
         const vis = await el.isVisible();
         if (vis && /^(load more|show more|view more|more events)$/.test(txt)) return el;
-      } catch { /* stale handle */ }
+      } catch { /* stale */ }
     }
     return null;
   }
@@ -93,42 +150,45 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
     }
 
     const before = await page.$$eval(
-      "a[href*='events.moodys.com']",
-      els => els.length
+      "a[href*='events.moodys.com']", els => els.length
     ).catch(() => 0);
 
     await btn.scrollIntoViewIfNeeded();
     await sleep(400);
-    await btn.click();
+
+    // Use dispatchEvent as fallback in case anything still intercepts the click
+    try {
+      await btn.click({ timeout: 5000 });
+    } catch {
+      console.log("   Regular click blocked — using JS click fallback…");
+      await btn.evaluate(el => el.click());
+    }
+
     clicks++;
     console.log(`   Click ${clicks} — waiting for new content…`);
 
-    // Wait until new event links appear, or timeout after SETTLE_MS
     try {
       await page.waitForFunction(
         prev => document.querySelectorAll("a[href*='events.moodys.com']").length > prev,
         before,
         { timeout: SETTLE_MS }
       );
-    } catch { /* timeout OK — content may have loaded differently */ }
+    } catch { /* timeout OK */ }
 
     await sleep(1500);
   }
 
   if (clicks >= MAX_CLICKS) console.warn(`⚠  Hit safety cap of ${MAX_CLICKS} clicks.`);
 
-  // ── 4. Extract events ─────────────────────────────────────────────────────
+  // ── 5. Extract all events ─────────────────────────────────────────────────
   console.log("▶  Extracting events from DOM…");
 
   const raw = await page.evaluate(() => {
     const results = [];
     const seen = new Set();
 
-    // Target all anchor tags that link to Moody's event sub-pages
     document.querySelectorAll("a[href]").forEach(link => {
       const href = link.href || "";
-
-      // Only keep links to actual event pages (have a path segment after the domain)
       if (
         !href.includes("events.moodys.com") ||
         href === "https://events.moodys.com/" ||
@@ -136,19 +196,18 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
         href.includes("#") ||
         href.includes("sign-in") ||
         href.includes("faq") ||
+        href.includes("moodys.com/") && !href.includes("events.moodys.com") ||
         seen.has(href)
       ) return;
 
       seen.add(href);
 
-      // Walk up the DOM to find the enclosing card element
       const card =
         link.closest("li, article, [class*='card'], [class*='event-item'], [class*='item']")
         || link.parentElement
         || link;
 
-      const getText = (sel) =>
-        card.querySelector(sel)?.innerText?.trim() || "";
+      const getText = sel => card.querySelector(sel)?.innerText?.trim() || "";
 
       results.push({
         title:       getText("h2,h3,h4,[class*='title'],[class*='heading'],[class*='name']")
@@ -163,9 +222,9 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
     return results;
   });
 
-  console.log(`   Raw extraction: ${raw.length} items`);
+  console.log(`   Raw: ${raw.length} items`);
 
-  // ── 5. Deduplicate ────────────────────────────────────────────────────────
+  // ── 6. Deduplicate ────────────────────────────────────────────────────────
   const seenUrls = new Set();
   const events = raw.filter(ev => {
     if (!ev.url || seenUrls.has(ev.url)) return false;
@@ -173,18 +232,16 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
     return true;
   });
 
-  console.log(`✓  ${events.length} unique events after dedup`);
+  console.log(`✓  ${events.length} unique events`);
 
-  // ── 6. Write output ───────────────────────────────────────────────────────
-  const output = {
+  // ── 7. Write output ───────────────────────────────────────────────────────
+  fs.writeFileSync(OUT_FILE, JSON.stringify({
     scrapedAt:   new Date().toISOString(),
     totalEvents: events.length,
     events,
-  };
+  }, null, 2));
 
-  fs.writeFileSync(OUT_FILE, JSON.stringify(output, null, 2));
   console.log(`✓  Written → ${OUT_FILE}`);
-
   await browser.close();
   process.exit(0);
 })();
