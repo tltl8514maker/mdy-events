@@ -1,0 +1,50 @@
+name: Scrape Moody's Events
+
+on:
+  # Run every Monday and Thursday at 7am UTC (3pm SGT / MYT)
+  schedule:
+    - cron: "0 7 * * 1,4"
+
+  # Also allow manual trigger from the GitHub Actions UI
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    name: Playwright Scrape → Commit events.json
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # ── 1. Check out the repo ──────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── 2. Set up Node.js ──────────────────────────────────────────────────
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # ── 3. Install dependencies ────────────────────────────────────────────
+      - name: Install Playwright
+        run: |
+          npm install playwright
+          npx playwright install chromium --with-deps
+
+      # ── 4. Run the scraper ─────────────────────────────────────────────────
+      - name: Run scraper
+        run: node moodys-scraper.js
+
+      # ── 5. Commit events.json back to the repo ─────────────────────────────
+      #    Only commits if the file actually changed (avoids empty commits)
+      - name: Commit updated events.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.json
+          if git diff --cached --quiet; then
+            echo "No changes to events.json — skipping commit."
+          else
+            git commit -m "chore: update events.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi
