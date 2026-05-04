@@ -1,42 +1,71 @@
 name: Scrape Moody's Events
 
 on:
-  # Run every Monday and Thursday at 7am UTC (3pm SGT / MYT)
   schedule:
     - cron: "0 7 * * 1,4"
-
-  # Also allow manual trigger from the GitHub Actions UI
   workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
     name: Playwright Scrape → Commit events.json
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
-      # ── 1. Check out the repo ──────────────────────────────────────────────
       - name: Checkout
-        uses: actions/checkout@v4
-
-      # ── 2. Set up Node.js ──────────────────────────────────────────────────
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/checkout@v4.2.2
         with:
-          node-version: "20"
+          # Pass the token explicitly so git push is authenticated
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 3. Install dependencies ────────────────────────────────────────────
-      - name: Install Playwright
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4.4.0
+        with:
+          node-version: "24"
+
+      - name: Install Chromium system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 \
+            libxfixes3 libxrandr2 libgbm1 libasound2t64 \
+            libpango-1.0-0 libpangocairo-1.0-0 libgtk-3-0 \
+            libx11-xcb1 libxcb-dri3-0
+
+      - name: Install Playwright + Chromium
         run: |
           npm install playwright
-          npx playwright install chromium --with-deps
+          npx playwright install chromium
 
-      # ── 4. Run the scraper ─────────────────────────────────────────────────
+      - name: Verify scraper file exists
+        run: |
+          if [ ! -f moodys-scraper.js ]; then
+            echo "❌ moodys-scraper.js not found in repo root!"
+            ls -la
+            exit 1
+          fi
+          echo "✓ moodys-scraper.js found"
+
       - name: Run scraper
         run: node moodys-scraper.js
 
-      # ── 5. Commit events.json back to the repo ─────────────────────────────
-      #    Only commits if the file actually changed (avoids empty commits)
+      - name: Verify events.json was created
+        run: |
+          if [ ! -f events.json ]; then
+            echo "❌ events.json was not created!"
+            exit 1
+          fi
+          echo "✓ events.json created:"
+          wc -c events.json
+          head -c 300 events.json
+
       - name: Commit updated events.json
         run: |
           git config user.name  "github-actions[bot]"
@@ -46,5 +75,5 @@ jobs:
             echo "No changes to events.json — skipping commit."
           else
             git commit -m "chore: update events.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
-            git push
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
           fi
