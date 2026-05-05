@@ -14,164 +14,117 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg:      #05090f;
-      --bg2:     #080e1a;
-      --border:  #0d2030;
-      --accent:  #00c8f0;
-      --accent2: #0077b6;
-      --text:    #ddeef5;
-      --text2:   rgba(221,238,245,.45);
-      --text3:   rgba(221,238,245,.22);
-      --red:     rgba(255,110,110,.75);
-      --redbg:   rgba(255,60,60,.05);
-      --redbdr:  rgba(255,80,80,.3);
-      --safe-top: env(safe-area-inset-top, 0px);
-      --safe-bot: env(safe-area-inset-bottom, 0px);
+      --bg:#05090f; --bg2:#080e1a; --border:#0d2030;
+      --accent:#00c8f0; --accent2:#0077b6;
+      --text:#ddeef5; --text2:rgba(221,238,245,.45); --text3:rgba(221,238,245,.22);
+      --red:rgba(255,110,110,.75); --redbg:rgba(255,60,60,.05); --redbdr:rgba(255,80,80,.3);
+      --safe-top:env(safe-area-inset-top,0px); --safe-bot:env(safe-area-inset-bottom,0px);
     }
-    html, body {
-      height: 100%; background: var(--bg); color: var(--text);
-      font-family: 'DM Mono', 'Courier New', monospace;
-      -webkit-font-smoothing: antialiased; overscroll-behavior: none;
-    }
-    a { color: var(--accent); text-decoration: none; }
-    button { font-family: inherit; cursor: pointer; border: none; background: none; }
-
-    #app { max-width: 500px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; }
+    html,body { height:100%; background:var(--bg); color:var(--text);
+      font-family:'DM Mono','Courier New',monospace;
+      -webkit-font-smoothing:antialiased; overscroll-behavior:none; }
+    a { color:var(--accent); text-decoration:none; }
+    button { font-family:inherit; cursor:pointer; border:none; background:none; }
+    #app { max-width:500px; margin:0 auto; min-height:100vh; display:flex; flex-direction:column; }
 
     /* Top bar */
     #topbar {
-      position: sticky; top: 0; z-index: 100;
-      background: rgba(5,9,15,.96);
-      backdrop-filter: saturate(180%) blur(16px);
-      -webkit-backdrop-filter: saturate(180%) blur(16px);
-      border-bottom: 1px solid var(--border);
-      padding: calc(14px + var(--safe-top)) 18px 0;
+      position:sticky; top:0; z-index:100;
+      background:rgba(5,9,15,.96);
+      backdrop-filter:saturate(180%) blur(16px);
+      -webkit-backdrop-filter:saturate(180%) blur(16px);
+      border-bottom:1px solid var(--border);
+      padding:calc(14px + var(--safe-top)) 18px 0;
     }
-    .brand { display: flex; align-items: center; gap: 11px; margin-bottom: 13px; }
+    .brand { display:flex; align-items:center; gap:11px; margin-bottom:13px; }
     .pulse-dot {
-      width: 8px; height: 8px; border-radius: 50%;
-      background: var(--accent); box-shadow: 0 0 8px var(--accent); flex-shrink: 0;
-      animation: pulse 2.6s ease-in-out infinite;
+      width:8px; height:8px; border-radius:50%;
+      background:var(--accent); box-shadow:0 0 8px var(--accent); flex-shrink:0;
+      animation:pulse 2.6s ease-in-out infinite;
     }
     @keyframes pulse {
-      0%,100% { opacity:1; box-shadow: 0 0 8px var(--accent); }
-      50%      { opacity:.3; box-shadow: 0 0 2px var(--accent); }
+      0%,100%{opacity:1;box-shadow:0 0 8px var(--accent);}
+      50%{opacity:.3;box-shadow:0 0 2px var(--accent);}
     }
-    .brand-name { font-family:'Syne',sans-serif; font-size:16px; font-weight:800; color:#fff; }
-    .brand-sub  { font-size:9px; letter-spacing:.18em; text-transform:uppercase; color:rgba(0,200,240,.5); margin-top:3px; }
-    .tabs { display: flex; }
-    .tab {
-      flex:1; font-size:10px; letter-spacing:.12em; text-transform:uppercase;
-      color:var(--text3); padding:10px 0; border-bottom:2px solid transparent;
-      transition: color .15s, border-color .15s;
-    }
-    .tab.active { color:var(--accent); border-bottom-color:var(--accent); }
+    .brand-name{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:#fff;}
+    .brand-sub{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:rgba(0,200,240,.5);margin-top:3px;}
+    .tabs{display:flex;}
+    .tab{flex:1;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--text3);padding:10px 0;border-bottom:2px solid transparent;transition:color .15s,border-color .15s;}
+    .tab.active{color:var(--accent);border-bottom-color:var(--accent);}
 
     /* Content */
-    .tab-content { display:none; flex:1; padding:18px 18px calc(18px + var(--safe-bot)); }
-    .tab-content.active { display:block; }
+    .tab-content{display:none;flex:1;padding:18px 18px calc(18px + var(--safe-bot));}
+    .tab-content.active{display:block;}
 
     /* Meta row */
-    .metarow { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:15px; }
-    .scraped-at { font-size:9px; color:var(--text3); letter-spacing:.05em; line-height:1.6; }
-    #refresh-btn {
-      display:flex; align-items:center; gap:6px; flex-shrink:0;
-      background:rgba(0,200,240,.1); border:1px solid rgba(0,200,240,.28);
-      color:var(--accent); border-radius:5px; padding:7px 14px;
-      font-size:10px; letter-spacing:.08em; text-transform:uppercase;
-      transition:background .15s, transform .1s;
-      -webkit-tap-highlight-color: transparent;
+    .metarow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:15px;}
+    .scraped-at{font-size:9px;color:var(--text3);letter-spacing:.05em;line-height:1.6;}
+    #refresh-btn{
+      display:flex;align-items:center;gap:6px;flex-shrink:0;
+      background:rgba(0,200,240,.1);border:1px solid rgba(0,200,240,.28);
+      color:var(--accent);border-radius:5px;padding:7px 14px;
+      font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+      transition:background .15s,transform .1s;
+      -webkit-tap-highlight-color:transparent;
     }
-    #refresh-btn:active { background:rgba(0,200,240,.2); transform:scale(.96); }
-    #refresh-btn:disabled { opacity:.5; pointer-events:none; }
-    .spin { display:inline-block; animation:spin .85s linear infinite; }
-    @keyframes spin { to { transform:rotate(360deg); } }
+    #refresh-btn:active{background:rgba(0,200,240,.2);transform:scale(.96);}
+    #refresh-btn:disabled{opacity:.5;pointer-events:none;}
+    .spin{display:inline-block;animation:spin .85s linear infinite;}
+    @keyframes spin{to{transform:rotate(360deg);}}
 
     /* Pills */
-    .pills { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:16px; }
-    .pill { font-size:9px; letter-spacing:.08em; text-transform:uppercase; padding:4px 10px; border-radius:20px; border:1px solid; }
-    .pill-on  { border-color:rgba(0,200,240,.38); color:var(--accent); background:rgba(0,200,240,.07); }
-    .pill-off { border-color:var(--redbdr); color:var(--red); background:var(--redbg); }
+    .pills{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;}
+    .pill{font-size:9px;letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border-radius:20px;border:1px solid;}
+    .pill-on{border-color:rgba(0,200,240,.38);color:var(--accent);background:rgba(0,200,240,.07);}
+    .pill-off{border-color:var(--redbdr);color:var(--red);background:var(--redbg);}
 
     /* Count */
-    .count-row { display:flex; align-items:baseline; gap:9px; margin-bottom:20px; }
-    .count-n { font-family:'Syne',sans-serif; font-size:40px; font-weight:800; color:var(--accent); line-height:1; }
-    .count-label { font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--text3); line-height:1.6; }
-    .count-sub { font-size:9px; opacity:.65; }
+    .count-row{display:flex;align-items:baseline;gap:9px;margin-bottom:20px;}
+    .count-n{font-family:'Syne',sans-serif;font-size:40px;font-weight:800;color:var(--accent);line-height:1;}
+    .count-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--text3);line-height:1.6;}
+    .count-sub{font-size:9px;opacity:.65;}
 
     /* States */
-    .state-box { text-align:center; padding:60px 20px; }
-    .state-icon  { font-size:32px; margin-bottom:14px; opacity:.3; }
-    .state-title { font-family:'Syne',sans-serif; font-size:17px; font-weight:700; color:rgba(221,238,245,.3); margin-bottom:8px; }
-    .state-sub   { font-size:10px; color:var(--text3); line-height:1.85; }
+    .state-box{text-align:center;padding:60px 20px;}
+    .state-icon{font-size:32px;margin-bottom:14px;opacity:.3;}
+    .state-title{font-family:'Syne',sans-serif;font-size:17px;font-weight:700;color:rgba(221,238,245,.3);margin-bottom:8px;}
+    .state-sub{font-size:10px;color:var(--text3);line-height:1.85;}
 
     /* Cards */
-    .card {
-      border:1px solid var(--border); border-radius:9px;
-      margin-bottom:10px; overflow:hidden; cursor:pointer;
-      transition:border-color .15s;
-      -webkit-tap-highlight-color: transparent;
-    }
-    .card:active   { background:rgba(0,200,240,.02); }
-    .card.expanded { border-color:rgba(0,200,240,.42); }
-    .card-top    { display:flex; }
-    .card-stripe { width:3px; flex-shrink:0; background:linear-gradient(to bottom,var(--accent),var(--accent2)); }
-    .card-body   { padding:14px 14px 14px 13px; flex:1; min-width:0; }
+    .card{border:1px solid var(--border);border-radius:9px;margin-bottom:10px;overflow:hidden;cursor:pointer;transition:border-color .15s;-webkit-tap-highlight-color:transparent;}
+    .card:active{background:rgba(0,200,240,.02);}
+    .card.expanded{border-color:rgba(0,200,240,.42);}
+    .card-top{display:flex;}
+    .card-stripe{width:3px;flex-shrink:0;background:linear-gradient(to bottom,var(--accent),var(--accent2));}
+    .card-body{padding:14px 14px 14px 13px;flex:1;min-width:0;}
+    .ev-type{display:inline-block;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:9px;}
+    .ev-name{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:10px;word-break:break-word;}
 
-    .ev-type {
-      display:inline-block;
-      font-size:8.5px; letter-spacing:.1em; text-transform:uppercase;
-      color:var(--accent); margin-bottom:9px;
-    }
-    .ev-name {
-      font-family:'Syne',sans-serif; font-size:15px; font-weight:700;
-      color:#fff; line-height:1.25; margin-bottom:10px; word-break:break-word;
-    }
-
-    /* Structured fields */
-    .ev-fields { display:flex; flex-direction:column; gap:6px; }
-    .ev-field  { display:flex; align-items:baseline; gap:8px; }
-    .ev-field-label {
-      font-size:8px; letter-spacing:.12em; text-transform:uppercase;
-      color:rgba(0,200,240,.45); flex-shrink:0; width:52px;
-    }
-    .ev-field-value       { font-size:10.5px; color:var(--text2); line-height:1.4; }
-    .ev-field-value.empty { color:var(--text3); font-style:italic; }
+    /* Fields */
+    .ev-fields{display:flex;flex-direction:column;gap:6px;}
+    .ev-field{display:flex;align-items:baseline;gap:8px;}
+    .ev-field-label{font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:rgba(0,200,240,.45);flex-shrink:0;width:52px;}
+    .ev-field-value{font-size:10.5px;color:var(--text2);line-height:1.4;}
+    .ev-field-value.empty{color:var(--text3);font-style:italic;}
 
     /* Expand */
-    .card-detail {
-      display:none; background:var(--bg2); border-top:1px solid var(--border);
-      padding:13px 14px 15px 16px; animation:slideDown .18s ease;
-    }
-    .card.expanded .card-detail { display:block; }
-    @keyframes slideDown { from{opacity:0;transform:translateY(-4px)} to{opacity:1;transform:translateY(0)} }
-    .ev-desc { font-size:11px; color:var(--text2); line-height:1.75; margin-bottom:12px; }
-    .ev-link {
-      display:inline-flex; align-items:center; gap:6px;
-      font-size:9px; letter-spacing:.09em; text-transform:uppercase;
-      color:var(--accent); border:1px solid rgba(0,200,240,.32);
-      padding:7px 14px; border-radius:4px; transition:background .15s;
-    }
-    .ev-link:active { background:rgba(0,200,240,.12); }
+    .card-detail{display:none;background:var(--bg2);border-top:1px solid var(--border);padding:13px 14px 15px 16px;animation:slideDown .18s ease;}
+    .card.expanded .card-detail{display:block;}
+    @keyframes slideDown{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+    .ev-desc{font-size:11px;color:var(--text2);line-height:1.75;margin-bottom:12px;}
+    .ev-link{display:inline-flex;align-items:center;gap:6px;font-size:9px;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);border:1px solid rgba(0,200,240,.32);padding:7px 14px;border-radius:4px;transition:background .15s;}
+    .ev-link:active{background:rgba(0,200,240,.12);}
 
-    /* Info / setup */
-    .info-box {
-      background:rgba(0,200,240,.04); border:1px solid rgba(0,200,240,.14);
-      border-radius:6px; padding:13px 15px;
-      font-size:10.5px; color:var(--text2); line-height:1.8; margin-bottom:22px;
-    }
-    .info-box strong { color:var(--accent); }
-    .step { display:flex; gap:15px; margin-bottom:26px; align-items:flex-start; }
-    .step-num { font-family:'Syne',sans-serif; font-size:30px; font-weight:800; color:rgba(0,200,240,.3); line-height:1; flex-shrink:0; width:28px; }
-    .step-body h3 { font-family:'Syne',sans-serif; font-size:13px; font-weight:700; color:#fff; margin-bottom:5px; }
-    .step-body p  { font-size:10px; color:var(--text2); line-height:1.85; }
-    .step-body code { display:inline-block; background:var(--bg2); border:1px solid var(--border); border-radius:3px; padding:1px 6px; font-size:10px; color:var(--accent); }
+    /* Setup */
+    .info-box{background:rgba(0,200,240,.04);border:1px solid rgba(0,200,240,.14);border-radius:6px;padding:13px 15px;font-size:10.5px;color:var(--text2);line-height:1.8;margin-bottom:22px;}
+    .info-box strong{color:var(--accent);}
+    .step{display:flex;gap:15px;margin-bottom:26px;align-items:flex-start;}
+    .step-num{font-family:'Syne',sans-serif;font-size:30px;font-weight:800;color:rgba(0,200,240,.3);line-height:1;flex-shrink:0;width:28px;}
+    .step-body h3{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;color:#fff;margin-bottom:5px;}
+    .step-body p{font-size:10px;color:var(--text2);line-height:1.85;}
+    .step-body code{display:inline-block;background:var(--bg2);border:1px solid var(--border);border-radius:3px;padding:1px 6px;font-size:10px;color:var(--accent);}
 
-    footer {
-      margin-top:28px; padding-top:14px; border-top:1px solid var(--border);
-      font-size:8.5px; color:var(--text3); letter-spacing:.07em;
-      text-align:center; line-height:1.85; padding-bottom:var(--safe-bot);
-    }
+    footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--border);font-size:8.5px;color:var(--text3);letter-spacing:.07em;text-align:center;line-height:1.85;padding-bottom:var(--safe-bot);}
   </style>
 </head>
 <body>
@@ -191,18 +144,17 @@
     </div>
   </div>
 
-  <!-- EVENTS TAB -->
+  <!-- EVENTS -->
   <div id="tab-events" class="tab-content active">
     <div class="metarow">
       <div class="scraped-at" id="scraped-at"></div>
       <button id="refresh-btn" onclick="loadEvents()">
-        <span id="refresh-icon">↻</span>
-        <span id="refresh-label">Refresh</span>
+        <span id="ri">↻</span><span id="rl">Refresh</span>
       </button>
     </div>
     <div class="pills">
       <span class="pill pill-on">✓ In-Person</span>
-      <span class="pill pill-on">✓ APAC</span>
+      <span class="pill pill-on">✓ APAC Only</span>
       <span class="pill pill-off">✗ Webinars</span>
       <span class="pill pill-off">✗ Sponsored</span>
     </div>
@@ -222,7 +174,7 @@
     </footer>
   </div>
 
-  <!-- SETUP TAB -->
+  <!-- SETUP -->
   <div id="tab-setup" class="tab-content">
     <div class="info-box">
       <strong>✓ Connected to tltl8514maker/mdy-events.</strong>
@@ -232,13 +184,13 @@
       <div class="step-num">1</div>
       <div class="step-body">
         <h3>Add to iPhone Home Screen</h3>
-        <p>Open in <strong>Safari</strong> → Share button → <strong>Add to Home Screen</strong>.</p>
+        <p>Open in <strong>Safari</strong> → Share → <strong>Add to Home Screen</strong>.</p>
       </div>
     </div>
     <div class="step">
       <div class="step-num">2</div>
       <div class="step-body">
-        <h3>Trigger a manual scrape</h3>
+        <h3>Manual scrape</h3>
         <p><a href="https://github.com/tltl8514maker/mdy-events/actions" target="_blank">GitHub Actions</a>
         → <strong>Scrape Moody's Events</strong> → <strong>Run workflow</strong>.</p>
       </div>
@@ -254,137 +206,103 @@
   </div>
 
 </div>
-
 <script>
 const RAW_URL = "https://raw.githubusercontent.com/tltl8514maker/mdy-events/main/events.json";
 
-// ── APAC city/country keywords — must appear in name, location, OR timezone ──
-// Using a specific city/country list avoids false positives like
-// events that merely mention "APAC" in a global series title
-const APAC_LOCATIONS = [
-  // Countries
+// ── APAC city/country list — used ONLY against the location field ─────────────
+// This prevents speaker bios saying "based in Singapore" from passing
+// non-APAC events through the filter.
+const APAC_LOC = [
   "singapore","malaysia","japan","china","hong kong","australia",
   "south korea","korea","taiwan","india","indonesia","thailand",
   "philippines","vietnam","new zealand","myanmar","cambodia",
-  "laos","brunei","bangladesh","sri lanka","pakistan",
-  // Cities
+  "bangladesh","sri lanka",
   "tokyo","osaka","beijing","shanghai","shenzhen","guangzhou",
-  "kuala lumpur","kl","sydney","melbourne","brisbane","perth",
+  "kuala lumpur","sydney","melbourne","brisbane","perth","auckland",
   "seoul","taipei","mumbai","delhi","bangalore","jakarta",
-  "bangkok","manila","hanoi","ho chi minh","hcmc","auckland",
-  "singapore city",
-  // Timezone codes that only appear in APAC
-  "sgt","myt","hkt","jst","aest","aedt","kst","vnt","ict","pht",
-  "awst","nzt","ist",   // IST = India Standard Time (also used in some APAC events)
-  // Region labels
-  "apac","asia pacific","asia-pacific","asean","southeast asia",
+  "bangkok","manila","hanoi","ho chi minh","hcmc",
 ];
 
-// Type keywords that indicate in-person
-const IN_PERSON_KW = [
+// APAC timezone codes — checked against the time field only
+const APAC_TZ = ["sgt","myt","hkt","jst","aest","aedt","kst","vnt","ict","pht","awst","nzt","ist"];
+
+const IN_PERSON = [
   "in-person conference","in-person briefing","in-person summit",
   "in-person event","in person","conference","summit","briefing","forum",
 ];
-
-// Exclude these types entirely
-const EXCLUDE_KW = [
-  "webinar","virtual event","virtual","online","wavecast","sponsorship","sponsored",
-];
+const EXCLUDE = ["webinar","virtual event","virtual","online","wavecast","sponsorship","sponsored"];
 
 function isInPerson(ev) {
-  const type = (ev.type || "").toLowerCase();
-  return IN_PERSON_KW.some(k => type.includes(k)) && !EXCLUDE_KW.some(k => type.includes(k));
+  const t = (ev.type || "").toLowerCase();
+  return IN_PERSON.some(k => t.includes(k)) && !EXCLUDE.some(k => t.includes(k));
 }
 
 function isAPAC(ev) {
-  // Check location field first — most reliable
-  const loc = (ev.location || "").toLowerCase();
-  if (loc && APAC_LOCATIONS.some(k => loc.includes(k))) return true;
-  // Then check timezone in the time field
-  const time = (ev.time || "").toLowerCase();
-  if (time && APAC_LOCATIONS.some(k => time.includes(k))) return true;
-  // Finally check event name (catches "APAC Credit Summit" etc.)
-  const name = (ev.name || "").toLowerCase();
-  return APAC_LOCATIONS.some(k => name.includes(k));
+  // Only check location and timezone — NOT name or description
+  // This avoids false positives from speaker bios mentioning APAC cities
+  const loc  = (ev.location || "").toLowerCase();
+  const time = (ev.time     || "").toLowerCase();
+  return APAC_LOC.some(k => loc.includes(k)) ||
+         APAC_TZ.some(k  => time.includes(k));
 }
 
-// ── Dedup by URL ──────────────────────────────────────────────────────────────
 function dedup(arr) {
   const seen = new Set();
   return arr.filter(ev => {
-    const key = (ev.url || "").replace(/\/$/, "").toLowerCase();
-    if (!key || seen.has(key)) return false;
-    seen.add(key);
-    return true;
+    const k = (ev.url||"").replace(/\/$/,"").toLowerCase();
+    if (!k || seen.has(k)) return false;
+    seen.add(k); return true;
   });
 }
 
-// ── Format date: strip day-of-week, show "12 May 2026" ───────────────────────
-function fmtDate(raw) {
-  if (!raw) return "";
-  // Remove leading day name e.g. "Thursday, " → "26 February 2026"
-  return raw.replace(/^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s*/i, "").trim();
-}
-
-// ── Format time: just show first timezone slot ────────────────────────────────
-function fmtTime(raw) {
-  if (!raw) return "";
-  // Take everything up to the second "|" (first time slot only)
-  return raw.split("|")[0].trim();
-}
-
-// ── Escape HTML ───────────────────────────────────────────────────────────────
 function esc(s) {
-  return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
-    .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
 }
 
-function field(label, value) {
-  const empty = !value || !value.trim();
+function field(label, val) {
+  const empty = !val || !val.trim();
   return `<div class="ev-field">
     <span class="ev-field-label">${label}</span>
-    <span class="ev-field-value${empty?" empty":""}">${empty?"—":esc(value)}</span>
+    <span class="ev-field-value${empty?" empty":""}">${empty?"—":esc(val)}</span>
   </div>`;
 }
 
-// ── UI ────────────────────────────────────────────────────────────────────────
 function showState(icon, title, sub) {
-  const box = document.getElementById("state-box");
-  box.style.display = "";
-  box.innerHTML = `<div class="state-icon">${icon}</div><div class="state-title">${title}</div><div class="state-sub">${sub}</div>`;
+  const b = document.getElementById("state-box");
+  b.style.display = "";
+  b.innerHTML = `<div class="state-icon">${icon}</div><div class="state-title">${title}</div><div class="state-sub">${sub}</div>`;
   document.getElementById("count-row").style.display = "none";
   document.getElementById("event-list").innerHTML = "";
 }
 
 function setLoading(on) {
   document.getElementById("refresh-btn").disabled = on;
-  document.getElementById("refresh-icon").className = on ? "spin" : "";
-  document.getElementById("refresh-label").textContent = on ? "Loading…" : "Refresh";
+  document.getElementById("ri").className = on ? "spin" : "";
+  document.getElementById("rl").textContent = on ? "Loading…" : "Refresh";
 }
 
-function renderEvents(evList, meta) {
+function renderEvents(list, meta) {
   document.getElementById("state-box").style.display = "none";
-
   try {
     document.getElementById("scraped-at").textContent = meta.scrapedAt
       ? "Scraped " + new Date(meta.scrapedAt).toLocaleDateString("en-GB",
           {day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"}) + " UTC"
       : "";
-  } catch {}
-
-  document.getElementById("count-n").textContent = evList.length;
+  } catch{}
+  document.getElementById("count-n").textContent   = list.length;
   document.getElementById("count-sub").textContent = `from ${meta.total??'?'} total scraped`;
   document.getElementById("count-row").style.display = "flex";
 
-  const list = document.getElementById("event-list");
-  list.innerHTML = "";
+  const el = document.getElementById("event-list");
+  el.innerHTML = "";
 
-  if (evList.length === 0) {
-    showState("◎","No Matching Events",`${meta.total} events scraped but none matched<br>the APAC + in-person filters.`);
+  if (!list.length) {
+    showState("◎","No Matching Events",`${meta.total} scraped but none matched APAC + in-person filters.`);
     return;
   }
 
-  evList.forEach(ev => {
+  list.forEach(ev => {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
@@ -394,8 +312,8 @@ function renderEvents(evList, meta) {
           <div class="ev-type">◈ ${esc(ev.type||"In-Person Event")}</div>
           <div class="ev-name">${esc(ev.name)}</div>
           <div class="ev-fields">
-            ${field("Date",     fmtDate(ev.date))}
-            ${field("Time",     fmtTime(ev.time))}
+            ${field("Date",     ev.date)}
+            ${field("Time",     ev.time)}
             ${field("Location", ev.location)}
           </div>
         </div>
@@ -410,7 +328,7 @@ function renderEvents(evList, meta) {
       document.querySelectorAll(".card.expanded").forEach(c=>c.classList.remove("expanded"));
       if (!open) card.classList.add("expanded");
     });
-    list.appendChild(card);
+    el.appendChild(card);
   });
 }
 
@@ -418,30 +336,25 @@ async function loadEvents() {
   setLoading(true);
   showState('<span class="spin">⊙</span>',"Loading…","Fetching latest event data from GitHub");
   try {
-    const res = await fetch(RAW_URL + "?t=" + Date.now());
+    const res  = await fetch(RAW_URL + "?t=" + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     const all  = json.events || (Array.isArray(json) ? json : []);
     const meta = { scrapedAt: json.scrapedAt||null, total: json.totalEvents||all.length };
-
-    const filtered = dedup(all).filter(ev => isInPerson(ev) && isAPAC(ev));
-    renderEvents(filtered, meta);
-  } catch(err) {
-    showState("⚠","Couldn't Load Data",`${esc(err.message)}<br><br>Make sure the GitHub Action has run and your repo is Public.`);
+    renderEvents(dedup(all).filter(ev => isInPerson(ev) && isAPAC(ev)), meta);
+  } catch(e) {
+    showState("⚠","Couldn't Load Data",`${esc(e.message)}<br><br>Make sure the Action has run and repo is Public.`);
   } finally {
     setLoading(false);
   }
 }
 
-// Tabs
-document.querySelectorAll(".tab").forEach(btn => {
-  btn.addEventListener("click", () => {
-    const t = btn.dataset.tab;
-    document.querySelectorAll(".tab,.tab-content").forEach(el=>el.classList.remove("active"));
-    btn.classList.add("active");
-    document.getElementById("tab-"+t).classList.add("active");
-  });
-});
+document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
+  const t = b.dataset.tab;
+  document.querySelectorAll(".tab,.tab-content").forEach(el=>el.classList.remove("active"));
+  b.classList.add("active");
+  document.getElementById("tab-"+t).classList.add("active");
+}));
 
 loadEvents();
 </script>
