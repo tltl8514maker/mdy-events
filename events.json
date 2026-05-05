@@ -1,11 +1,11 @@
 {
-  "scrapedAt": "2026-05-05T12:07:46.614Z",
-  "totalEvents": 15,
+  "scrapedAt": "2026-05-05T15:56:11.894Z",
+  "totalEvents": 14,
   "events": [
     {
       "name": "Global Emerging Markets Live 2026",
-      "type": "Virtual Event\nGlobal Emerging Markets Live 2026\nGlobal shocks. Local strength. Divergent outcomes.\nschedule\nWednesday, 13 May 2026 | 14:00 BST | 15:00 CEST | 09:00 EDT\nRegister Here\nHOME\nAGENDA",
-      "date": "Wednesday, 13 May 2026",
+      "type": "Virtual Event\nGlobal Emerging Markets Live 2026\nGlobal shock",
+      "date": "13 May 2026",
       "time": "14:00 BST",
       "location": "",
       "description": "Unlock key insights into credit conditions across five regional sessions.",
@@ -22,8 +22,8 @@
     },
     {
       "name": "Quarterly Update on US Banks - Q1",
-      "type": "Webinar\nQuarterly Update on US Banks - Q1\nschedule\nTuesday, May 5, 2026 | 10:00 AM EDT\nRegister Here",
-      "date": "Tuesday, May 5, 2026",
+      "type": "Webinar\nQuarterly Update on US Banks - Q1\nschedule\nTuesday, ",
+      "date": "May 5, 2026",
       "time": "10:00 AM EDT",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Inside Argentina 2026",
-      "type": "Evento en persona\nInside Argentina 2026\nschedule\nMiércoles, 6 de mayo de 2026 | 8:30 am hora local\nlocation_on\nFour Seasons Hotel Buenos Aires, Buenos Aires MAP\nRegistrarse\nACERCA DE\nAGENDA",
+      "type": "Evento en persona\nInside Argentina 2026\nschedule\nMiércoles, ",
       "date": "Miércoles, 6 de mayo de 2026",
       "time": "8:30 am hora local",
       "location": "Four Seasons Hotel Buenos Aires, Buenos Aires",
@@ -49,8 +49,8 @@
     },
     {
       "name": "The EU AML framework in transition",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nThe EU AML framework in transition\nUnderstanding the New Customer Due Diligence Standards (2026–2027)\n\nFor years, EU AML compliance has meant navigating national interpretation. That model is changing.\n\nA single rulebook, a new supervisory authority, and more detailed CDD expectations are reshaping how alignment is approached across the Union.\n\nAs implementation progresses through 2026 and 2027, organizations are navigating overlapping timelines, evolving regulatory technical standards (RTS), and increased supervisory focus.\n\nThis webinar looks at what is changing under the EU AML Regulation (AMLR) and AMLD6, and how firms might be approaching alignment during through this period of transition.\n\nRegister\nscheduleWednesday, May 6 2026 | 2:00 PM BST\nshare",
-      "date": "Wednesday, May 6 2026",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nThe EU AML framewor",
+      "date": "May 6 2026",
       "time": "2:00 PM BST",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Jornada de Titulizaciones y Cédulas 2026",
-      "type": "In Person Event\nJornada de Titulizaciones y Cédulas 2026\nTendencias e innovación: de la vivienda a los data centers\nschedule\nJueves, 7 de mayo de 2026 | 09:00 - 13:00 CEST\nlocation_on\nPérez-Llorca, Madrid MAP\nRegistro - lista de espera\nEl registro para este evento ha cerrado. Haga clic arriba para unirse a la lista de espera.\nHOME\nAGENDA",
+      "type": "In Person Event\nJornada de Titulizaciones y Cédulas 2026\nTen",
       "date": "Jueves, 7 de mayo de 2026",
       "time": "09:00 - 13:00 CEST",
       "location": "Pérez-Llorca, Madrid",
@@ -67,8 +67,8 @@
     },
     {
       "name": "Insurance Unlocked: Europe",
-      "type": "In Person Event\nInsurance Unlocked: Europe\nRewriting the insurance playbook: technology, private credit, and the shifting risk landscape\nschedule\nThursday, 7 May | 08:30 - 13:30 BST\nlocation_on\nThe Minster Building , London MAP\nRegister\nHOME\nAGENDA",
-      "date": "Thursday, 7 May",
+      "type": "In Person Event\nInsurance Unlocked: Europe\nRewriting the ins",
+      "date": "7 May",
       "time": "08:30 - 13:30 BST",
       "location": "The Minster Building, London",
       "description": "Please provide your contact information and the nature of your query.",
@@ -76,8 +76,8 @@
     },
     {
       "name": "Financial Institutions in Focus",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nFinancial Institutions in Focus\nYour go-to hub for Financial Institutions events\nCHANNEL HOME\n2025 GLOBAL FINANCIAL INSTITUTIONS SERIES\nRATINGS\nPRIVATE CREDIT\nshare",
-      "date": "THURSDAY, 7 MAY",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nFinancial Instituti",
+      "date": "7 MAY",
       "time": "08:30 - 13:30 BST",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
@@ -85,8 +85,8 @@
     },
     {
       "name": "UAE Real Estate: Where does credit risk go next?",
-      "type": "Webinar\nUAE Real Estate: Where does credit risk go next?\nResilience, Risks, Ratings\nschedule\nThursday, 7 May 2026 | 12:00 GST | 16:00 SGT | 09:00 BST\nRegister Here",
-      "date": "Thursday, 7 May 2026",
+      "type": "Webinar\nUAE Real Estate: Where does credit risk go next?\nRes",
+      "date": "7 May 2026",
       "time": "12:00 GST",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
@@ -94,8 +94,8 @@
     },
     {
       "name": "Vietnam Credit Conference",
-      "type": "In Person Event\nVietnam Credit Conference\nschedule\nTuesday, 12 May 2026 | 09:00 - 13:30 ICT | Registration starts at 08:15\nlocation_on\nMelia Hanoi MAP\nRegister\nHOME\nAGENDA",
-      "date": "Tuesday, 12 May 2026",
+      "type": "In Person Event\nVietnam Credit Conference\nschedule\nTuesday, ",
+      "date": "12 May 2026",
       "time": "09:00 - 13:30 ICT",
       "location": "Melia Hanoi",
       "description": "Please provide your contact information and the nature of your query.",
@@ -103,8 +103,8 @@
     },
     {
       "name": "Inside ASEAN",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nInside ASEAN\nRelative Resilience Amidst Global Headwinds\n\nAn annual series that looks at credit trends across Southeast Asia as it reopens to the world. Hear from Moody’s experts and industry leaders as they explore the key challenges and opportunities facing Malaysia, Thailand, the Philippines, Vietnam and Indonesia.\n\nHOME\nEM IN FOCUS\nSOVEREIGN IN FOCUS\nINSIDE LATAM\nshare",
-      "date": "THURSDAY, 7 MAY 2026",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nInside ASEAN\nRelati",
+      "date": "7 MAY 2026",
       "time": "12:00 GST",
       "location": "",
       "description": "Register for sessions in real time or access the on-demand in case you missed any of the live sessions",
@@ -112,7 +112,7 @@
     },
     {
       "name": "LIMITED / EXCLUSIVE SEATING",
-      "type": "Abdulla Al Hammadi\n\t\t\t\t\t  AVP – Analyst, Financial Institutions Group, Moody’s Ratings",
+      "type": "Abdulla Al Hammadi\n\t\t\t\t\t  AVP – Analyst, Financial Instituti",
       "date": "",
       "time": "",
       "location": "",
@@ -121,21 +121,12 @@
     },
     {
       "name": "Virtual Event - Insurance Unlocked: Kuwait",
-      "type": "Webinar\nVirtual Event - Insurance Unlocked: Kuwait\nRatings, Resilience, Readiness\nschedule\nTuesday, 12 May 2026 | 11:00 - 12:30 Kuwait Local Time\nRegister Here\nHOME\nAGENDA",
-      "date": "Tuesday, 12 May 2026",
+      "type": "Webinar\nVirtual Event - Insurance Unlocked: Kuwait\nRatings, ",
+      "date": "12 May 2026",
       "time": "11:00 - 12:30 Kuwait Local Time",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
       "url": "https://events.moodys.com/2026-mie28138-insurance-briefing-kuwait"
-    },
-    {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
