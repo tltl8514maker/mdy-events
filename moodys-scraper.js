@@ -21,8 +21,12 @@ const path = require("path");
 
 const BASE_URL   = "https://events.moodys.com";
 const OUT_FILE   = path.join(__dirname, "events.json");
-const SETTLE_MS  = 3000;
 const MAX_CLICKS = 40;
+
+// How long to wait for new cards to appear after each "Load more" click.
+// The page takes ~3s to load new content, so we poll for up to 8s to be safe.
+const LOAD_MORE_POLL_MS  = 8000;  // max time to wait for new links to appear
+const LOAD_MORE_EXTRA_MS = 2500;  // additional settle after new links detected
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -138,18 +142,31 @@ async function dismissCookiebot(page) {
     if (!btn) { console.log(`  ✓ Load more exhausted after ${clicks} click(s)`); break; }
     const before = await listPage.$$eval("a[href*='events.moodys.com/']", e => e.length).catch(() => 0);
     await btn.scrollIntoViewIfNeeded();
-    await sleep(500);
+    await sleep(600);  // brief pause before clicking so button is fully stable
     try { await btn.click({ timeout: 5000 }); }
     catch { await btn.evaluate(el => el.click()); }
     clicks++;
-    console.log(`  Click ${clicks} (${before} links before)…`);
+    console.log(`  Click ${clicks} (${before} links visible before click)…`);
+
+    // Wait up to LOAD_MORE_POLL_MS for new event links to appear in the DOM.
+    // If links appear sooner, we detect it immediately via polling.
+    // Either way we add LOAD_MORE_EXTRA_MS afterward for lazy-loaded content to settle.
+    let appeared = false;
     try {
       await listPage.waitForFunction(
         prev => document.querySelectorAll("a[href*='events.moodys.com/']").length > prev,
-        before, { timeout: SETTLE_MS }
+        before,
+        { timeout: LOAD_MORE_POLL_MS, polling: 300 }
       );
-    } catch {}
-    await sleep(1500);
+      appeared = true;
+    } catch {
+      // Timed out — new links didn't appear. Could mean no more pages,
+      // or the page is very slow. We still settle before checking for the button.
+    }
+
+    const after = await listPage.$$eval("a[href*='events.moodys.com/']", e => e.length).catch(() => 0);
+    console.log(`  → ${appeared ? "New links detected" : "No new links detected"} (now ${after} total). Settling…`);
+    await sleep(LOAD_MORE_EXTRA_MS);
   }
 
   // Collect URLs
