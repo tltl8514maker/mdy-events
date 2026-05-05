@@ -15,13 +15,12 @@ jobs:
   scrape:
     name: Playwright Scrape → Commit events.json
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30  # increased — scraper now visits each event detail page
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
         with:
-          # Pass the token explicitly so git push is authenticated
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js 24
@@ -59,12 +58,12 @@ jobs:
       - name: Verify events.json was created
         run: |
           if [ ! -f events.json ]; then
-            echo "❌ events.json was not created!"
+            echo "❌ events.json not created!"
             exit 1
           fi
           echo "✓ events.json created:"
           wc -c events.json
-          head -c 300 events.json
+          head -c 400 events.json
 
       - name: Commit updated events.json
         run: |
@@ -72,7 +71,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add events.json
           if git diff --cached --quiet; then
-            echo "No changes to events.json — skipping commit."
+            echo "No changes — skipping commit."
           else
             git commit -m "chore: update events.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
