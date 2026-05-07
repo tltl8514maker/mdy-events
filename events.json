@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-05-05T16:17:32.331Z",
-  "totalEvents": 14,
+  "scrapedAt": "2026-05-07T09:36:44.519Z",
+  "totalEvents": 15,
   "events": [
     {
       "name": "Global Emerging Markets Live 2026",
@@ -12,49 +12,13 @@
       "url": "https://events.moodys.com/2026-mie26191-global-emerging-markets-live"
     },
     {
-      "name": "Wirtschaftstag 2026",
-      "type": "Hauptstream",
-      "date": "",
-      "time": "",
+      "name": "Financial Institutions In Focus: APAC Q2 2026 Update",
+      "type": "Virtual Event\nFinancial Institutions In Focus: APAC Q2 2026 ",
+      "date": "19 May 2026",
+      "time": "12:30 IST",
       "location": "",
-      "description": "Wir benötigen Ihre Einwilligung, bevor Sie unsere Website weiter besuchen können.",
-      "url": "https://events.moodys.com/witschaftstag-berlin-2026"
-    },
-    {
-      "name": "Quarterly Update on US Banks - Q1",
-      "type": "Webinar\nQuarterly Update on US Banks - Q1\nschedule\nTuesday, ",
-      "date": "May 5, 2026",
-      "time": "10:00 AM EDT",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-miu26233-quarterly-update-on-us-banks-q1"
-    },
-    {
-      "name": "Inside Argentina 2026",
-      "type": "Evento en persona\nInside Argentina 2026\nschedule\nMiércoles, ",
-      "date": "Miércoles, 6 de mayo de 2026",
-      "time": "8:30 am hora local",
-      "location": "Four Seasons Hotel Buenos Aires, Buenos Aires",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/es/2026-miu26249-inside-argentina-2026"
-    },
-    {
-      "name": "Inside LatAm 2026",
-      "type": "event_seat\n11 In Person Events",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
-      "url": "https://events.moodys.com/inside-latam-2026"
-    },
-    {
-      "name": "The EU AML framework in transition",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nThe EU AML framewor",
-      "date": "May 6 2026",
-      "time": "2:00 PM BST",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/ta-13776-2026-bank-wbn-tp-eu-aml-webinar"
+      "description": "You can ask questions related to financial institutions in the following markets:",
+      "url": "https://events.moodys.com/2026-mip26489-apac-financial-institutions-in-focus-q2"
     },
     {
       "name": "Jornada de Titulizaciones y Cédulas 2026",
@@ -112,7 +76,7 @@
     },
     {
       "name": "LIMITED / EXCLUSIVE SEATING",
-      "type": "Abdulla Al Hammadi\n\t\t\t\t\t  AVP – Analyst, Financial Instituti",
+      "type": "Alisher Djumanov\n\t\t\t\t\t  Managing Partner, AD Wealth",
       "date": "",
       "time": "",
       "location": "",
@@ -120,13 +84,58 @@
       "url": "https://events.moodys.com/ifn-uzbekistan-forum"
     },
     {
-      "name": "Virtual Event - Insurance Unlocked: Kuwait",
-      "type": "Webinar\nVirtual Event - Insurance Unlocked: Kuwait\nRatings, ",
-      "date": "12 May 2026",
-      "time": "11:00 - 12:30 Kuwait Local Time",
+      "name": "2026 Canadian Infrastructure Briefing",
+      "type": "In Person Event\n2026 Canadian Infrastructure Briefing\nToront",
+      "date": "May 12, 2026",
+      "time": "10:00 AM - 12:00 PM EDT",
+      "location": "Vantage Venues, Toronto",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-miu26317-2026-canadian-infrastructure-briefing"
+    },
+    {
+      "name": "Q2 APAC Sustainable Debt Outlook",
+      "type": "Webinar\nQ2 APAC Sustainable Debt Outlook\nIssuance Trends, En",
+      "date": "13 May 2026",
+      "time": "15:00 HKT",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mie28138-insurance-briefing-kuwait"
+      "url": "https://events.moodys.com/2026-mip28123-apac-sustainable-debt-outlook-q2"
+    },
+    {
+      "name": "Chief Ethics & Compliance Officer Forum",
+      "type": "Sale of Personal Data",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/consero-chief-ethics-compliance-officer-forum"
+    },
+    {
+      "name": "Malaysia’s Islamic Finance: Key Trends and Themes",
+      "type": "Webinar\nMalaysia’s Islamic Finance: Key Trends and Themes\nNa",
+      "date": "14 May 2026",
+      "time": "12:00 GST",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mip26376-islamic-finance-malaysia-focus"
+    },
+    {
+      "name": "Islamic Finance in Focus",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nIslamic Finance in ",
+      "date": "14 MAY 2026",
+      "time": "12:00 GST",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/islamic-finance-in-focus"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
