@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-05-07T09:36:44.519Z",
+  "scrapedAt": "2026-05-11T10:42:30.059Z",
   "totalEvents": 15,
   "events": [
     {
@@ -21,40 +21,13 @@
       "url": "https://events.moodys.com/2026-mip26489-apac-financial-institutions-in-focus-q2"
     },
     {
-      "name": "Jornada de Titulizaciones y Cédulas 2026",
-      "type": "In Person Event\nJornada de Titulizaciones y Cédulas 2026\nTen",
-      "date": "Jueves, 7 de mayo de 2026",
-      "time": "09:00 - 13:00 CEST",
-      "location": "Pérez-Llorca, Madrid",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mie26263-spanish-sf-briefing-2026"
-    },
-    {
-      "name": "Insurance Unlocked: Europe",
-      "type": "In Person Event\nInsurance Unlocked: Europe\nRewriting the ins",
-      "date": "7 May",
-      "time": "08:30 - 13:30 BST",
-      "location": "The Minster Building, London",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mie26224-european-insurance-conference"
-    },
-    {
-      "name": "Financial Institutions in Focus",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nFinancial Instituti",
-      "date": "7 MAY",
-      "time": "08:30 - 13:30 BST",
+      "name": "Korea Housing Finance Corporation",
+      "type": "Virtual Event\nKorea Housing Finance Corporation\nBehind the A",
+      "date": "11 May 2026",
+      "time": "12:30 IST",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/financial-institutions-in-focus"
-    },
-    {
-      "name": "UAE Real Estate: Where does credit risk go next?",
-      "type": "Webinar\nUAE Real Estate: Where does credit risk go next?\nRes",
-      "date": "7 May 2026",
-      "time": "12:00 GST",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mie28625-uae-real-estate"
+      "url": "https://events.moodys.com/2026-mip28641-khfc"
     },
     {
       "name": "Vietnam Credit Conference",
@@ -68,15 +41,15 @@
     {
       "name": "Inside ASEAN",
       "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nInside ASEAN\nRelati",
-      "date": "7 MAY 2026",
-      "time": "12:00 GST",
+      "date": "11 MAY 2026",
+      "time": "12:30 IST",
       "location": "",
       "description": "Register for sessions in real time or access the on-demand in case you missed any of the live sessions",
       "url": "https://events.moodys.com/inside-asean"
     },
     {
       "name": "LIMITED / EXCLUSIVE SEATING",
-      "type": "Alisher Djumanov\n\t\t\t\t\t  Managing Partner, AD Wealth",
+      "type": "Musakhadzhaev Sanjar\n\t\t\t\t\t  Deputy Director of the departmen",
       "date": "",
       "time": "",
       "location": "",
@@ -103,12 +76,21 @@
     },
     {
       "name": "Chief Ethics & Compliance Officer Forum",
-      "type": "Sale of Personal Data",
+      "type": "checkbox label",
       "date": "",
       "time": "",
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/consero-chief-ethics-compliance-officer-forum"
+    },
+    {
+      "name": "TCL Electronics Holdings Limited",
+      "type": "Webinar\nTCL Electronics Holdings Limited\nBehind the first-ti",
+      "date": "14 May 2026",
+      "time": "10:00 HKT",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mip28645-apac-nir"
     },
     {
       "name": "Malaysia’s Islamic Finance: Key Trends and Themes",
@@ -127,6 +109,24 @@
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
       "url": "https://events.moodys.com/islamic-finance-in-focus"
+    },
+    {
+      "name": "Deep Dive: Africa",
+      "type": "Virtual Event\nDeep Dive: Africa\nHave recent reforms made cre",
+      "date": "14 May 2026",
+      "time": "14:00 BST",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mie26394-gem-africa-dd"
+    },
+    {
+      "name": "2026 Canadian Infrastructure Roundtable",
+      "type": "In Person Event\n2026 Canadian Infrastructure Roundtable\nsche",
+      "date": "May 14, 2026",
+      "time": "12:30 PM - 3:00 PM EDT",
+      "location": "Montreal, Montreal",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-miu26316-canadian-infrastructure-roundtable"
     },
     {
       "name": "Confirm cancellation",
