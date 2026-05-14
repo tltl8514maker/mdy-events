@@ -1,15 +1,24 @@
 {
-  "scrapedAt": "2026-05-11T10:42:30.059Z",
+  "scrapedAt": "2026-05-14T09:39:23.607Z",
   "totalEvents": 15,
   "events": [
     {
-      "name": "Global Emerging Markets Live 2026",
-      "type": "Virtual Event\nGlobal Emerging Markets Live 2026\nGlobal shock",
-      "date": "13 May 2026",
-      "time": "14:00 BST",
+      "name": "Hidden Leverage, Real Risk",
+      "type": "Webinar\nHidden Leverage, Real Risk\nHow structured Private Cr",
+      "date": "19 May 2026",
+      "time": "09:00 HKT",
       "location": "",
-      "description": "Unlock key insights into credit conditions across five regional sessions.",
-      "url": "https://events.moodys.com/2026-mie26191-global-emerging-markets-live"
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mip28651-levfinance-apac"
+    },
+    {
+      "name": "Hidden Leverage, Real Risk",
+      "type": "Webinar\nHidden Leverage, Real Risk\nHow structured Private Cr",
+      "date": "May 19 2026",
+      "time": "10:00 EST",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-miu28652-leverage-finance-ameremea"
     },
     {
       "name": "Financial Institutions In Focus: APAC Q2 2026 Update",
@@ -19,60 +28,6 @@
       "location": "",
       "description": "You can ask questions related to financial institutions in the following markets:",
       "url": "https://events.moodys.com/2026-mip26489-apac-financial-institutions-in-focus-q2"
-    },
-    {
-      "name": "Korea Housing Finance Corporation",
-      "type": "Virtual Event\nKorea Housing Finance Corporation\nBehind the A",
-      "date": "11 May 2026",
-      "time": "12:30 IST",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mip28641-khfc"
-    },
-    {
-      "name": "Vietnam Credit Conference",
-      "type": "In Person Event\nVietnam Credit Conference\nschedule\nTuesday, ",
-      "date": "12 May 2026",
-      "time": "09:00 - 13:30 ICT",
-      "location": "Melia Hanoi",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mip26199-vietnam-credit-conference"
-    },
-    {
-      "name": "Inside ASEAN",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nInside ASEAN\nRelati",
-      "date": "11 MAY 2026",
-      "time": "12:30 IST",
-      "location": "",
-      "description": "Register for sessions in real time or access the on-demand in case you missed any of the live sessions",
-      "url": "https://events.moodys.com/inside-asean"
-    },
-    {
-      "name": "LIMITED / EXCLUSIVE SEATING",
-      "type": "Musakhadzhaev Sanjar\n\t\t\t\t\t  Deputy Director of the departmen",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/ifn-uzbekistan-forum"
-    },
-    {
-      "name": "2026 Canadian Infrastructure Briefing",
-      "type": "In Person Event\n2026 Canadian Infrastructure Briefing\nToront",
-      "date": "May 12, 2026",
-      "time": "10:00 AM - 12:00 PM EDT",
-      "location": "Vantage Venues, Toronto",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-miu26317-2026-canadian-infrastructure-briefing"
-    },
-    {
-      "name": "Q2 APAC Sustainable Debt Outlook",
-      "type": "Webinar\nQ2 APAC Sustainable Debt Outlook\nIssuance Trends, En",
-      "date": "13 May 2026",
-      "time": "15:00 HKT",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mip28123-apac-sustainable-debt-outlook-q2"
     },
     {
       "name": "Chief Ethics & Compliance Officer Forum",
@@ -129,13 +84,58 @@
       "url": "https://events.moodys.com/2026-miu26316-canadian-infrastructure-roundtable"
     },
     {
-      "name": "Confirm cancellation",
-      "type": "",
+      "name": "2026 US Housing & Housing Finance Executive Series",
+      "type": "Virtual Event\n2026 US Housing & Housing Finance Executive Se",
+      "date": "May 14, 2026",
+      "time": "1:00 PM EDT",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mcu26443-us-housing-series-i"
+    },
+    {
+      "name": "US Housing & Housing Finance",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nUS Housing & Housin",
+      "date": "MAY 14, 2026",
+      "time": "1:00 PM EDT",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/housing-hub"
+    },
+    {
+      "name": "Fund Finance: Proposed Methodology (APAC Edition)",
+      "type": "Webinar\nFund Finance: Proposed Methodology (APAC Edition)\nsc",
+      "date": "18 May 2026",
+      "time": "16:00 SGT",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mip28649-fund-finance-apac"
+    },
+    {
+      "name": "Fund Finance: Proposed Methodology (EMEA/Americas Edition)",
+      "type": "Webinar\nFund Finance: Proposed Methodology (EMEA/Americas Ed",
+      "date": "18 May 2026",
+      "time": "10:00 EDT",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-miu28650-fund-finance-ameremea"
+    },
+    {
+      "name": "NOT JUST A CONFERENCE. A COMMUNITY.",
+      "type": "checkbox label",
       "date": "",
       "time": "",
       "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/ssow-shared-services-outsourcing-week-europe"
+    },
+    {
+      "name": "Financial Institutions in Focus",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nFinancial Instituti",
+      "date": "19 MAY 2026",
+      "time": "12:30 IST",
+      "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
+      "url": "https://events.moodys.com/financial-institutions-in-focus"
     }
   ]
 }
