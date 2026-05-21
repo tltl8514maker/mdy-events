@@ -1,55 +1,55 @@
 {
-  "scrapedAt": "2026-05-18T11:10:16.742Z",
-  "totalEvents": 15,
+  "scrapedAt": "2026-05-21T10:43:21.514Z",
+  "totalEvents": 16,
   "events": [
     {
-      "name": "Hidden Leverage, Real Risk",
-      "type": "Webinar\nHidden Leverage, Real Risk\nHow structured Private Cr",
-      "date": "19 May 2026",
-      "time": "09:00 HKT",
+      "name": "Sovereign Credit Today | An update on Mexico",
+      "type": "Webinar\nSovereign Credit Today | An update on Mexico\nMexico'",
+      "date": "21 may 2026",
+      "time": "10:30 EDT",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mip28651-levfinance-apac"
+      "url": "https://events.moodys.com/2026_05_sct_emea_amer_mie26419"
     },
     {
-      "name": "Hidden Leverage, Real Risk",
-      "type": "Webinar\nHidden Leverage, Real Risk\nHow structured Private Cr",
-      "date": "May 19 2026",
-      "time": "10:00 EST",
+      "name": "Deep Dive: Asia",
+      "type": "Virtual Event\nDeep Dive: Asia\nThe impact of geopolitical sho",
+      "date": "21 May 2026",
+      "time": "13:30 IST",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-miu28652-leverage-finance-ameremea"
+      "url": "https://events.moodys.com/2026-mip26390-gem-asia-dd"
     },
     {
-      "name": "Financial Institutions In Focus: APAC Q2 2026 Update",
-      "type": "Virtual Event\nFinancial Institutions In Focus: APAC Q2 2026 ",
-      "date": "19 May 2026",
-      "time": "12:30 IST",
-      "location": "",
-      "description": "You can ask questions related to financial institutions in the following markets:",
-      "url": "https://events.moodys.com/2026-mip26489-apac-financial-institutions-in-focus-q2"
-    },
-    {
-      "name": "Fund Finance: Proposed Methodology (APAC Edition)",
-      "type": "Webinar\nFund Finance: Proposed Methodology (APAC Edition)\nsc",
-      "date": "18 May 2026",
-      "time": "16:00 SGT",
+      "name": "Deep Dive: Middle East & Türkiye",
+      "type": "Virtual Event\nDeep Dive: Middle East & Türkiye\nWeathering ge",
+      "date": "21 May 2026",
+      "time": "14:00 BST",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mip28649-fund-finance-apac"
+      "url": "https://events.moodys.com/2026-mie26391-gem-middle-east-dd"
     },
     {
-      "name": "Fund Finance: Proposed Methodology (EMEA/Americas Edition)",
-      "type": "Webinar\nFund Finance: Proposed Methodology (EMEA/Americas Ed",
-      "date": "18 May 2026",
-      "time": "10:00 EDT",
+      "name": "Asia-Pacific Nonfinancial Corporates",
+      "type": "Webinar\nAsia-Pacific Nonfinancial Corporates\nInside the rise",
+      "date": "26 May 2026",
+      "time": "14:00 HKT",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-miu28650-fund-finance-ameremea"
+      "url": "https://events.moodys.com/2026-mip28629-asia-pacific-nonfinancial-corporates"
     },
     {
-      "name": "Let's confirm you are human",
-      "type": "",
+      "name": "Unlocking Capital for Climate Resilience: From Data to Decisions",
+      "type": "In Person Event\nUnlocking Capital for Climate Resilience: Fr",
+      "date": "24 June 2026",
+      "time": "13:00 - 18:30 BST",
+      "location": "1 Basinghall Avenue, London",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mie26403-london-climate-action-week"
+    },
+    {
+      "name": "NOT JUST A CONFERENCE. A COMMUNITY.",
+      "type": "checkbox label",
       "date": "",
       "time": "",
       "location": "",
@@ -57,76 +57,85 @@
       "url": "https://events.moodys.com/ssow-shared-services-outsourcing-week-europe"
     },
     {
-      "name": "Financial Institutions in Focus",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nFinancial Instituti",
-      "date": "19 MAY 2026",
-      "time": "12:30 IST",
-      "location": "",
+      "name": "Brazil in the Age of Unprecedented Uncertainty",
+      "type": "In Person Event\nBrazil in the Age of Unprecedented Uncertain",
+      "date": "May 21",
+      "time": "8:00 AM - 10:30 AM BRT",
+      "location": "Hotel Radisson, São Paulo",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/financial-institutions-in-focus"
+      "url": "https://events.moodys.com/2026_mau28635_brazil_breakfast_briefing"
     },
     {
-      "name": "Deep Dive: Central Asia & Caucasus",
-      "type": "Virtual Event\nDeep Dive: Central Asia & Caucasus\nschedule\nTu",
-      "date": "19 May 2026",
-      "time": "09:00 BST",
+      "name": "Digital Trust Briefing 2026",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nDigital Trust Brief",
+      "date": "26 May 2026",
+      "time": "9:00 AM - 2:00 PM",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mie26393-gem-central-asia-caucasus-dd"
+      "url": "https://events.moodys.com/evt-157-in-ma-apacme-2026-bank-mcp28527-digital-trust-briefing-2026"
     },
     {
-      "name": "Deep Dive: Latin America",
-      "type": "Virtual Event\nDeep Dive: Latin America\nLatin America’s credi",
-      "date": "19 May 2026",
-      "time": "13:00 BST",
+      "name": "India Credit Conference 2026",
+      "type": "In Person Event\nIndia Credit Conference 2026\nGrowth, Grit an",
+      "date": "26 May 2026",
+      "time": "09:00 - 15:40 IST",
+      "location": "Taj Lands End, Mumbai",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mip26202-india-credit-conference"
+    },
+    {
+      "name": "Global Structured Finance Conference 2026",
+      "type": "translate\narrow_drop_down\nIn Person Event\nGlobal Structured ",
+      "date": "27 May 2026",
+      "time": "12:00 - 16:30 JST",
+      "location": "Andaz Tokyo | Tokyo Studio (51st Floor), Tokyo",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mip26255-global-structured-finance-conference-2026"
+    },
+    {
+      "name": "Japan in Focus",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nJapan in Focus\n\n日本語",
+      "date": "2026年5月27日（水）",
+      "time": "12:00 - 16:30（日本時間）",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-miu26392-gem-latam-dd"
+      "url": "https://events.moodys.com/japan-in-focus"
     },
     {
-      "name": "Navigating the MAS Transition Planning Guidelines: From Compliance to Strategic Transition Finance",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nNavigating the MAS ",
-      "date": "20 May 2026",
-      "time": "10:00 AM - 11:00 AM SGT",
+      "name": "2026 US Housing & Housing Finance Executive Series",
+      "type": "Virtual Event\n2026 US Housing & Housing Finance Executive Se",
+      "date": "May 28, 2026",
+      "time": "1:00 PM EDT",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/evt-128-wbn-mco-apacme-2026-max-mcp28622-navigating-the-mas-transition-planning-guidelines"
+      "url": "https://events.moodys.com/2026-miu26527-us-housing-series-iii"
     },
     {
-      "name": "Nigeria Risk Summit",
-      "type": "In Person Event\nNigeria Risk Summit\nFrom reform to results: ",
-      "date": "20 May 2026",
-      "time": "08:30 - 16:00 WAT",
-      "location": "The Wheatbaker Hotel, Lagos",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mie26430-nigeria-risk-summit"
-    },
-    {
-      "name": "Inside Africa",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nInside Africa\n\nWelc",
-      "date": "20 MAY 2026",
-      "time": "08:30 - 16:00 WAT",
+      "name": "US Housing & Housing Finance",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nUS Housing & Housin",
+      "date": "27 MAY 2026",
+      "time": "12:00 - 16:30 JST",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/inside-africa"
+      "url": "https://events.moodys.com/housing-hub"
     },
     {
-      "name": "The Blind Spots of Third-Party Risk",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nThe Blind Spots of ",
-      "date": "20 May 2026",
-      "time": "12:00 PM GST",
+      "name": "US Public Finance: Federal Policy Risks",
+      "type": "Webinar\nUS Public Finance: Federal Policy Risks\nNew pressure",
+      "date": "May 28, 2026",
+      "time": "3:00 PM EDT",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/evt-134-wbn-ma-apacme-2026-corp-mae28632-the-blind-spot-of-third-party-risk"
+      "url": "https://events.moodys.com/2026-miu26380-pfg-channel"
     },
     {
-      "name": "Q2 AMER/EMEA Sustainable Debt Outlook: Data Centers Emerge as Key Market Focus",
-      "type": "Webinar\nQ2 AMER/EMEA Sustainable Debt Outlook: Data Centers ",
-      "date": "20 May 2026",
-      "time": "15:00 BST",
+      "name": "US Public Finance in Focus",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nUS Public Finance i",
+      "date": "MAY 28, 2026",
+      "time": "3:00 PM EDT",
       "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026_amer-emeasustainabledebtoutlook"
+      "description": "Register for sessions in real time or access the on-demand in case you missed any of the live sessions",
+      "url": "https://events.moodys.com/us-public-finance-in-focus-channel"
     },
     {
       "name": "Confirm cancellation",
