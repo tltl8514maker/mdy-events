@@ -1,33 +1,15 @@
 {
-  "scrapedAt": "2026-05-21T10:43:21.514Z",
-  "totalEvents": 16,
+  "scrapedAt": "2026-05-25T11:14:44.656Z",
+  "totalEvents": 19,
   "events": [
     {
       "name": "Sovereign Credit Today | An update on Mexico",
-      "type": "Webinar\nSovereign Credit Today | An update on Mexico\nMexico'",
+      "type": "Webinar\nREPLAY\nSovereign Credit Today | An update on Mexico\n",
       "date": "21 may 2026",
       "time": "10:30 EDT",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
       "url": "https://events.moodys.com/2026_05_sct_emea_amer_mie26419"
-    },
-    {
-      "name": "Deep Dive: Asia",
-      "type": "Virtual Event\nDeep Dive: Asia\nThe impact of geopolitical sho",
-      "date": "21 May 2026",
-      "time": "13:30 IST",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mip26390-gem-asia-dd"
-    },
-    {
-      "name": "Deep Dive: Middle East & Türkiye",
-      "type": "Virtual Event\nDeep Dive: Middle East & Türkiye\nWeathering ge",
-      "date": "21 May 2026",
-      "time": "14:00 BST",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mie26391-gem-middle-east-dd"
     },
     {
       "name": "Asia-Pacific Nonfinancial Corporates",
@@ -46,24 +28,6 @@
       "location": "1 Basinghall Avenue, London",
       "description": "Please provide your contact information and the nature of your query.",
       "url": "https://events.moodys.com/2026-mie26403-london-climate-action-week"
-    },
-    {
-      "name": "NOT JUST A CONFERENCE. A COMMUNITY.",
-      "type": "checkbox label",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/ssow-shared-services-outsourcing-week-europe"
-    },
-    {
-      "name": "Brazil in the Age of Unprecedented Uncertainty",
-      "type": "In Person Event\nBrazil in the Age of Unprecedented Uncertain",
-      "date": "May 21",
-      "time": "8:00 AM - 10:30 AM BRT",
-      "location": "Hotel Radisson, São Paulo",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026_mau28635_brazil_breakfast_briefing"
     },
     {
       "name": "Digital Trust Briefing 2026",
@@ -136,6 +100,69 @@
       "location": "",
       "description": "Register for sessions in real time or access the on-demand in case you missed any of the live sessions",
       "url": "https://events.moodys.com/us-public-finance-in-focus-channel"
+    },
+    {
+      "name": "Japan Economic Outlook: Caught in the Crossfire",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\n日本語\nJapan Economic ",
+      "date": "Coming soon: On-demand will be available in early June.",
+      "time": "",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/evt193-onwbn-map28103-26-bank-japan-outlook-caught-in-the-cfossfire"
+    },
+    {
+      "name": "Economics in Focus",
+      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
+      "date": "COMING SOON: ON-DEMAND WILL BE AVAILABLE IN EARLY JUNE.",
+      "time": "",
+      "location": "",
+      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
+      "url": "https://events.moodys.com/economics-in-focus"
+    },
+    {
+      "name": "ISS World Europe 2026 Agenda at a Glance",
+      "type": "",
+      "date": "2 June 2026",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/iss-world-europe-2026"
+    },
+    {
+      "name": "The new rules of banking: a strategic framework for leaders",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nThe new rules of ba",
+      "date": "June 2",
+      "time": "2:00 PM BST",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/the-new-rules-of-banking-a-strategic-framework-for-leaders"
+    },
+    {
+      "name": "Inside El Salvador 2026",
+      "type": "Evento en persona\nInside El Salvador 2026\nschedule\nMiércoles",
+      "date": "Miércoles, 3 de junio de 2026",
+      "time": "8:00 am hora local",
+      "location": "Barceló San Salvador, San Salvador",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/es/2026-mcu26661-inside-el-salvador-2026"
+    },
+    {
+      "name": "Inside LatAm 2026",
+      "type": "event_seat\n11 In Person Events",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
+      "url": "https://events.moodys.com/inside-latam-2026"
+    },
+    {
+      "name": "Global Pharmaceuticals: exploring a rapidly evolving marketplace",
+      "type": "Webinar\nGlobal Pharmaceuticals: exploring a rapidly evolving",
+      "date": "3 June 2026",
+      "time": "10:00 EDT",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-miu28439-global-pharmaceuticals-webinar"
     },
     {
       "name": "Confirm cancellation",
