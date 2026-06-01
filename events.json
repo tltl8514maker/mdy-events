@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-05-28T11:00:48.070Z",
-  "totalEvents": 19,
+  "scrapedAt": "2026-06-01T12:41:03.408Z",
+  "totalEvents": 17,
   "events": [
     {
       "name": "Asia-Pacific Nonfinancial Corporates",
@@ -19,60 +19,6 @@
       "location": "1 Basinghall Avenue, London",
       "description": "Please provide your contact information and the nature of your query.",
       "url": "https://events.moodys.com/2026-mie26403-london-climate-action-week"
-    },
-    {
-      "name": "2026 US Housing & Housing Finance Executive Series",
-      "type": "Virtual Event\n2026 US Housing & Housing Finance Executive Se",
-      "date": "May 28, 2026",
-      "time": "1:00 PM EDT",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-miu26527-us-housing-series-iii"
-    },
-    {
-      "name": "US Housing & Housing Finance",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nUS Housing & Housin",
-      "date": "MAY 28, 2026",
-      "time": "1:00 PM EDT",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/housing-hub"
-    },
-    {
-      "name": "US Public Finance: Federal Policy Risks",
-      "type": "Webinar\nUS Public Finance: Federal Policy Risks\nNew pressure",
-      "date": "May 28, 2026",
-      "time": "3:00 PM EDT",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-miu26380-pfg-channel"
-    },
-    {
-      "name": "US Public Finance in Focus",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nUS Public Finance i",
-      "date": "MAY 28, 2026",
-      "time": "3:00 PM EDT",
-      "location": "",
-      "description": "Register for sessions in real time or access the on-demand in case you missed any of the live sessions",
-      "url": "https://events.moodys.com/us-public-finance-in-focus-channel"
-    },
-    {
-      "name": "Japan Economic Outlook: Caught in the Crossfire",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\n日本語\nJapan Economic ",
-      "date": "Coming soon: On-demand will be available in early June.",
-      "time": "",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/evt193-onwbn-map28103-26-bank-japan-outlook-caught-in-the-cfossfire"
-    },
-    {
-      "name": "Economics in Focus",
-      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
-      "date": "COMING SOON: ON-DEMAND WILL BE AVAILABLE IN EARLY JUNE.",
-      "time": "",
-      "location": "",
-      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
-      "url": "https://events.moodys.com/economics-in-focus"
     },
     {
       "name": "ISS World Europe 2026 Agenda at a Glance",
@@ -157,21 +103,57 @@
     },
     {
       "name": "Public Finance (US Public Finance & Sub-Sovereign)",
-      "type": "live_tv\nWEBINAR",
+      "type": "event_seat\nIN PERSON",
       "date": "",
       "time": "",
       "location": "",
-      "description": "New pressures, wide-ranging impacts",
+      "description": "MOODY'S RATINGS",
       "url": "https://events.moodys.com/public-finance"
     },
     {
-      "name": "Confirm cancellation",
+      "name": "Structured Finance in Focus",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nStructured Finance ",
+      "date": "12.00 EDT",
+      "time": "",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/structured-finance-in-focus"
+    },
+    {
+      "name": "2026 North American Insurance Conference",
+      "type": "In Person Event\n2026 North American Insurance Conference\nFin",
+      "date": "June 8, 2026",
+      "time": "12:00 PM - 6:00 PM EDT",
+      "location": "Moody's Headquarters, New York",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-miu27654-2026-us-insurance-conference"
+    },
+    {
+      "name": "Financial Institutions in Focus",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nFinancial Instituti",
+      "date": "JUNE 8, 2026",
+      "time": "12:00 PM - 6:00 PM EDT",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/financial-institutions-in-focus"
+    },
+    {
+      "name": "Access Denied",
       "type": "",
       "date": "",
       "time": "",
       "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-95-tpc-ma-apacme-2026-ma-x-agentforce-world-tour-japan"
+    },
+    {
+      "name": "Japan in Focus",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nJapan in Focus\n\n日本語",
+      "date": "10.00 JST",
+      "time": "",
+      "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
+      "url": "https://events.moodys.com/japan-in-focus"
     }
   ]
 }
