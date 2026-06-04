@@ -1,15 +1,24 @@
 {
-  "scrapedAt": "2026-06-01T12:41:03.408Z",
-  "totalEvents": 17,
+  "scrapedAt": "2026-06-04T10:42:40.138Z",
+  "totalEvents": 14,
   "events": [
     {
-      "name": "Asia-Pacific Nonfinancial Corporates",
-      "type": "Webinar\nREPLAY\nAsia-Pacific Nonfinancial Corporates\nInside t",
-      "date": "26 May 2026",
-      "time": "14:00 HKT",
+      "name": "Inside South and Southeast Asia",
+      "type": "Webinar\nInside South and Southeast Asia\nEnergy Shock - Who p",
+      "date": "4 June 2026",
+      "time": "13:30 IST",
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-mip28629-asia-pacific-nonfinancial-corporates"
+      "url": "https://events.moodys.com/2026_mip26515_insidesseaq2_2026"
+    },
+    {
+      "name": "Danantara Investment Management (P.T.)",
+      "type": "Webinar\nDanantara Investment Management (P.T.)\nBehind the fi",
+      "date": "9 June 2026",
+      "time": "15:00 ICT",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-mip28704-nirjune"
     },
     {
       "name": "Unlocking Capital for Climate Resilience: From Data to Decisions",
@@ -28,69 +37,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/iss-world-europe-2026"
-    },
-    {
-      "name": "The new rules of banking: a strategic framework for leaders",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nThe new rules of ba",
-      "date": "June 2",
-      "time": "2:00 PM BST",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/the-new-rules-of-banking-a-strategic-framework-for-leaders"
-    },
-    {
-      "name": "Inside El Salvador 2026",
-      "type": "Evento en persona\nInside El Salvador 2026\nschedule\nMiércoles",
-      "date": "Miércoles, 3 de junio de 2026",
-      "time": "8:00 am hora local",
-      "location": "Barceló San Salvador, San Salvador",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/es/2026-mcu26661-inside-el-salvador-2026"
-    },
-    {
-      "name": "Inside LatAm 2026",
-      "type": "event_seat\n11 In Person Events",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
-      "url": "https://events.moodys.com/inside-latam-2026"
-    },
-    {
-      "name": "Global Pharmaceuticals: exploring a rapidly evolving marketplace",
-      "type": "Webinar\nGlobal Pharmaceuticals: exploring a rapidly evolving",
-      "date": "3 June 2026",
-      "time": "10:00 EDT",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-miu28439-global-pharmaceuticals-webinar"
-    },
-    {
-      "name": "Events",
-      "type": "Functional Cookies",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/mie28032cfasocietyunitedkingdom"
-    },
-    {
-      "name": "Rating Advisor Summer Reception",
-      "type": "In Person Event\nRating Advisor Summer Reception\nschedule\nWed",
-      "date": "June 3, 2026",
-      "time": "4:00 PM - 7:30 PM EDT",
-      "location": "Magic Hour Rooftop Bar & Lounge",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026-miu26341-ra-summer-reception"
-    },
-    {
-      "name": "Inside South and Southeast Asia:",
-      "type": "Webinar\nInside South and Southeast Asia:\nEnergy Shock - Who ",
-      "date": "4 June 2026",
-      "time": "13:30 IST",
-      "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026_mip26515_insidesseaq2_2026"
     },
     {
       "name": "www.asbonewyork.org",
@@ -154,6 +100,33 @@
       "location": "",
       "description": "Please provide your contact information and the nature of your query.",
       "url": "https://events.moodys.com/japan-in-focus"
+    },
+    {
+      "name": "Moody’s Banking Customer Forum 2026",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nMoody’s Banking Cus",
+      "date": "10th June",
+      "time": "",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/customer-forum-johannesburg"
+    },
+    {
+      "name": "Canadian Provincial Outlook 2026–2027: Navigating trade headwinds, federal policy shifts and rising debt",
+      "type": "Webinar\nCanadian Provincial Outlook 2026–2027: Navigating tr",
+      "date": "11 June 2026",
+      "time": "10:00 EDT",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/2026-miu26251-canadian-outlook"
+    },
+    {
+      "name": "Moody's France: Secteur Public Rendez-vous 2026",
+      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nMoody's France: Sec",
+      "date": "Jeudi, 11 Juin 2026 I 17h30 – 21h30 CEST",
+      "time": "",
+      "location": "",
+      "description": "Please provide your contact information and the nature of your query.",
+      "url": "https://events.moodys.com/rendezvous-du-secteur-public-2026"
     }
   ]
 }
