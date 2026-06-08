@@ -1,15 +1,15 @@
 {
-  "scrapedAt": "2026-06-04T10:42:40.138Z",
-  "totalEvents": 14,
+  "scrapedAt": "2026-06-08T12:01:58.829Z",
+  "totalEvents": 15,
   "events": [
     {
-      "name": "Inside South and Southeast Asia",
-      "type": "Webinar\nInside South and Southeast Asia\nEnergy Shock - Who p",
-      "date": "4 June 2026",
-      "time": "13:30 IST",
+      "name": "Credit Themes",
+      "type": "",
+      "date": "",
+      "time": "",
       "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
-      "url": "https://events.moodys.com/2026_mip26515_insidesseaq2_2026"
+      "description": "",
+      "url": "https://events.moodys.com/credit-themes"
     },
     {
       "name": "Danantara Investment Management (P.T.)",
@@ -17,7 +17,7 @@
       "date": "9 June 2026",
       "time": "15:00 ICT",
       "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
+      "description": "",
       "url": "https://events.moodys.com/2026-mip28704-nirjune"
     },
     {
@@ -26,43 +26,25 @@
       "date": "24 June 2026",
       "time": "13:00 - 18:30 BST",
       "location": "1 Basinghall Avenue, London",
-      "description": "Please provide your contact information and the nature of your query.",
+      "description": "",
       "url": "https://events.moodys.com/2026-mie26403-london-climate-action-week"
     },
     {
-      "name": "ISS World Europe 2026 Agenda at a Glance",
-      "type": "",
-      "date": "2 June 2026",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/iss-world-europe-2026"
-    },
-    {
-      "name": "www.asbonewyork.org",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/new-york-asbo-education-summit-expo-2026"
-    },
-    {
       "name": "Public Finance (US Public Finance & Sub-Sovereign)",
-      "type": "event_seat\nIN PERSON",
+      "type": "play_circle_filled\nWATCH",
       "date": "",
       "time": "",
       "location": "",
-      "description": "MOODY'S RATINGS",
+      "description": "New pressures, wide-ranging impacts",
       "url": "https://events.moodys.com/public-finance"
     },
     {
       "name": "Structured Finance in Focus",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nStructured Finance ",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
       "date": "12.00 EDT",
       "time": "",
       "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
+      "description": "",
       "url": "https://events.moodys.com/structured-finance-in-focus"
     },
     {
@@ -71,16 +53,16 @@
       "date": "June 8, 2026",
       "time": "12:00 PM - 6:00 PM EDT",
       "location": "Moody's Headquarters, New York",
-      "description": "Please provide your contact information and the nature of your query.",
+      "description": "",
       "url": "https://events.moodys.com/2026-miu27654-2026-us-insurance-conference"
     },
     {
       "name": "Financial Institutions in Focus",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nFinancial Instituti",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
       "date": "JUNE 8, 2026",
       "time": "12:00 PM - 6:00 PM EDT",
       "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
+      "description": "",
       "url": "https://events.moodys.com/financial-institutions-in-focus"
     },
     {
@@ -94,20 +76,20 @@
     },
     {
       "name": "Japan in Focus",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nJapan in Focus\n\n日本語",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
       "date": "10.00 JST",
       "time": "",
       "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
+      "description": "",
       "url": "https://events.moodys.com/japan-in-focus"
     },
     {
       "name": "Moody’s Banking Customer Forum 2026",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nMoody’s Banking Cus",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
       "date": "10th June",
       "time": "",
       "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
+      "description": "",
       "url": "https://events.moodys.com/customer-forum-johannesburg"
     },
     {
@@ -116,17 +98,44 @@
       "date": "11 June 2026",
       "time": "10:00 EDT",
       "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
+      "description": "",
       "url": "https://events.moodys.com/2026-miu26251-canadian-outlook"
     },
     {
       "name": "Moody's France: Secteur Public Rendez-vous 2026",
-      "type": "moodys.com\nEvent Calendar\nFAQ\nContact us\nMoody's France: Sec",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
       "date": "Jeudi, 11 Juin 2026 I 17h30 – 21h30 CEST",
       "time": "",
       "location": "",
-      "description": "Please provide your contact information and the nature of your query.",
+      "description": "",
       "url": "https://events.moodys.com/rendezvous-du-secteur-public-2026"
+    },
+    {
+      "name": "2026 US Housing & Housing Finance Executive Series",
+      "type": "Virtual Event\n2026 US Housing & Housing Finance Executive Se",
+      "date": "June 11, 2026",
+      "time": "1:00 PM EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26526-us-housing-series-iv"
+    },
+    {
+      "name": "US Housing & Housing Finance",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "12.00 CEST",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/housing-hub"
+    },
+    {
+      "name": "conference.airmic.com",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/airmic-2026"
     }
   ]
 }
