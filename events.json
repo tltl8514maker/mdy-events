@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-08T12:01:58.829Z",
-  "totalEvents": 15,
+  "scrapedAt": "2026-06-11T11:26:25.069Z",
+  "totalEvents": 14,
   "events": [
     {
       "name": "Credit Themes",
@@ -12,13 +12,13 @@
       "url": "https://events.moodys.com/credit-themes"
     },
     {
-      "name": "Danantara Investment Management (P.T.)",
-      "type": "Webinar\nDanantara Investment Management (P.T.)\nBehind the fi",
-      "date": "9 June 2026",
-      "time": "15:00 ICT",
+      "name": "Inside China with Moody's - China goes global: implications for trade, investment and credit",
+      "type": "",
+      "date": "17 June, 2026",
+      "time": "",
       "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mip28704-nirjune"
+      "description": "Discussion Topics",
+      "url": "https://events.moodys.com/2026-mip26207-inside-china-june-edition"
     },
     {
       "name": "Unlocking Capital for Climate Resilience: From Data to Decisions",
@@ -30,67 +30,13 @@
       "url": "https://events.moodys.com/2026-mie26403-london-climate-action-week"
     },
     {
-      "name": "Public Finance (US Public Finance & Sub-Sovereign)",
-      "type": "play_circle_filled\nWATCH",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "New pressures, wide-ranging impacts",
-      "url": "https://events.moodys.com/public-finance"
-    },
-    {
       "name": "Structured Finance in Focus",
       "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "12.00 EDT",
+      "date": "12.00 CEST",
       "time": "",
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/structured-finance-in-focus"
-    },
-    {
-      "name": "2026 North American Insurance Conference",
-      "type": "In Person Event\n2026 North American Insurance Conference\nFin",
-      "date": "June 8, 2026",
-      "time": "12:00 PM - 6:00 PM EDT",
-      "location": "Moody's Headquarters, New York",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu27654-2026-us-insurance-conference"
-    },
-    {
-      "name": "Financial Institutions in Focus",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "JUNE 8, 2026",
-      "time": "12:00 PM - 6:00 PM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/financial-institutions-in-focus"
-    },
-    {
-      "name": "Access Denied",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/evt-95-tpc-ma-apacme-2026-ma-x-agentforce-world-tour-japan"
-    },
-    {
-      "name": "Japan in Focus",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "10.00 JST",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/japan-in-focus"
-    },
-    {
-      "name": "Moody’s Banking Customer Forum 2026",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "10th June",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/customer-forum-johannesburg"
     },
     {
       "name": "Canadian Provincial Outlook 2026–2027: Navigating trade headwinds, federal policy shifts and rising debt",
@@ -129,13 +75,58 @@
       "url": "https://events.moodys.com/housing-hub"
     },
     {
-      "name": "conference.airmic.com",
-      "type": "",
+      "name": "BACK TO BASICS",
+      "type": "Annual Conference 2026",
       "date": "",
       "time": "",
       "location": "",
-      "description": "",
+      "description": "15 – 17 June 2026\nThe ICC, Birmingham",
       "url": "https://events.moodys.com/airmic-2026"
+    },
+    {
+      "name": "THE FT GLOBAL\nBOND SUMMIT",
+      "type": "Username *",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "The event formerly known as the Global Borrowers and Bond Investors Forum will enter an exciting new chapter in 2026, with a new name that reflects both its heritage and its future: The FT Global Bond Summit.",
+      "url": "https://events.moodys.com/ft-global-bond-summit"
+    },
+    {
+      "name": "30th General Assembly of IOTA",
+      "type": "Share",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "Get ready for IOTA’s 30th General Assembly in 2026!\nAs IOTA celebrates three decades of collaboration, this milestone event will spotlight how Artificial Intelligence (AI) and Behavioural Insights (BI) are transforming tax compliance. From AI-driven ",
+      "url": "https://events.moodys.com/iota-general-assembly-2026"
+    },
+    {
+      "name": "Insurance Unlocked: The AI Opportunity",
+      "type": "Webinar\nInsurance Unlocked: The AI Opportunity\nschedule\nTues",
+      "date": "16th June 2026",
+      "time": "10:00 BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie27708-insurance-unlocked"
+    },
+    {
+      "name": "Poland and CEE Summit 2026",
+      "type": "In Person Event\nPoland and CEE Summit 2026\nschedule\nTuesday,",
+      "date": "16 June 2026",
+      "time": "13:15 - 18:30 CEST",
+      "location": "Nobu Hotel Warsaw, Warsaw",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26171-poland-and-cee-summit-2026"
+    },
+    {
+      "name": "Moody’s au Rendez-vous T2 2026",
+      "type": "Webinar\nMoody’s au Rendez-vous T2 2026\nschedule\nMardi 16 jui",
+      "date": "Mardi 16 juin 2026",
+      "time": "15:00 CEST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026_06_mie28684_moodys_au_rendez_vous_t2"
     }
   ]
 }
