@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-11T11:26:25.069Z",
-  "totalEvents": 14,
+  "scrapedAt": "2026-06-15T13:17:40.146Z",
+  "totalEvents": 16,
   "events": [
     {
       "name": "Credit Themes",
@@ -30,51 +30,6 @@
       "url": "https://events.moodys.com/2026-mie26403-london-climate-action-week"
     },
     {
-      "name": "Structured Finance in Focus",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "12.00 CEST",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/structured-finance-in-focus"
-    },
-    {
-      "name": "Canadian Provincial Outlook 2026–2027: Navigating trade headwinds, federal policy shifts and rising debt",
-      "type": "Webinar\nCanadian Provincial Outlook 2026–2027: Navigating tr",
-      "date": "11 June 2026",
-      "time": "10:00 EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26251-canadian-outlook"
-    },
-    {
-      "name": "Moody's France: Secteur Public Rendez-vous 2026",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "Jeudi, 11 Juin 2026 I 17h30 – 21h30 CEST",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/rendezvous-du-secteur-public-2026"
-    },
-    {
-      "name": "2026 US Housing & Housing Finance Executive Series",
-      "type": "Virtual Event\n2026 US Housing & Housing Finance Executive Se",
-      "date": "June 11, 2026",
-      "time": "1:00 PM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26526-us-housing-series-iv"
-    },
-    {
-      "name": "US Housing & Housing Finance",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "12.00 CEST",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/housing-hub"
-    },
-    {
       "name": "BACK TO BASICS",
       "type": "Annual Conference 2026",
       "date": "",
@@ -84,15 +39,6 @@
       "url": "https://events.moodys.com/airmic-2026"
     },
     {
-      "name": "THE FT GLOBAL\nBOND SUMMIT",
-      "type": "Username *",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "The event formerly known as the Global Borrowers and Bond Investors Forum will enter an exciting new chapter in 2026, with a new name that reflects both its heritage and its future: The FT Global Bond Summit.",
-      "url": "https://events.moodys.com/ft-global-bond-summit"
-    },
-    {
       "name": "30th General Assembly of IOTA",
       "type": "Share",
       "date": "",
@@ -100,6 +46,15 @@
       "location": "",
       "description": "Get ready for IOTA’s 30th General Assembly in 2026!\nAs IOTA celebrates three decades of collaboration, this milestone event will spotlight how Artificial Intelligence (AI) and Behavioural Insights (BI) are transforming tax compliance. From AI-driven ",
       "url": "https://events.moodys.com/iota-general-assembly-2026"
+    },
+    {
+      "name": "THE FT GLOBAL\nBOND SUMMIT",
+      "type": "Username *",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "Agenda Update",
+      "url": "https://events.moodys.com/ft-global-bond-summit"
     },
     {
       "name": "Insurance Unlocked: The AI Opportunity",
@@ -127,6 +82,69 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/2026_06_mie28684_moodys_au_rendez_vous_t2"
+    },
+    {
+      "name": "Digital Infrastructure Finance 2.0",
+      "type": "This is a search field with an auto-suggest feature attached",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "ABOUT THE EVENT",
+      "url": "https://events.moodys.com/2026-dealcatalyst-digital-infrastructure-finance-20"
+    },
+    {
+      "name": "Digital Economy",
+      "type": "play_circle_filled\nWATCH",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "MOODY'S RATINGS",
+      "url": "https://events.moodys.com/digital-economy"
+    },
+    {
+      "name": "Changing State of the US Consumer",
+      "type": "Virtual Event\nChanging State of the US Consumer\nConsumer out",
+      "date": "17 June 2026",
+      "time": "1 PM EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mcu26453-changing-state-of-the-us-consumer"
+    },
+    {
+      "name": "Insurance Unlocked – Germany",
+      "type": "In person\nInsurance Unlocked – Germany\n\nThe event will be he",
+      "date": "18 June 2026",
+      "time": "8:30 - 11:00 CEST",
+      "location": "Excelsior Hotel Ernst, Köln",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie27698-insurance-cologne-briefing"
+    },
+    {
+      "name": "Financial Institutions in Focus",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "18 JUNE 2026",
+      "time": "8:30 - 11:00 CEST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/financial-institutions-in-focus"
+    },
+    {
+      "name": "Access Denied",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-130-tpc-ma-ea-2026-corp-salesforce-world-tour-london-2026"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
