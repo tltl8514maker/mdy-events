@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-18T11:12:16.450Z",
+  "scrapedAt": "2026-06-22T12:54:11.915Z",
   "totalEvents": 17,
   "events": [
     {
@@ -12,15 +12,6 @@
       "url": "https://events.moodys.com/credit-themes"
     },
     {
-      "name": "Inside China with Moody's - China goes global: implications for trade, investment and credit",
-      "type": "",
-      "date": "17 June, 2026",
-      "time": "",
-      "location": "",
-      "description": "Discussion Topics",
-      "url": "https://events.moodys.com/2026-mip26207-inside-china-june-edition"
-    },
-    {
       "name": "Unlocking Capital for Climate Resilience: From Data to Decisions",
       "type": "In Person Event\nUnlocking Capital for Climate Resilience: Fr",
       "date": "24 June 2026",
@@ -30,103 +21,13 @@
       "url": "https://events.moodys.com/2026-mie26403-london-climate-action-week"
     },
     {
-      "name": "30th General Assembly of IOTA",
-      "type": "Share",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "Get ready for IOTA’s 30th General Assembly in 2026!\nAs IOTA celebrates three decades of collaboration, this milestone event will spotlight how Artificial Intelligence (AI) and Behavioural Insights (BI) are transforming tax compliance. From AI-driven ",
-      "url": "https://events.moodys.com/iota-general-assembly-2026"
-    },
-    {
-      "name": "Insurance Unlocked – Germany",
-      "type": "In person\nInsurance Unlocked – Germany\n\nThe event will be he",
-      "date": "18 June 2026",
-      "time": "8:30 - 11:00 CEST",
-      "location": "Excelsior Hotel Ernst, Köln",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie27698-insurance-cologne-briefing"
-    },
-    {
-      "name": "Financial Institutions in Focus",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "18 JUNE 2026",
-      "time": "8:30 - 11:00 CEST",
+      "name": "Global Financial Institutions Series 2026",
+      "type": "24\nSEP\nevent_seat\nIN PERSON\nThursday, 24 September | 08:30 -",
+      "date": "24 September",
+      "time": "08:30 - 11:45 CEST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/financial-institutions-in-focus"
-    },
-    {
-      "name": "Access Denied",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/evt-130-tpc-ma-ea-2026-corp-salesforce-world-tour-london-2026"
-    },
-    {
-      "name": "Initiating a Covered Bond Program: Key Methodologies and Structural Considerations for New Markets in Europe",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "18 June 2026",
-      "time": "09:30 BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/launching-a-covered-bond-program"
-    },
-    {
-      "name": "Collateralized Loan Obligations (CLOs)",
-      "type": "Webinar\nCollateralized Loan Obligations (CLOs)\nProposed Meth",
-      "date": "18 June 2026",
-      "time": "09:00 EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26074-clo-rfc"
-    },
-    {
-      "name": "From Flood Losses to Fiscal Stress: Quantifying US Residential Insurance Gaps and Credit Impacts",
-      "type": "Webinar\nFrom Flood Losses to Fiscal Stress: Quantifying US R",
-      "date": "18 June 2026",
-      "time": "16:00 BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mcu28662-from-flood-losses-to-fiscal-stress"
-    },
-    {
-      "name": "2026 US Housing & Housing Finance Executive Series",
-      "type": "Virtual Event\n2026 US Housing & Housing Finance Executive Se",
-      "date": "June 18, 2026",
-      "time": "1:00 PM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26529-us-housing-series-v"
-    },
-    {
-      "name": "US Housing & Housing Finance",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "JUNE 18, 2026",
-      "time": "1:00 PM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/housing-hub"
-    },
-    {
-      "name": "US Public Finance: Water Pressure",
-      "type": "Webinar\nUS Public Finance: Water Pressure\nSupply constraints",
-      "date": "June 18, 2026",
-      "time": "3:00 PM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/miu26384-public-finance-channel-june"
-    },
-    {
-      "name": "German Breakfast",
-      "type": "Webinar\nGerman Breakfast\nFokus Bundesländer und Städte: Schw",
-      "date": "19 June 2026",
-      "time": "9:00 CEST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-05-mie28696-deutsche-kommunen-an-einem-wendepunkt"
+      "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
       "name": "BONDS, LOANS & SUKUK: MIDDLE EAST 2026",
@@ -139,7 +40,7 @@
     },
     {
       "name": "12th Annual Conference of the Principles",
-      "type": "Title",
+      "type": "",
       "date": "",
       "time": "",
       "location": "",
@@ -147,13 +48,112 @@
       "url": "https://events.moodys.com/2026_icma_12th-annual-conference-of-the-principles"
     },
     {
-      "name": "Confirm cancellation",
+      "name": "Specialty Finance Credit Update",
+      "type": "Virtual Event\nSpecialty Finance Credit Update\nschedule\nTuesd",
+      "date": "23 June, 2026",
+      "time": "10:00 AM EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu27674-finco-webinar"
+    },
+    {
+      "name": "Financial Institutions in Focus",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "08.00 CEST",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/financial-institutions-in-focus"
+    },
+    {
+      "name": "The event in German procurement",
+      "type": "eMail",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/procurement-summit-2026"
+    },
+    {
+      "name": "10th Annual European Fund Finance Symposium",
+      "type": "FFA EVENT",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/10th-annual-european-fund-finance-symposium"
+    },
+    {
+      "name": "Sustainable and Transition Finance",
+      "type": "live_tv\nWEBINAR",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "MOODY'S",
+      "url": "https://events.moodys.com/sustainable-and-transition-finance"
+    },
+    {
+      "name": "European Banks in Focus: Q2 2026 Update",
+      "type": "Webinar\nEuropean Banks in Focus: Q2 2026 Update\nschedule\nWed",
+      "date": "24th June 2026",
+      "time": "15:00 BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26337-european-banks-q2-update"
+    },
+    {
+      "name": "The 2026 Covered Bond Investor Conference",
       "type": "",
       "date": "",
       "time": "",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
+      "url": "https://events.moodys.com/2026-icma-covered-bond-investor-conference"
+    },
+    {
+      "name": "Structured Finance in Focus",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "12.00 CEST",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/structured-finance-in-focus"
+    },
+    {
+      "name": "2026 US Housing & Housing Finance Executive Series",
+      "type": "Virtual Event\n2026 US Housing & Housing Finance Executive Se",
+      "date": "June 25, 2026",
+      "time": "1:00 PM EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26551-us-housing-series-vi"
+    },
+    {
+      "name": "US Housing & Housing Finance",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "JUNE 25, 2026",
+      "time": "1:00 PM EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/housing-hub"
+    },
+    {
+      "name": "Australia-New Zealand Economic Outlook: Rates, Risks and Resilience",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "Coming Soon - End of June",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-239-odwbn-map28105-2026-bank-anz-outlook"
+    },
+    {
+      "name": "Economics in Focus",
+      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
+      "date": "COMING SOON - END OF JUNE",
+      "time": "",
+      "location": "",
+      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
+      "url": "https://events.moodys.com/economics-in-focus"
     }
   ]
 }
