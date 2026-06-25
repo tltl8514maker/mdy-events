@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-22T12:54:11.915Z",
-  "totalEvents": 17,
+  "scrapedAt": "2026-06-25T10:20:05.572Z",
+  "totalEvents": 15,
   "events": [
     {
       "name": "Credit Themes",
@@ -12,13 +12,13 @@
       "url": "https://events.moodys.com/credit-themes"
     },
     {
-      "name": "Unlocking Capital for Climate Resilience: From Data to Decisions",
-      "type": "In Person Event\nUnlocking Capital for Climate Resilience: Fr",
-      "date": "24 June 2026",
-      "time": "13:00 - 18:30 BST",
-      "location": "1 Basinghall Avenue, London",
+      "name": "SpaceX: Disruption potential and growth across technology and connectivity",
+      "type": "Webinar\nSpaceX: Disruption potential and growth across techn",
+      "date": "June 25, 2026",
+      "time": "12:00 PM PDT",
+      "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-mie26403-london-climate-action-week"
+      "url": "https://events.moodys.com/2026-miu28749-growth-across-technology-and-connectivity"
     },
     {
       "name": "Global Financial Institutions Series 2026",
@@ -30,33 +30,6 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "BONDS, LOANS & SUKUK: MIDDLE EAST 2026",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "Madinat Jumeirah Conference & Events Centre, Dubai",
-      "url": "https://events.moodys.com/2026-06-23-emea-mie26182-misxlob-bonds-loans-sukuk-spon"
-    },
-    {
-      "name": "12th Annual Conference of the Principles",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026_icma_12th-annual-conference-of-the-principles"
-    },
-    {
-      "name": "Specialty Finance Credit Update",
-      "type": "Virtual Event\nSpecialty Finance Credit Update\nschedule\nTuesd",
-      "date": "23 June, 2026",
-      "time": "10:00 AM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu27674-finco-webinar"
-    },
-    {
       "name": "Financial Institutions in Focus",
       "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
       "date": "08.00 CEST",
@@ -66,40 +39,13 @@
       "url": "https://events.moodys.com/financial-institutions-in-focus"
     },
     {
-      "name": "The event in German procurement",
-      "type": "eMail",
-      "date": "",
+      "name": "Economics in Focus",
+      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
+      "date": "AVAILABLE NOW",
       "time": "",
       "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/procurement-summit-2026"
-    },
-    {
-      "name": "10th Annual European Fund Finance Symposium",
-      "type": "FFA EVENT",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/10th-annual-european-fund-finance-symposium"
-    },
-    {
-      "name": "Sustainable and Transition Finance",
-      "type": "live_tv\nWEBINAR",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "MOODY'S",
-      "url": "https://events.moodys.com/sustainable-and-transition-finance"
-    },
-    {
-      "name": "European Banks in Focus: Q2 2026 Update",
-      "type": "Webinar\nEuropean Banks in Focus: Q2 2026 Update\nschedule\nWed",
-      "date": "24th June 2026",
-      "time": "15:00 BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26337-european-banks-q2-update"
+      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
+      "url": "https://events.moodys.com/economics-in-focus"
     },
     {
       "name": "The 2026 Covered Bond Investor Conference",
@@ -138,22 +84,58 @@
       "url": "https://events.moodys.com/housing-hub"
     },
     {
-      "name": "Australia-New Zealand Economic Outlook: Rates, Risks and Resilience",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "Coming Soon - End of June",
+      "name": "Swiss Breakfast Q2 2026",
+      "type": "Webinar\nSwiss Breakfast Q2 2026\nA look into Liechtensteiner ",
+      "date": "26 June 2026",
+      "time": "10:00 CEST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026_06_swiss_q2_mie26183"
+    },
+    {
+      "name": "Global Alliances\nfor a Shared\nFuture",
+      "type": "",
+      "date": "",
       "time": "",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/evt-239-odwbn-map28105-2026-bank-anz-outlook"
+      "url": "https://events.moodys.com/2026_mie28705_hamburg_sustainability_conference"
     },
     {
-      "name": "Economics in Focus",
-      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
-      "date": "COMING SOON - END OF JUNE",
-      "time": "",
+      "name": "Moody’s GCC and Türkiye Briefing",
+      "type": "In Person Event\nMoody’s GCC and Türkiye Briefing\nKey credit ",
+      "date": "30 June 2026",
+      "time": "08:30 - 12:00 BST",
+      "location": "Tower Suites by Blue Orchid: Skyline 9, London",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie27641-gcc-turkiye-and-islamic-finance-outlook-briefing"
+    },
+    {
+      "name": "Request for Comment: Proposed updates to Banks methodology (EMEA / AMER)",
+      "type": "Webinar\nRequest for Comment: Proposed updates to Banks metho",
+      "date": "1 July",
+      "time": "09:00 EST",
       "location": "",
-      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
-      "url": "https://events.moodys.com/economics-in-focus"
+      "description": "",
+      "url": "https://events.moodys.com/2026-07-mie28736-webinar-emea-nam"
+    },
+    {
+      "name": "Request for Comment: Proposed updates to Banks methodology (EMEA / APAC)",
+      "type": "Webinar\nRequest for Comment: Proposed updates to Banks metho",
+      "date": "2 July",
+      "time": "16:00 SGT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-07-mie28737-webinar-emea-apac"
+    },
+    {
+      "name": "Financial Institutions In Focus: APAC Q3 2026 Update",
+      "type": "Webinar\nFinancial Institutions In Focus: APAC Q3 2026 Update",
+      "date": "8 July 2026",
+      "time": "11:30 IST",
+      "location": "",
+      "description": "You can ask questions related to financial institutions in the following markets:",
+      "url": "https://events.moodys.com/apac_fi_in_focus_q3_2026"
     }
   ]
 }
