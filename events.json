@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-25T10:20:05.572Z",
-  "totalEvents": 15,
+  "scrapedAt": "2026-06-29T12:02:20.488Z",
+  "totalEvents": 16,
   "events": [
     {
       "name": "Credit Themes",
@@ -12,13 +12,13 @@
       "url": "https://events.moodys.com/credit-themes"
     },
     {
-      "name": "SpaceX: Disruption potential and growth across technology and connectivity",
-      "type": "Webinar\nSpaceX: Disruption potential and growth across techn",
-      "date": "June 25, 2026",
-      "time": "12:00 PM PDT",
+      "name": "SPIC International Finance (Hong Kong) Company Limited (SPICIFC)",
+      "type": "Webinar\nSPIC International Finance (Hong Kong) Company Limit",
+      "date": "30 June 2026",
+      "time": "11:00 HKT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-miu28749-growth-across-technology-and-connectivity"
+      "url": "https://events.moodys.com/mip28754-apac-webinar"
     },
     {
       "name": "Global Financial Institutions Series 2026",
@@ -28,69 +28,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
-    },
-    {
-      "name": "Financial Institutions in Focus",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "08.00 CEST",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/financial-institutions-in-focus"
-    },
-    {
-      "name": "Economics in Focus",
-      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
-      "date": "AVAILABLE NOW",
-      "time": "",
-      "location": "",
-      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
-      "url": "https://events.moodys.com/economics-in-focus"
-    },
-    {
-      "name": "The 2026 Covered Bond Investor Conference",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-icma-covered-bond-investor-conference"
-    },
-    {
-      "name": "Structured Finance in Focus",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "12.00 CEST",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/structured-finance-in-focus"
-    },
-    {
-      "name": "2026 US Housing & Housing Finance Executive Series",
-      "type": "Virtual Event\n2026 US Housing & Housing Finance Executive Se",
-      "date": "June 25, 2026",
-      "time": "1:00 PM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26551-us-housing-series-vi"
-    },
-    {
-      "name": "US Housing & Housing Finance",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "JUNE 25, 2026",
-      "time": "1:00 PM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/housing-hub"
-    },
-    {
-      "name": "Swiss Breakfast Q2 2026",
-      "type": "Webinar\nSwiss Breakfast Q2 2026\nA look into Liechtensteiner ",
-      "date": "26 June 2026",
-      "time": "10:00 CEST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026_06_swiss_q2_mie26183"
     },
     {
       "name": "Global Alliances\nfor a Shared\nFuture",
@@ -136,6 +73,78 @@
       "location": "",
       "description": "You can ask questions related to financial institutions in the following markets:",
       "url": "https://events.moodys.com/apac_fi_in_focus_q3_2026"
+    },
+    {
+      "name": "Defence Information 26",
+      "type": "SDR One Year On: A Singular Digital Function Reforming, Inte",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "SDR One Year On: A Singular Digital Function Reforming, Integrating & Delivering with Industry",
+      "url": "https://events.moodys.com/evt-235-tpc-mae28679-2026-gov-defence-information-conference-2026"
+    },
+    {
+      "name": "What matters in EMEA corporate credit: M&A Momentum and Consumer Trends in Food Retail",
+      "type": "Webinar\nWhat matters in EMEA corporate credit: M&A Momentum ",
+      "date": "8 July 2026",
+      "time": "09:00 EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026_07_emea_mie28703_whatmatterscfg_q2_web"
+    },
+    {
+      "name": "ジャパン・コーポレート・クレジット・カンファレンス2026",
+      "type": "translate\narrow_drop_down\nIn Person Event\nジャパン・コーポレート・クレジット・",
+      "date": "2026年7月9日（木）",
+      "time": "12:00 - 16:40（日本時間）",
+      "location": "東京ステーションホテル | 1階『鳳凰』, Tokyo",
+      "description": "",
+      "url": "https://events.moodys.com/jp/2026-mip26219-japan-corp-credit-conf"
+    },
+    {
+      "name": "Japan in Focus",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "2026年7月9日（木）",
+      "time": "12:00 - 16:40（日本時間）",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/japan-in-focus"
+    },
+    {
+      "name": "Private Credit Quarterly Webinar - Q2 Update",
+      "type": "Webinar\nPrivate Credit Quarterly Webinar - Q2 Update\nA Tale ",
+      "date": "15 July 2026",
+      "time": "09:00 EST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26611-private-credit-quarterly-q2"
+    },
+    {
+      "name": "Credit trends in recent US data center and GPU financings",
+      "type": "Webinar\nCredit trends in recent US data center and GPU finan",
+      "date": "16 July 2026",
+      "time": "1:00 PM PDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie28330-us-data-center-and-gpu-financings"
+    },
+    {
+      "name": "INSPIRE WORLD TOUR TOKYO",
+      "type": "SPEAKERS",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "2026年7月24日 (金)",
+      "url": "https://events.moodys.com/jp/evt-244-evt-tpc-map28082-26-corp-coupa-tk"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
