@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-29T12:02:20.488Z",
-  "totalEvents": 16,
+  "scrapedAt": "2026-07-02T10:13:38.437Z",
+  "totalEvents": 18,
   "events": [
     {
       "name": "Credit Themes",
@@ -12,13 +12,22 @@
       "url": "https://events.moodys.com/credit-themes"
     },
     {
-      "name": "SPIC International Finance (Hong Kong) Company Limited (SPICIFC)",
-      "type": "Webinar\nSPIC International Finance (Hong Kong) Company Limit",
-      "date": "30 June 2026",
-      "time": "11:00 HKT",
+      "name": "Request for Comment: Proposed updates to Banks methodology (EMEA / APAC)",
+      "type": "Webinar\nRequest for Comment: Proposed updates to Banks metho",
+      "date": "2 July",
+      "time": "16:00 SGT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/mip28754-apac-webinar"
+      "url": "https://events.moodys.com/2026-07-mie28737-webinar-emea-apac"
+    },
+    {
+      "name": "404",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/carousel-asia-credit-markets-summit-2026"
     },
     {
       "name": "Global Financial Institutions Series 2026",
@@ -28,42 +37,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
-    },
-    {
-      "name": "Global Alliances\nfor a Shared\nFuture",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026_mie28705_hamburg_sustainability_conference"
-    },
-    {
-      "name": "Moody’s GCC and Türkiye Briefing",
-      "type": "In Person Event\nMoody’s GCC and Türkiye Briefing\nKey credit ",
-      "date": "30 June 2026",
-      "time": "08:30 - 12:00 BST",
-      "location": "Tower Suites by Blue Orchid: Skyline 9, London",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie27641-gcc-turkiye-and-islamic-finance-outlook-briefing"
-    },
-    {
-      "name": "Request for Comment: Proposed updates to Banks methodology (EMEA / AMER)",
-      "type": "Webinar\nRequest for Comment: Proposed updates to Banks metho",
-      "date": "1 July",
-      "time": "09:00 EST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-07-mie28736-webinar-emea-nam"
-    },
-    {
-      "name": "Request for Comment: Proposed updates to Banks methodology (EMEA / APAC)",
-      "type": "Webinar\nRequest for Comment: Proposed updates to Banks metho",
-      "date": "2 July",
-      "time": "16:00 SGT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-07-mie28737-webinar-emea-apac"
     },
     {
       "name": "Financial Institutions In Focus: APAC Q3 2026 Update",
@@ -120,6 +93,15 @@
       "url": "https://events.moodys.com/2026-miu26611-private-credit-quarterly-q2"
     },
     {
+      "name": "イラン情勢が残した教訓：　　サプライチェーン強靭化とDXへの道",
+      "type": "Webinar\nイラン情勢が残した教訓：　　サプライチェーン強靭化とDXへの道\nサプライヤー管理・取引先DD・DXで備え",
+      "date": "2026年7月16日（木）",
+      "time": "2:00 - 2:30 PM JST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/jp/evt-280-wbn-map28725-26-corp-moodys-day-japan-gov-corp"
+    },
+    {
       "name": "Credit trends in recent US data center and GPU financings",
       "type": "Webinar\nCredit trends in recent US data center and GPU finan",
       "date": "16 July 2026",
@@ -129,6 +111,15 @@
       "url": "https://events.moodys.com/2026-mie28330-us-data-center-and-gpu-financings"
     },
     {
+      "name": "US Public Finance: Confronting the Housing Shortfall",
+      "type": "Webinar\nUS Public Finance: Confronting the Housing Shortfall",
+      "date": "July 23, 2026",
+      "time": "15:00 EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26382-us-public-finance"
+    },
+    {
       "name": "INSPIRE WORLD TOUR TOKYO",
       "type": "SPEAKERS",
       "date": "",
@@ -136,6 +127,33 @@
       "location": "",
       "description": "2026年7月24日 (金)",
       "url": "https://events.moodys.com/jp/evt-244-evt-tpc-map28082-26-corp-coupa-tk"
+    },
+    {
+      "name": "Inside LatAm: Brasil 2026",
+      "type": "Evento presencial\nInside LatAm: Brasil 2026\nAlém das eleiçõe",
+      "date": "Quinta-feira, 30 de julho de 2026",
+      "time": "8h15 horário local",
+      "location": "Boulevard JK, São Paulo",
+      "description": "",
+      "url": "https://events.moodys.com/pt/2026-miu26248-inside-brasil-2026"
+    },
+    {
+      "name": "Inside LatAm 2026",
+      "type": "event_seat\n11 In Person Events",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
+      "url": "https://events.moodys.com/inside-latam-2026"
+    },
+    {
+      "name": "Inside Peru 2026",
+      "type": "Evento en persona\nInside Peru 2026\nschedule\nJueves, 13 de ag",
+      "date": "Jueves, 13 de agosto de 2026",
+      "time": "8:00 am hora local",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/es/2026-miu26250-inside-peru-2026"
     },
     {
       "name": "Confirm cancellation",
