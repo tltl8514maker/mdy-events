@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-02T10:13:38.437Z",
+  "scrapedAt": "2026-07-06T11:30:57.158Z",
   "totalEvents": 18,
   "events": [
     {
@@ -12,19 +12,28 @@
       "url": "https://events.moodys.com/credit-themes"
     },
     {
-      "name": "Request for Comment: Proposed updates to Banks methodology (EMEA / APAC)",
-      "type": "Webinar\nRequest for Comment: Proposed updates to Banks metho",
-      "date": "2 July",
-      "time": "16:00 SGT",
+      "name": "Private Credit Quarterly Webinar - Q2 Update",
+      "type": "Webinar\nPrivate Credit Quarterly Webinar - Q2 Update\nA Tale ",
+      "date": "15 July 2026",
+      "time": "09:00 EST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-07-mie28737-webinar-emea-apac"
+      "url": "https://events.moodys.com/2026-miu26611-private-credit-quarterly-q2"
     },
     {
-      "name": "404",
-      "type": "",
-      "date": "",
-      "time": "",
+      "name": "Quarterly Update on US Banks - Q2",
+      "type": "Webinar\nQuarterly Update on US Banks - Q2\nschedule\nThursday,",
+      "date": "July 30, 2026",
+      "time": "10:00 EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26267-quarterly-update-on-us-banks-q2"
+    },
+    {
+      "name": "Asia Credit Markets Summit 2026",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "1 September 2026",
+      "time": "09:30 - 16:00 SGT",
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-asia-credit-markets-summit-2026"
@@ -82,15 +91,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/japan-in-focus"
-    },
-    {
-      "name": "Private Credit Quarterly Webinar - Q2 Update",
-      "type": "Webinar\nPrivate Credit Quarterly Webinar - Q2 Update\nA Tale ",
-      "date": "15 July 2026",
-      "time": "09:00 EST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26611-private-credit-quarterly-q2"
     },
     {
       "name": "イラン情勢が残した教訓：　　サプライチェーン強靭化とDXへの道",
