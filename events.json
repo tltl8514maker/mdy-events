@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-06T11:30:57.158Z",
+  "scrapedAt": "2026-07-09T10:28:42.937Z",
   "totalEvents": 18,
   "events": [
     {
@@ -48,15 +48,6 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "Financial Institutions In Focus: APAC Q3 2026 Update",
-      "type": "Webinar\nFinancial Institutions In Focus: APAC Q3 2026 Update",
-      "date": "8 July 2026",
-      "time": "11:30 IST",
-      "location": "",
-      "description": "You can ask questions related to financial institutions in the following markets:",
-      "url": "https://events.moodys.com/apac_fi_in_focus_q3_2026"
-    },
-    {
       "name": "Defence Information 26",
       "type": "SDR One Year On: A Singular Digital Function Reforming, Inte",
       "date": "",
@@ -64,15 +55,6 @@
       "location": "",
       "description": "SDR One Year On: A Singular Digital Function Reforming, Integrating & Delivering with Industry",
       "url": "https://events.moodys.com/evt-235-tpc-mae28679-2026-gov-defence-information-conference-2026"
-    },
-    {
-      "name": "What matters in EMEA corporate credit: M&A Momentum and Consumer Trends in Food Retail",
-      "type": "Webinar\nWhat matters in EMEA corporate credit: M&A Momentum ",
-      "date": "8 July 2026",
-      "time": "09:00 EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026_07_emea_mie28703_whatmatterscfg_q2_web"
     },
     {
       "name": "ジャパン・コーポレート・クレジット・カンファレンス2026",
@@ -154,6 +136,24 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/es/2026-miu26250-inside-peru-2026"
+    },
+    {
+      "name": "Thailand Credit Conference",
+      "type": "In Person Event\nThailand Credit Conference\nschedule\nWednesda",
+      "date": "26 August 2026",
+      "time": "10:00 ICT - 13:30 ICT",
+      "location": "Waldorf Astoria, Bangkok",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mip26399-thailand-credit-conference"
+    },
+    {
+      "name": "FFA Australia",
+      "type": "FFA EVENT",
+      "date": "28 August 2026",
+      "time": "",
+      "location": "",
+      "description": "Navigating the Australian Fund Finance Landscape",
+      "url": "https://events.moodys.com/ffa-australia"
     },
     {
       "name": "Confirm cancellation",
