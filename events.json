@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-07-09T10:28:42.937Z",
-  "totalEvents": 18,
+  "scrapedAt": "2026-07-13T10:29:15.957Z",
+  "totalEvents": 17,
   "events": [
     {
       "name": "Credit Themes",
@@ -19,6 +19,15 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/2026-miu26611-private-credit-quarterly-q2"
+    },
+    {
+      "name": "Continuum Green Energy Limited",
+      "type": "Webinar\nContinuum Green Energy Limited\nBehind the first-time",
+      "date": "16 July 2026",
+      "time": "14:00 IST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mip28774-cgel"
     },
     {
       "name": "Quarterly Update on US Banks - Q2",
@@ -48,33 +57,6 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "Defence Information 26",
-      "type": "SDR One Year On: A Singular Digital Function Reforming, Inte",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "SDR One Year On: A Singular Digital Function Reforming, Integrating & Delivering with Industry",
-      "url": "https://events.moodys.com/evt-235-tpc-mae28679-2026-gov-defence-information-conference-2026"
-    },
-    {
-      "name": "ジャパン・コーポレート・クレジット・カンファレンス2026",
-      "type": "translate\narrow_drop_down\nIn Person Event\nジャパン・コーポレート・クレジット・",
-      "date": "2026年7月9日（木）",
-      "time": "12:00 - 16:40（日本時間）",
-      "location": "東京ステーションホテル | 1階『鳳凰』, Tokyo",
-      "description": "",
-      "url": "https://events.moodys.com/jp/2026-mip26219-japan-corp-credit-conf"
-    },
-    {
-      "name": "Japan in Focus",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "2026年7月9日（木）",
-      "time": "12:00 - 16:40（日本時間）",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/japan-in-focus"
-    },
-    {
       "name": "イラン情勢が残した教訓：　　サプライチェーン強靭化とDXへの道",
       "type": "Webinar\nイラン情勢が残した教訓：　　サプライチェーン強靭化とDXへの道\nサプライヤー管理・取引先DD・DXで備え",
       "date": "2026年7月16日（木）",
@@ -93,6 +75,15 @@
       "url": "https://events.moodys.com/2026-mie28330-us-data-center-and-gpu-financings"
     },
     {
+      "name": "U.S. Economic Outlook: Midyear Update — Sticking to Script",
+      "type": "Webinar\nU.S. Economic Outlook: Midyear Update — Sticking to ",
+      "date": "This ondemand will be available from July 20th.",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-306-wbn-mau28761-2026-bank-us-economic-outlook-q2-26"
+    },
+    {
       "name": "US Public Finance: Confronting the Housing Shortfall",
       "type": "Webinar\nUS Public Finance: Confronting the Housing Shortfall",
       "date": "July 23, 2026",
@@ -109,6 +100,15 @@
       "location": "",
       "description": "2026年7月24日 (金)",
       "url": "https://events.moodys.com/jp/evt-244-evt-tpc-map28082-26-corp-coupa-tk"
+    },
+    {
+      "name": "Japan in Focus",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "24 JULY, 2026",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/japan-in-focus"
     },
     {
       "name": "Inside LatAm: Brasil 2026",
@@ -154,15 +154,6 @@
       "location": "",
       "description": "Navigating the Australian Fund Finance Landscape",
       "url": "https://events.moodys.com/ffa-australia"
-    },
-    {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
