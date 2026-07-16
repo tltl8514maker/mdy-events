@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-07-13T10:29:15.957Z",
-  "totalEvents": 17,
+  "scrapedAt": "2026-07-16T09:16:41.805Z",
+  "totalEvents": 19,
   "events": [
     {
       "name": "Credit Themes",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Continuum Green Energy Limited",
-      "type": "Webinar\nContinuum Green Energy Limited\nBehind the first-time",
+      "type": "Webinar\nLIVE NOW\nContinuum Green Energy Limited\nBehind the f",
       "date": "16 July 2026",
       "time": "14:00 IST",
       "location": "",
@@ -111,6 +111,24 @@
       "url": "https://events.moodys.com/japan-in-focus"
     },
     {
+      "name": "Australian Sustainable Finance in Practice",
+      "type": "Webinar\nAustralian Sustainable Finance in Practice\nInsights ",
+      "date": "28 July 2026",
+      "time": "13:00 HKT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mip28603-australian-sustainable-finance-in-practice"
+    },
+    {
+      "name": "Beneath the Calm: Moody's on U.S. Credit Risk in 2026-2027",
+      "type": "Webinar\nBeneath the Calm: Moody's on U.S. Credit Risk in 202",
+      "date": "29 July 2026",
+      "time": "11:00 EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/moodys-us_corporate-credit-risk-2026-2027"
+    },
+    {
       "name": "Inside LatAm: Brasil 2026",
       "type": "Evento presencial\nInside LatAm: Brasil 2026\nAlém das eleiçõe",
       "date": "Quinta-feira, 30 de julho de 2026",
@@ -147,13 +165,13 @@
       "url": "https://events.moodys.com/2026-mip26399-thailand-credit-conference"
     },
     {
-      "name": "FFA Australia",
-      "type": "FFA EVENT",
-      "date": "28 August 2026",
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
       "time": "",
       "location": "",
-      "description": "Navigating the Australian Fund Finance Landscape",
-      "url": "https://events.moodys.com/ffa-australia"
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
