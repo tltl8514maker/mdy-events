@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-07-16T09:16:41.805Z",
-  "totalEvents": 19,
+  "scrapedAt": "2026-07-20T10:13:43.768Z",
+  "totalEvents": 18,
   "events": [
     {
       "name": "Credit Themes",
@@ -10,24 +10,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/credit-themes"
-    },
-    {
-      "name": "Private Credit Quarterly Webinar - Q2 Update",
-      "type": "Webinar\nPrivate Credit Quarterly Webinar - Q2 Update\nA Tale ",
-      "date": "15 July 2026",
-      "time": "09:00 EST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26611-private-credit-quarterly-q2"
-    },
-    {
-      "name": "Continuum Green Energy Limited",
-      "type": "Webinar\nLIVE NOW\nContinuum Green Energy Limited\nBehind the f",
-      "date": "16 July 2026",
-      "time": "14:00 IST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mip28774-cgel"
     },
     {
       "name": "Quarterly Update on US Banks - Q2",
@@ -55,24 +37,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
-    },
-    {
-      "name": "イラン情勢が残した教訓：　　サプライチェーン強靭化とDXへの道",
-      "type": "Webinar\nイラン情勢が残した教訓：　　サプライチェーン強靭化とDXへの道\nサプライヤー管理・取引先DD・DXで備え",
-      "date": "2026年7月16日（木）",
-      "time": "2:00 - 2:30 PM JST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/jp/evt-280-wbn-map28725-26-corp-moodys-day-japan-gov-corp"
-    },
-    {
-      "name": "Credit trends in recent US data center and GPU financings",
-      "type": "Webinar\nCredit trends in recent US data center and GPU finan",
-      "date": "16 July 2026",
-      "time": "1:00 PM PDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie28330-us-data-center-and-gpu-financings"
     },
     {
       "name": "U.S. Economic Outlook: Midyear Update — Sticking to Script",
@@ -120,6 +84,15 @@
       "url": "https://events.moodys.com/2026-mip28603-australian-sustainable-finance-in-practice"
     },
     {
+      "name": "グローバル規制動向を踏まえた貿易DX",
+      "type": "Briefing\nグローバル規制動向を踏まえた貿易DX\n貿易実務におけるAI活用\n\n対面イベント | 日本語開催\n\nsc",
+      "date": "2026年7月29日（水）",
+      "time": "3:00 - 6:30 PM JST",
+      "location": "ムーディーズ・ジャパン東京オフィス, Tokyo",
+      "description": "",
+      "url": "https://events.moodys.com/jp/evt-283-ip-map28726-26-corp-moodys-day-japan-gov-corp"
+    },
+    {
       "name": "Beneath the Calm: Moody's on U.S. Credit Risk in 2026-2027",
       "type": "Webinar\nBeneath the Calm: Moody's on U.S. Credit Risk in 202",
       "date": "29 July 2026",
@@ -147,6 +120,15 @@
       "url": "https://events.moodys.com/inside-latam-2026"
     },
     {
+      "name": "Moody’s & ICC India Seminar: from compliance to resilience",
+      "type": "In Person Event\nMoody’s & ICC India Seminar: from compliance",
+      "date": "4 August 2026",
+      "time": "09:00 - 16:00 IST",
+      "location": "Federation House, New Delhi",
+      "description": "",
+      "url": "https://events.moodys.com/2026-map28470-icc-india-moodys-seminar"
+    },
+    {
       "name": "Inside Peru 2026",
       "type": "Evento en persona\nInside Peru 2026\nschedule\nJueves, 13 de ag",
       "date": "Jueves, 13 de agosto de 2026",
@@ -163,6 +145,15 @@
       "location": "Waldorf Astoria, Bangkok",
       "description": "",
       "url": "https://events.moodys.com/2026-mip26399-thailand-credit-conference"
+    },
+    {
+      "name": "FFA Australia",
+      "type": "FFA EVENT",
+      "date": "28 August 2026",
+      "time": "",
+      "location": "",
+      "description": "Navigating the Australian Fund Finance Landscape",
+      "url": "https://events.moodys.com/ffa-australia"
     },
     {
       "name": "Confirm cancellation",
