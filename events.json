@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-07-20T10:13:43.768Z",
-  "totalEvents": 18,
+  "scrapedAt": "2026-07-23T09:27:34.921Z",
+  "totalEvents": 17,
   "events": [
     {
       "name": "Credit Themes",
@@ -10,6 +10,15 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/credit-themes"
+    },
+    {
+      "name": "Request for Comment: Proposed Digital Infrastructure Methodology",
+      "type": "Webinar\nRequest for Comment: Proposed Digital Infrastructure",
+      "date": "23 July 2026",
+      "time": "14:00-15:00 BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie28775-digital-infrastructure-methodology"
     },
     {
       "name": "Quarterly Update on US Banks - Q2",
@@ -39,13 +48,13 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "U.S. Economic Outlook: Midyear Update — Sticking to Script",
-      "type": "Webinar\nU.S. Economic Outlook: Midyear Update — Sticking to ",
-      "date": "This ondemand will be available from July 20th.",
-      "time": "",
+      "name": "Sovereign Credit Today",
+      "type": "Webinar\nSovereign Credit Today\nAn update on Argentina\n\nArgen",
+      "date": "23 July 2026",
+      "time": "9:00 EDT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/evt-306-wbn-mau28761-2026-bank-us-economic-outlook-q2-26"
+      "url": "https://events.moodys.com/2026_07_sct_amer_mie28451_argentina"
     },
     {
       "name": "US Public Finance: Confronting the Housing Shortfall",
@@ -123,10 +132,19 @@
       "name": "Moody’s & ICC India Seminar: from compliance to resilience",
       "type": "In Person Event\nMoody’s & ICC India Seminar: from compliance",
       "date": "4 August 2026",
-      "time": "09:00 - 16:00 IST",
+      "time": "09:30 - 16:00 IST",
       "location": "Federation House, New Delhi",
       "description": "",
       "url": "https://events.moodys.com/2026-map28470-icc-india-moodys-seminar"
+    },
+    {
+      "name": "Beyond the US and Europe: The Rise of APAC Private Credit",
+      "type": "translate\narrow_drop_down\nWebinar\nBeyond the US and Europe: ",
+      "date": "6 August 2026",
+      "time": "14:00 HKT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mip28783-private-credit-apac-web"
     },
     {
       "name": "Inside Peru 2026",
@@ -136,33 +154,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/es/2026-miu26250-inside-peru-2026"
-    },
-    {
-      "name": "Thailand Credit Conference",
-      "type": "In Person Event\nThailand Credit Conference\nschedule\nWednesda",
-      "date": "26 August 2026",
-      "time": "10:00 ICT - 13:30 ICT",
-      "location": "Waldorf Astoria, Bangkok",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mip26399-thailand-credit-conference"
-    },
-    {
-      "name": "FFA Australia",
-      "type": "FFA EVENT",
-      "date": "28 August 2026",
-      "time": "",
-      "location": "",
-      "description": "Navigating the Australian Fund Finance Landscape",
-      "url": "https://events.moodys.com/ffa-australia"
-    },
-    {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
