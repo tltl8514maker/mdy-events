@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-07-27T10:46:15.017Z",
-  "totalEvents": 17,
+  "scrapedAt": "2026-07-30T09:33:24.732Z",
+  "totalEvents": 15,
   "events": [
     {
       "name": "Credit Themes",
@@ -48,40 +48,13 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "Australian Sustainable Finance in Practice",
-      "type": "Webinar\nAustralian Sustainable Finance in Practice\nInsights ",
-      "date": "28 July 2026",
-      "time": "13:00 HKT",
+      "name": "Sovereign Credit Today - Government of Armenia, Georgia and Uzbekistan",
+      "type": "Webinar\nLIVE NOW\nSovereign Credit Today - Government of Arme",
+      "date": "30 July 2026",
+      "time": "10:00 BST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-mip28603-australian-sustainable-finance-in-practice"
-    },
-    {
-      "name": "グローバル規制動向を踏まえた貿易DX",
-      "type": "Briefing\nグローバル規制動向を踏まえた貿易DX\n貿易実務におけるAI活用\n\n対面イベント | 日本語開催\n\nsc",
-      "date": "2026年7月29日（水）",
-      "time": "3:00 - 6:30 PM JST",
-      "location": "ムーディーズ・ジャパン東京オフィス, Tokyo",
-      "description": "",
-      "url": "https://events.moodys.com/jp/evt-283-ip-map28726-26-corp-moodys-day-japan-gov-corp"
-    },
-    {
-      "name": "Japan in Focus",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "2026年7月29日（水）",
-      "time": "3:00 - 6:30 PM JST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/japan-in-focus"
-    },
-    {
-      "name": "Beneath the Calm: Moody's on U.S. Credit Risk in 2026-2027",
-      "type": "Webinar\nBeneath the Calm: Moody's on U.S. Credit Risk in 202",
-      "date": "29 July 2026",
-      "time": "11:00 EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/moodys-us_corporate-credit-risk-2026-2027"
+      "url": "https://events.moodys.com/2026-07-mip28781-sovereign-credit-today"
     },
     {
       "name": "Inside LatAm: Brasil 2026",
@@ -147,13 +120,22 @@
       "url": "https://events.moodys.com/cornerstone-partner-happy-hour"
     },
     {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
+      "name": "Asia Credit Markets Summit 2026 - Singapore",
+      "type": "In-Person Event\nAsia Credit Markets Summit 2026 - Singapore\n",
+      "date": "1 September 2026",
+      "time": "09:30 - 16:00 SGT",
+      "location": "PARKROYAL Collection Marina Bay, Singapore",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mip26221-asia-credit-markets-summit-sg"
+    },
+    {
+      "name": "2026 Outlook for Global Reinsurance",
+      "type": "Webinar\n2026 Outlook for Global Reinsurance\nschedule\nTuesday",
+      "date": "1st September 2026",
+      "time": "14:00 BST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
+      "url": "https://events.moodys.com/2026-mie26226-outlook-for-global-reinsurance"
     }
   ]
 }
