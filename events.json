@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-07-30T09:33:24.732Z",
-  "totalEvents": 15,
+  "scrapedAt": "2026-08-03T10:45:25.547Z",
+  "totalEvents": 16,
   "events": [
     {
       "name": "Credit Themes",
@@ -10,15 +10,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/credit-themes"
-    },
-    {
-      "name": "Quarterly Update on US Banks - Q2",
-      "type": "Webinar\nQuarterly Update on US Banks - Q2\nschedule\nThursday,",
-      "date": "July 30, 2026",
-      "time": "10:00 EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26267-quarterly-update-on-us-banks-q2"
     },
     {
       "name": "Beyond the US and Europe: The Rise of APAC Private Credit",
@@ -48,33 +39,6 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "Sovereign Credit Today - Government of Armenia, Georgia and Uzbekistan",
-      "type": "Webinar\nLIVE NOW\nSovereign Credit Today - Government of Arme",
-      "date": "30 July 2026",
-      "time": "10:00 BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-07-mip28781-sovereign-credit-today"
-    },
-    {
-      "name": "Inside LatAm: Brasil 2026",
-      "type": "Evento presencial\nInside LatAm: Brasil 2026\nAlém das eleiçõe",
-      "date": "Quinta-feira, 30 de julho de 2026",
-      "time": "8h15 horário local",
-      "location": "Boulevard JK, São Paulo",
-      "description": "",
-      "url": "https://events.moodys.com/pt/2026-miu26248-inside-brasil-2026"
-    },
-    {
-      "name": "Inside LatAm 2026",
-      "type": "event_seat\n11 In Person Events",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
-      "url": "https://events.moodys.com/inside-latam-2026"
-    },
-    {
       "name": "Moody’s & ICC India Seminar: from compliance to resilience",
       "type": "In Person Event\nMoody’s & ICC India Seminar: from compliance",
       "date": "4 August 2026",
@@ -91,6 +55,24 @@
       "location": "The Westin Lima Hotel & Convention Center, Lima",
       "description": "",
       "url": "https://events.moodys.com/es/2026-miu26250-inside-peru-2026"
+    },
+    {
+      "name": "Inside LatAm 2026",
+      "type": "event_seat\n11 In Person Events",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
+      "url": "https://events.moodys.com/inside-latam-2026"
+    },
+    {
+      "name": "Where credit pressures are building across US States and local governments",
+      "type": "Webinar\nWhere credit pressures are building across US States",
+      "date": "August 20, 2026",
+      "time": "3:00 PM EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26381-us-public-finance"
     },
     {
       "name": "Thailand Credit Conference",
@@ -136,6 +118,33 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/2026-mie26226-outlook-for-global-reinsurance"
+    },
+    {
+      "name": "Asia Credit Markets Summit 2026 - Hong Kong",
+      "type": "In-Person Event\nAsia Credit Markets Summit 2026 - Hong Kong\n",
+      "date": "3 September 2026",
+      "time": "09:30 - 16:00 HKT",
+      "location": "Four Seasons Hotel, Hong Kong",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mip26222-asia-credit-markets-summit-hk"
+    },
+    {
+      "name": "68th edition of the RVS from September 5th to 9th, 2026",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-113-tpc-ma-global-2026-ins-rvs-monte-carlo"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
