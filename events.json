@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-08-03T10:45:25.547Z",
-  "totalEvents": 16,
+  "scrapedAt": "2026-08-06T09:43:10.054Z",
+  "totalEvents": 17,
   "events": [
     {
       "name": "Credit Themes",
@@ -39,13 +39,22 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "Moody’s & ICC India Seminar: from compliance to resilience",
-      "type": "In Person Event\nMoody’s & ICC India Seminar: from compliance",
-      "date": "4 August 2026",
-      "time": "09:30 - 16:00 IST",
-      "location": "Federation House, New Delhi",
+      "name": "Q3 2026 CRE Quarterly Economic Briefing: Navigating Murky Waters",
+      "type": "Webinar\nQ3 2026 CRE Quarterly Economic Briefing: Navigating ",
+      "date": "This ondemand will be available from August 12th.",
+      "time": "",
+      "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-map28470-icc-india-moodys-seminar"
+      "url": "https://events.moodys.com/evt-384-odwbn-mau28771-q3-2026-cre-economic-briefing"
+    },
+    {
+      "name": "Economics in Focus",
+      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
+      "date": "60 Mins",
+      "time": "20 July 2026",
+      "location": "",
+      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
+      "url": "https://events.moodys.com/economics-in-focus"
     },
     {
       "name": "Inside LatAm: Perú 2026",
@@ -120,8 +129,8 @@
       "url": "https://events.moodys.com/2026-mie26226-outlook-for-global-reinsurance"
     },
     {
-      "name": "Asia Credit Markets Summit 2026 - Hong Kong",
-      "type": "In-Person Event\nAsia Credit Markets Summit 2026 - Hong Kong\n",
+      "name": "Asia Credit Markets Summit 2026 - Hong Kong SAR, China",
+      "type": "In-Person Event\nAsia Credit Markets Summit 2026 - Hong Kong ",
       "date": "3 September 2026",
       "time": "09:30 - 16:00 HKT",
       "location": "Four Seasons Hotel, Hong Kong",
