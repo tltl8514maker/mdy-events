@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-06T09:43:10.054Z",
+  "scrapedAt": "2026-08-10T08:29:46.773Z",
   "totalEvents": 17,
   "events": [
     {
@@ -10,15 +10,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/credit-themes"
-    },
-    {
-      "name": "Beyond the US and Europe: The Rise of APAC Private Credit",
-      "type": "translate\narrow_drop_down\nWebinar\nBeyond the US and Europe: ",
-      "date": "6 August 2026",
-      "time": "14:00 HKT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mip28783-private-credit-apac-web"
     },
     {
       "name": "Asia Credit Markets Summit 2026",
@@ -37,6 +28,15 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
+    },
+    {
+      "name": "Sovereign Credit Today | An update on Romania",
+      "type": "Webinar\nSovereign Credit Today | An update on Romania\nGovern",
+      "date": "10 August 2026",
+      "time": "14:00 BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26414-sovereign-credit-today-update-on-romania"
     },
     {
       "name": "Q3 2026 CRE Quarterly Economic Briefing: Navigating Murky Waters",
