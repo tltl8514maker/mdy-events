@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-08-10T08:29:46.773Z",
-  "totalEvents": 17,
+  "scrapedAt": "2026-08-13T08:24:01.699Z",
+  "totalEvents": 15,
   "events": [
     {
       "name": "Credit Themes",
@@ -30,35 +30,17 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "Sovereign Credit Today | An update on Romania",
-      "type": "Webinar\nSovereign Credit Today | An update on Romania\nGovern",
-      "date": "10 August 2026",
-      "time": "14:00 BST",
+      "name": "Korea SMEs & Startups Agency (KOSME)",
+      "type": "Webinar\nLIVE NOW\nKorea SMEs & Startups Agency (KOSME)\nBehind",
+      "date": "13 Aug 2026",
+      "time": "13:00 IST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-mie26414-sovereign-credit-today-update-on-romania"
-    },
-    {
-      "name": "Q3 2026 CRE Quarterly Economic Briefing: Navigating Murky Waters",
-      "type": "Webinar\nQ3 2026 CRE Quarterly Economic Briefing: Navigating ",
-      "date": "This ondemand will be available from August 12th.",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/evt-384-odwbn-mau28771-q3-2026-cre-economic-briefing"
-    },
-    {
-      "name": "Economics in Focus",
-      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
-      "date": "60 Mins",
-      "time": "20 July 2026",
-      "location": "",
-      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
-      "url": "https://events.moodys.com/economics-in-focus"
+      "url": "https://events.moodys.com/mip28821_kosme"
     },
     {
       "name": "Inside LatAm: Perú 2026",
-      "type": "Evento en persona\nInside LatAm: Perú 2026\nschedule\nJueves, 1",
+      "type": "Evento en persona\nInside LatAm: Perú 2026\n\nEl registro a est",
       "date": "Jueves, 13 de agosto de 2026",
       "time": "8:00 am hora local",
       "location": "The Westin Lima Hotel & Convention Center, Lima",
@@ -73,6 +55,15 @@
       "location": "",
       "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
       "url": "https://events.moodys.com/inside-latam-2026"
+    },
+    {
+      "name": "SK hynix and Micron",
+      "type": "Webinar\nSK hynix and Micron\nBehind the rating upgrades\nsched",
+      "date": "19 August 2026",
+      "time": "09:00 HKT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-08-mip29070-sk-hynix-and-micron"
     },
     {
       "name": "Where credit pressures are building across US States and local governments",
@@ -100,15 +91,6 @@
       "location": "",
       "description": "Navigating the Australian Fund Finance Landscape",
       "url": "https://events.moodys.com/ffa-australia"
-    },
-    {
-      "name": "Cornerstone Partner Happy Hour",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "August 28th, 2026, 17.00 EAST",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/cornerstone-partner-happy-hour"
     },
     {
       "name": "Asia Credit Markets Summit 2026 - Singapore",
@@ -147,13 +129,13 @@
       "url": "https://events.moodys.com/evt-113-tpc-ma-global-2026-ins-rvs-monte-carlo"
     },
     {
-      "name": "Confirm cancellation",
-      "type": "",
+      "name": "LIMITED / EXCLUSIVE SEATING",
+      "type": "Abdulkader Thomas\n\t\t\t\t\t  Fellow in Islamic Financial Markets",
       "date": "",
       "time": "",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
+      "url": "https://events.moodys.com/ifn-uk-forum-2026"
     }
   ]
 }
