@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-08-13T08:24:01.699Z",
-  "totalEvents": 15,
+  "scrapedAt": "2026-08-17T07:55:56.668Z",
+  "totalEvents": 16,
   "events": [
     {
       "name": "Credit Themes",
@@ -28,33 +28,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
-    },
-    {
-      "name": "Korea SMEs & Startups Agency (KOSME)",
-      "type": "Webinar\nLIVE NOW\nKorea SMEs & Startups Agency (KOSME)\nBehind",
-      "date": "13 Aug 2026",
-      "time": "13:00 IST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/mip28821_kosme"
-    },
-    {
-      "name": "Inside LatAm: Perú 2026",
-      "type": "Evento en persona\nInside LatAm: Perú 2026\n\nEl registro a est",
-      "date": "Jueves, 13 de agosto de 2026",
-      "time": "8:00 am hora local",
-      "location": "The Westin Lima Hotel & Convention Center, Lima",
-      "description": "",
-      "url": "https://events.moodys.com/es/2026-miu26250-inside-peru-2026"
-    },
-    {
-      "name": "Inside LatAm 2026",
-      "type": "event_seat\n11 In Person Events",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
-      "url": "https://events.moodys.com/inside-latam-2026"
     },
     {
       "name": "SK hynix and Micron",
@@ -136,6 +109,42 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/ifn-uk-forum-2026"
+    },
+    {
+      "name": "Moody's and GCR Ratings South Africa Risk Summit",
+      "type": "In Person Event\nMoody's and GCR Ratings South Africa Risk Su",
+      "date": "8 September 2026",
+      "time": "8:30 - 16:00 SAST",
+      "location": "Four Seasons The Westcliff, Johannesburg",
+      "description": "",
+      "url": "https://events.moodys.com/2026_mie26429_south-africa-risk-summit"
+    },
+    {
+      "name": "Inside Africa",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "8 SEPTEMBER 2026",
+      "time": "8:30 - 16:00 SAST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/inside-africa"
+    },
+    {
+      "name": "Inside LatAm: Panamá 2026",
+      "type": "Evento en persona\nInside LatAm: Panamá 2026\nschedule\nMartes,",
+      "date": "Martes, 8 de septiembre de 2026",
+      "time": "8:30 am hora local",
+      "location": "Sheraton Grand Panamá, Cd. de Panamá",
+      "description": "",
+      "url": "https://events.moodys.com/es/2026-miu26479-inside-panama-2026"
+    },
+    {
+      "name": "Inside LatAm 2026",
+      "type": "event_seat\n11 In Person Events",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
+      "url": "https://events.moodys.com/inside-latam-2026"
     }
   ]
 }
