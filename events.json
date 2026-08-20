@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-17T07:55:56.668Z",
+  "scrapedAt": "2026-08-20T07:43:56.828Z",
   "totalEvents": 16,
   "events": [
     {
@@ -28,15 +28,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
-    },
-    {
-      "name": "SK hynix and Micron",
-      "type": "Webinar\nSK hynix and Micron\nBehind the rating upgrades\nsched",
-      "date": "19 August 2026",
-      "time": "09:00 HKT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-08-mip29070-sk-hynix-and-micron"
     },
     {
       "name": "Where credit pressures are building across US States and local governments",
@@ -145,6 +136,15 @@
       "location": "",
       "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
       "url": "https://events.moodys.com/inside-latam-2026"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
