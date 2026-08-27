@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-24T08:01:22.099Z",
+  "scrapedAt": "2026-08-27T18:10:46.216Z",
   "totalEvents": 14,
   "events": [
     {
@@ -28,15 +28,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
-    },
-    {
-      "name": "Thailand Credit Conference",
-      "type": "In Person Event\nThailand Credit Conference\nschedule\nWednesda",
-      "date": "26 August 2026",
-      "time": "10:00 ICT - 13:30 ICT",
-      "location": "Waldorf Astoria, Bangkok",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mip26399-thailand-credit-conference"
     },
     {
       "name": "FFA Australia",
@@ -127,6 +118,15 @@
       "location": "",
       "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
       "url": "https://events.moodys.com/inside-latam-2026"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
