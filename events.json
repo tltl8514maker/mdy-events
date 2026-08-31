@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-27T18:10:46.216Z",
+  "scrapedAt": "2026-08-31T14:55:29.514Z",
   "totalEvents": 14,
   "events": [
     {
@@ -30,15 +30,6 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "FFA Australia",
-      "type": "FFA EVENT",
-      "date": "28 August 2026",
-      "time": "",
-      "location": "",
-      "description": "Navigating the Australian Fund Finance Landscape",
-      "url": "https://events.moodys.com/ffa-australia"
-    },
-    {
       "name": "Asia Credit Markets Summit 2026 - Singapore",
       "type": "In-Person Event\nAsia Credit Markets Summit 2026 - Singapore\n",
       "date": "1 September 2026",
@@ -46,6 +37,15 @@
       "location": "PARKROYAL Collection Marina Bay, Singapore",
       "description": "",
       "url": "https://events.moodys.com/2026-mip26221-asia-credit-markets-summit-sg"
+    },
+    {
+      "name": "H World Group Limited",
+      "type": "Webinar\nH World Group Limited\nThe story behind its Baa2 rati",
+      "date": "1 September 2026",
+      "time": "16:00 HKT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-09-mip29105-h-world-group-limited"
     },
     {
       "name": "2026 Outlook for Global Reinsurance",
@@ -120,13 +120,13 @@
       "url": "https://events.moodys.com/inside-latam-2026"
     },
     {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
+      "name": "Q3 Sustainable Debt Outlook: How Emerging Standards are Advancing Market Evolution",
+      "type": "Webinar\nQ3 Sustainable Debt Outlook: How Emerging Standards ",
+      "date": "10 September 2026",
+      "time": "15:00 BST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
+      "url": "https://events.moodys.com/2026mce26433-q3-amer-emea-sustainable-debt-outlook"
     }
   ]
 }
