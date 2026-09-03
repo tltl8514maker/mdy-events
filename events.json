@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-08-31T14:55:29.514Z",
-  "totalEvents": 14,
+  "scrapedAt": "2026-09-03T12:01:35.360Z",
+  "totalEvents": 16,
   "events": [
     {
       "name": "Credit Themes",
@@ -14,8 +14,8 @@
     {
       "name": "Asia Credit Markets Summit 2026",
       "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "1 September 2026",
-      "time": "09:30 - 16:00 SGT",
+      "date": "3 September 2026",
+      "time": "09:30 - 16:00 HKT",
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-asia-credit-markets-summit-2026"
@@ -28,33 +28,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
-    },
-    {
-      "name": "Asia Credit Markets Summit 2026 - Singapore",
-      "type": "In-Person Event\nAsia Credit Markets Summit 2026 - Singapore\n",
-      "date": "1 September 2026",
-      "time": "09:30 - 16:00 SGT",
-      "location": "PARKROYAL Collection Marina Bay, Singapore",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mip26221-asia-credit-markets-summit-sg"
-    },
-    {
-      "name": "H World Group Limited",
-      "type": "Webinar\nH World Group Limited\nThe story behind its Baa2 rati",
-      "date": "1 September 2026",
-      "time": "16:00 HKT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-09-mip29105-h-world-group-limited"
-    },
-    {
-      "name": "2026 Outlook for Global Reinsurance",
-      "type": "Webinar\n2026 Outlook for Global Reinsurance\nschedule\nTuesday",
-      "date": "1st September 2026",
-      "time": "14:00 BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26226-outlook-for-global-reinsurance"
     },
     {
       "name": "Asia Credit Markets Summit 2026 - Hong Kong SAR, China",
@@ -127,6 +100,51 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/2026mce26433-q3-amer-emea-sustainable-debt-outlook"
+    },
+    {
+      "name": "Moody's Kazakhstan and CIS Summit",
+      "type": "In Person Event\nMoody's Kazakhstan and CIS Summit\n\n*This eve",
+      "date": "15 September 2026",
+      "time": "08:15 - 14:10 KZT",
+      "location": "InterContinental, Almaty",
+      "description": "",
+      "url": "https://events.moodys.com/2026_mie26329_kazakhstan_and_cis_summit_2026"
+    },
+    {
+      "name": "Swiss Treasury Summit 2026",
+      "type": "\nShare",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "Der Swiss Treasury Summit ist die führende Schweizer Plattform für Treasury-Fachpersonen. Die Veranstaltung bietet Orientierung, Austausch und Impulse zu den zentralen Fragen moderner finanzieller Führung.",
+      "url": "https://events.moodys.com/swiss-treasury-summit-3"
+    },
+    {
+      "name": "Where Women in Finance Inspire, Connect, and Lead",
+      "type": "Necessary",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "Exclusive Host: Orrick",
+      "url": "https://events.moodys.com/2026-opal-celebrating-women-in-structured-finance-summit"
+    },
+    {
+      "name": "Global Islamic Finance Institutions Update",
+      "type": "Webinar\nGlobal Islamic Finance Institutions Update \nKey Chal",
+      "date": "16th September 2026",
+      "time": "09:00 AM BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26409-islamic-finance-instutions-webinar"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
