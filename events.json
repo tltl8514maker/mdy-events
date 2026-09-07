@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-03T12:01:35.360Z",
-  "totalEvents": 16,
+  "scrapedAt": "2026-09-07T13:22:22.362Z",
+  "totalEvents": 15,
   "events": [
     {
       "name": "Credit Themes",
@@ -12,13 +12,13 @@
       "url": "https://events.moodys.com/credit-themes"
     },
     {
-      "name": "Asia Credit Markets Summit 2026",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "3 September 2026",
-      "time": "09:30 - 16:00 HKT",
+      "name": "State of Nations",
+      "type": "Virtual Event\nState of Nations\nCommon forces, different fate",
+      "date": "17 November 2026",
+      "time": "14:00 GMT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/carousel-asia-credit-markets-summit-2026"
+      "url": "https://events.moodys.com/2026-mie26175-state-of-nations-2027"
     },
     {
       "name": "Global Financial Institutions Series 2026",
@@ -30,15 +30,6 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "Asia Credit Markets Summit 2026 - Hong Kong SAR, China",
-      "type": "In-Person Event\nAsia Credit Markets Summit 2026 - Hong Kong ",
-      "date": "3 September 2026",
-      "time": "09:30 - 16:00 HKT",
-      "location": "Four Seasons Hotel, Hong Kong",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mip26222-asia-credit-markets-summit-hk"
-    },
-    {
       "name": "68th edition of the RVS from September 5th to 9th, 2026",
       "type": "",
       "date": "",
@@ -48,7 +39,7 @@
       "url": "https://events.moodys.com/evt-113-tpc-ma-global-2026-ins-rvs-monte-carlo"
     },
     {
-      "name": "LIMITED / EXCLUSIVE SEATING",
+      "name": "IFN UK FORUM 2026",
       "type": "The Rt Hon Lucy Rigby KC MP\n\t\t\t\t\t  Economic Secretary to the",
       "date": "",
       "time": "",
@@ -120,22 +111,22 @@
       "url": "https://events.moodys.com/swiss-treasury-summit-3"
     },
     {
-      "name": "Where Women in Finance Inspire, Connect, and Lead",
-      "type": "Necessary",
+      "name": "opalgroup.net",
+      "type": "",
       "date": "",
       "time": "",
       "location": "",
-      "description": "Exclusive Host: Orrick",
+      "description": "",
       "url": "https://events.moodys.com/2026-opal-celebrating-women-in-structured-finance-summit"
     },
     {
-      "name": "Global Islamic Finance Institutions Update",
-      "type": "Webinar\nGlobal Islamic Finance Institutions Update \nKey Chal",
-      "date": "16th September 2026",
-      "time": "09:00 AM BST",
+      "name": "Investment Forum | London 2026",
+      "type": "",
+      "date": "",
+      "time": "",
       "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26409-islamic-finance-instutions-webinar"
+      "description": "The world depends on digital infrastructure, and there’s never been more pressure on the industry to scale at speed. The DCD Investment Forum | London brings together the leading dealmakers behind this growth to make informed decisions faster, throug",
+      "url": "https://events.moodys.com/mie28665datacenterdynamicsconnect"
     },
     {
       "name": "Confirm cancellation",
