@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-07T13:22:22.362Z",
+  "scrapedAt": "2026-09-10T12:07:50.804Z",
   "totalEvents": 15,
   "events": [
     {
@@ -30,60 +30,6 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "68th edition of the RVS from September 5th to 9th, 2026",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/evt-113-tpc-ma-global-2026-ins-rvs-monte-carlo"
-    },
-    {
-      "name": "IFN UK FORUM 2026",
-      "type": "The Rt Hon Lucy Rigby KC MP\n\t\t\t\t\t  Economic Secretary to the",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/ifn-uk-forum-2026"
-    },
-    {
-      "name": "Moody's and GCR Ratings South Africa Risk Summit",
-      "type": "In Person Event\nMoody's and GCR Ratings South Africa Risk Su",
-      "date": "8 September 2026",
-      "time": "8:30 - 16:00 SAST",
-      "location": "Four Seasons The Westcliff, Johannesburg",
-      "description": "",
-      "url": "https://events.moodys.com/2026_mie26429_south-africa-risk-summit"
-    },
-    {
-      "name": "Inside Africa",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "8 SEPTEMBER 2026",
-      "time": "8:30 - 16:00 SAST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/inside-africa"
-    },
-    {
-      "name": "Inside LatAm: Panamá 2026",
-      "type": "Evento en persona\nInside LatAm: Panamá 2026\nschedule\nMartes,",
-      "date": "Martes, 8 de septiembre de 2026",
-      "time": "8:30 am hora local",
-      "location": "Sheraton Grand Panamá, Cd. de Panamá",
-      "description": "",
-      "url": "https://events.moodys.com/es/2026-miu26479-inside-panama-2026"
-    },
-    {
-      "name": "Inside LatAm 2026",
-      "type": "event_seat\n11 In Person Events",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "Tune in to gain insights from top market specialists on the credit opportunities and challenges in the region. Identify growth-prone and high-risk sectors through their analysis. Delve into a comprehensive study of credit implications for the nation'",
-      "url": "https://events.moodys.com/inside-latam-2026"
-    },
-    {
       "name": "Q3 Sustainable Debt Outlook: How Emerging Standards are Advancing Market Evolution",
       "type": "Webinar\nQ3 Sustainable Debt Outlook: How Emerging Standards ",
       "date": "10 September 2026",
@@ -111,13 +57,31 @@
       "url": "https://events.moodys.com/swiss-treasury-summit-3"
     },
     {
-      "name": "opalgroup.net",
-      "type": "",
+      "name": "Where Women in Finance Inspire, Connect, and Lead",
+      "type": "Necessary",
       "date": "",
       "time": "",
       "location": "",
-      "description": "",
+      "description": "Exclusive Host: Orrick",
       "url": "https://events.moodys.com/2026-opal-celebrating-women-in-structured-finance-summit"
+    },
+    {
+      "name": "Global Islamic Finance Institutions Update",
+      "type": "Webinar\nGlobal Islamic Finance Institutions Update \nKey Chal",
+      "date": "16th September 2026",
+      "time": "09:00 AM BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26409-islamic-finance-instutions-webinar"
+    },
+    {
+      "name": "Islamic Finance in Focus",
+      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
+      "date": "16TH SEPTEMBER 2026",
+      "time": "09:00 AM BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/islamic-finance-in-focus"
     },
     {
       "name": "Investment Forum | London 2026",
@@ -129,13 +93,49 @@
       "url": "https://events.moodys.com/mie28665datacenterdynamicsconnect"
     },
     {
-      "name": "Confirm cancellation",
+      "name": "2026 Moody's Ratings CLO & Leveraged Loan Roundtable",
+      "type": "In Person Event\n2026 Moody's Ratings CLO & Leveraged Loan Ro",
+      "date": "September 17, 2026",
+      "time": "12:00 PM - 1:30 PM EDT",
+      "location": "Moody's Global Headquarters, New York",
+      "description": "",
+      "url": "https://events.moodys.com/2026_09_miu26416_clo-leveraged-loan-roundtable"
+    },
+    {
+      "name": "2026 Moody's Ratings US CLO & Leveraged Loan Conference",
+      "type": "In Person Event\n2026 Moody's Ratings US CLO & Leveraged Loan",
+      "date": "17 September 2026",
+      "time": "1PM - 6PM EDT",
+      "location": "Moody's Global Headquarters, New York",
+      "description": "",
+      "url": "https://events.moodys.com/2026_09_miu26261_clo-leveraged-loan-conference"
+    },
+    {
+      "name": "Not-for-Profit Healthcare Methodology",
+      "type": "Webinar\nNot-for-Profit Healthcare Methodology\nThe first 100 ",
+      "date": "September 17, 2026",
+      "time": "3:00 PM - 4:00 PM EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-09-miu26383-publicfinance-septwebinar"
+    },
+    {
+      "name": "Swiss Breakfast – Q3 2026",
+      "type": "Webinar\nSwiss Breakfast – Q3 2026\nGlobal Pharma, Global Rein",
+      "date": "18 September 2026",
+      "time": "09:00 BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26184-swiss-breakfast-q3-2026"
+    },
+    {
+      "name": "39th ECBC Plenary Meeting & Related Events",
       "type": "",
       "date": "",
       "time": "",
       "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
+      "description": "We are delighted to confirm that the 39th ECBC Plenary Meeting and related events will be taking place in Seville, Spain on 21-23 September 2026.",
+      "url": "https://events.moodys.com/2026-39th-ecbc-plenary-meeting"
     }
   ]
 }
