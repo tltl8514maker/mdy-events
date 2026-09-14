@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-10T12:07:50.804Z",
+  "scrapedAt": "2026-09-14T13:44:10.565Z",
   "totalEvents": 15,
   "events": [
     {
@@ -30,15 +30,6 @@
       "url": "https://events.moodys.com/carousel-global-fi-series-2026"
     },
     {
-      "name": "Q3 Sustainable Debt Outlook: How Emerging Standards are Advancing Market Evolution",
-      "type": "Webinar\nQ3 Sustainable Debt Outlook: How Emerging Standards ",
-      "date": "10 September 2026",
-      "time": "15:00 BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026mce26433-q3-amer-emea-sustainable-debt-outlook"
-    },
-    {
       "name": "Moody's Kazakhstan and CIS Summit",
       "type": "In Person Event\nMoody's Kazakhstan and CIS Summit\n\n*This eve",
       "date": "15 September 2026",
@@ -57,12 +48,12 @@
       "url": "https://events.moodys.com/swiss-treasury-summit-3"
     },
     {
-      "name": "Where Women in Finance Inspire, Connect, and Lead",
-      "type": "Necessary",
+      "name": "403 - Forbidden",
+      "type": "",
       "date": "",
       "time": "",
       "location": "",
-      "description": "Exclusive Host: Orrick",
+      "description": "",
       "url": "https://events.moodys.com/2026-opal-celebrating-women-in-structured-finance-summit"
     },
     {
@@ -91,15 +82,6 @@
       "location": "",
       "description": "The world depends on digital infrastructure, and there’s never been more pressure on the industry to scale at speed. The DCD Investment Forum | London brings together the leading dealmakers behind this growth to make informed decisions faster, throug",
       "url": "https://events.moodys.com/mie28665datacenterdynamicsconnect"
-    },
-    {
-      "name": "2026 Moody's Ratings CLO & Leveraged Loan Roundtable",
-      "type": "In Person Event\n2026 Moody's Ratings CLO & Leveraged Loan Ro",
-      "date": "September 17, 2026",
-      "time": "12:00 PM - 1:30 PM EDT",
-      "location": "Moody's Global Headquarters, New York",
-      "description": "",
-      "url": "https://events.moodys.com/2026_09_miu26416_clo-leveraged-loan-roundtable"
     },
     {
       "name": "2026 Moody's Ratings US CLO & Leveraged Loan Conference",
@@ -136,6 +118,24 @@
       "location": "",
       "description": "We are delighted to confirm that the 39th ECBC Plenary Meeting and related events will be taking place in Seville, Spain on 21-23 September 2026.",
       "url": "https://events.moodys.com/2026-39th-ecbc-plenary-meeting"
+    },
+    {
+      "name": "Inside South and Southeast Asia Q3",
+      "type": "Webinar\nInside South and Southeast Asia Q3\nThe AI Supercycle",
+      "date": "22 September 2026",
+      "time": "13:30 IST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/mip26516_inside_ssea_q3"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
