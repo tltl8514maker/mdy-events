@@ -1,7 +1,16 @@
 {
-  "scrapedAt": "2026-09-14T13:44:10.565Z",
-  "totalEvents": 15,
+  "scrapedAt": "2026-09-17T12:30:58.236Z",
+  "totalEvents": 24,
   "events": [
+    {
+      "name": "Calendar",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/calendar"
+    },
     {
       "name": "Credit Themes",
       "type": "",
@@ -21,67 +30,49 @@
       "url": "https://events.moodys.com/2026-mie26175-state-of-nations-2027"
     },
     {
+      "name": "Asia Credit Markets Replay",
+      "type": "REPLAY\nAsia Credit Markets Replay\nWatch on demand to underst",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "What changes when higher rates, AI investment and shifting capital flows become structural rather than temporary? Across Singapore and Hong Kong, the Asia Credit Markets Summit replays examine how these shifts are reshaping funding, resilience and cr",
+      "url": "https://events.moodys.com/acm-replay"
+    },
+    {
+      "name": "Credit Frontiers Europe 2026",
+      "type": "In Person Event\nREPLAY\nCredit Frontiers Europe 2026\nPrivate ",
+      "date": "Replay available",
+      "time": "",
+      "location": "The Chancery Rosewood, London",
+      "description": "Europe's private credit market is at an inflection point - growing fast, drawing new capital and rewriting the rules between banks, insurers and asset managers. But scale brings scrutiny. These four sessions put the opportunity, the ecosystem, the re",
+      "url": "https://events.moodys.com/2026-mie26604-credit-frontiers-europe-2026/Replay"
+    },
+    {
+      "name": "Credit Frontiers 2026",
+      "type": "In Person Event\nREPLAY\nCredit Frontiers 2026\nschedule\nThursd",
+      "date": "April 23, 2026",
+      "time": "9:15 AM - 4:30 PM EDT",
+      "location": "Quorum by Convene, New York",
+      "description": "From AI-driven megadeals to private credit interconnectedness and default-cycle signals, these sessions examine how scale, structure and discipline are reshaping credit markets. Select a session below to watch the replay:",
+      "url": "https://events.moodys.com/2026-miu26271-credit-frontiers-2026/Replay"
+    },
+    {
+      "name": "Financial Institutions",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/financial-institutions-in-focus"
+    },
+    {
       "name": "Global Financial Institutions Series 2026",
       "type": "24\nSEP\nevent_seat\nIN PERSON\nThursday, 24 September | 08:30 -",
       "date": "24 September",
       "time": "08:30 - 11:45 CEST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/carousel-global-fi-series-2026"
-    },
-    {
-      "name": "Moody's Kazakhstan and CIS Summit",
-      "type": "In Person Event\nMoody's Kazakhstan and CIS Summit\n\n*This eve",
-      "date": "15 September 2026",
-      "time": "08:15 - 14:10 KZT",
-      "location": "InterContinental, Almaty",
-      "description": "",
-      "url": "https://events.moodys.com/2026_mie26329_kazakhstan_and_cis_summit_2026"
-    },
-    {
-      "name": "Swiss Treasury Summit 2026",
-      "type": "\nShare",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "Der Swiss Treasury Summit ist die führende Schweizer Plattform für Treasury-Fachpersonen. Die Veranstaltung bietet Orientierung, Austausch und Impulse zu den zentralen Fragen moderner finanzieller Führung.",
-      "url": "https://events.moodys.com/swiss-treasury-summit-3"
-    },
-    {
-      "name": "403 - Forbidden",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-opal-celebrating-women-in-structured-finance-summit"
-    },
-    {
-      "name": "Global Islamic Finance Institutions Update",
-      "type": "Webinar\nGlobal Islamic Finance Institutions Update \nKey Chal",
-      "date": "16th September 2026",
-      "time": "09:00 AM BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26409-islamic-finance-instutions-webinar"
-    },
-    {
-      "name": "Islamic Finance in Focus",
-      "type": "moodys.com\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nConta",
-      "date": "16TH SEPTEMBER 2026",
-      "time": "09:00 AM BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/islamic-finance-in-focus"
-    },
-    {
-      "name": "Investment Forum | London 2026",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "The world depends on digital infrastructure, and there’s never been more pressure on the industry to scale at speed. The DCD Investment Forum | London brings together the leading dealmakers behind this growth to make informed decisions faster, throug",
-      "url": "https://events.moodys.com/mie28665datacenterdynamicsconnect"
+      "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
       "name": "2026 Moody's Ratings US CLO & Leveraged Loan Conference",
@@ -111,15 +102,6 @@
       "url": "https://events.moodys.com/2026-mie26184-swiss-breakfast-q3-2026"
     },
     {
-      "name": "39th ECBC Plenary Meeting & Related Events",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "We are delighted to confirm that the 39th ECBC Plenary Meeting and related events will be taking place in Seville, Spain on 21-23 September 2026.",
-      "url": "https://events.moodys.com/2026-39th-ecbc-plenary-meeting"
-    },
-    {
       "name": "Inside South and Southeast Asia Q3",
       "type": "Webinar\nInside South and Southeast Asia Q3\nThe AI Supercycle",
       "date": "22 September 2026",
@@ -127,6 +109,105 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/mip26516_inside_ssea_q3"
+    },
+    {
+      "name": "Corporate Finance",
+      "type": "play_circle_filled\nWATCH",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/corporate-finance"
+    },
+    {
+      "name": "Credit Market Dynamics",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/credit-market-dynamics"
+    },
+    {
+      "name": "Digital Economy",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/digital-economy"
+    },
+    {
+      "name": "Emerging Markets",
+      "type": "play_circle_filled\nWATCH",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/emerging-markets"
+    },
+    {
+      "name": "Financial Institutions",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/financial-institutions"
+    },
+    {
+      "name": "Project & Infrastructure Finance",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/project-infrastructure-finance"
+    },
+    {
+      "name": "Public Finance (US Public Finance & Sub-Sovereign)",
+      "type": "live_tv\nWEBINAR",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/public-finance-sub-sovereign"
+    },
+    {
+      "name": "Private Credit",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/private-credit"
+    },
+    {
+      "name": "Sovereign & Supranational",
+      "type": "live_tv\nVIRTUAL",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sovereign-supranational"
+    },
+    {
+      "name": "Structured Finance",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/structured-finance"
+    },
+    {
+      "name": "Sustainable and Transition Finance",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sustainable-and-transition-finance"
     },
     {
       "name": "Confirm cancellation",
