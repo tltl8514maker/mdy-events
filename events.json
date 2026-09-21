@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-09-17T12:30:58.236Z",
+  "scrapedAt": "2026-09-21T13:44:13.543Z",
   "totalEvents": 24,
   "events": [
     {
       "name": "Calendar",
-      "type": "event_seat\nIN PERSON",
+      "type": "live_tv\nVIRTUAL",
       "date": "",
       "time": "",
       "location": "",
@@ -19,6 +19,15 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/credit-themes"
+    },
+    {
+      "name": "Sovereign Credit Today | An update on Poland",
+      "type": "Webinar\nSovereign Credit Today | An update on Poland\n\nPoland",
+      "date": "21 September 2026",
+      "time": "13:00 BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-sovereign-credit-today-poland"
     },
     {
       "name": "State of Nations",
@@ -75,33 +84,6 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "2026 Moody's Ratings US CLO & Leveraged Loan Conference",
-      "type": "In Person Event\n2026 Moody's Ratings US CLO & Leveraged Loan",
-      "date": "17 September 2026",
-      "time": "1PM - 6PM EDT",
-      "location": "Moody's Global Headquarters, New York",
-      "description": "",
-      "url": "https://events.moodys.com/2026_09_miu26261_clo-leveraged-loan-conference"
-    },
-    {
-      "name": "Not-for-Profit Healthcare Methodology",
-      "type": "Webinar\nNot-for-Profit Healthcare Methodology\nThe first 100 ",
-      "date": "September 17, 2026",
-      "time": "3:00 PM - 4:00 PM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-09-miu26383-publicfinance-septwebinar"
-    },
-    {
-      "name": "Swiss Breakfast – Q3 2026",
-      "type": "Webinar\nSwiss Breakfast – Q3 2026\nGlobal Pharma, Global Rein",
-      "date": "18 September 2026",
-      "time": "09:00 BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26184-swiss-breakfast-q3-2026"
-    },
-    {
       "name": "Inside South and Southeast Asia Q3",
       "type": "Webinar\nInside South and Southeast Asia Q3\nThe AI Supercycle",
       "date": "22 September 2026",
@@ -109,6 +91,24 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/mip26516_inside_ssea_q3"
+    },
+    {
+      "name": "Insurance solutions roadmap: Portfolio management capabilities",
+      "type": "Webinar\nInsurance solutions roadmap: Portfolio management ca",
+      "date": "22 September 2026",
+      "time": "7:00 AM PDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-455_mau29066_portfolio_management_roadmap"
+    },
+    {
+      "name": "Emerging Markets - Türkiye Conference",
+      "type": "In Person Event\nEmerging Markets - Türkiye Conference\nRegist",
+      "date": "23 September 2026",
+      "time": "8:15 - 13:30 TRT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026_mie27899_turkiye-conference"
     },
     {
       "name": "Corporate Finance",
@@ -193,7 +193,7 @@
     },
     {
       "name": "Structured Finance",
-      "type": "event_seat\nIN PERSON",
+      "type": "live_tv\nVIRTUAL",
       "date": "",
       "time": "",
       "location": "",
