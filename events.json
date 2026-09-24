@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-09-21T13:44:13.543Z",
-  "totalEvents": 24,
+  "scrapedAt": "2026-09-24T12:38:37.531Z",
+  "totalEvents": 25,
   "events": [
     {
       "name": "Calendar",
-      "type": "live_tv\nVIRTUAL",
+      "type": "event_seat\nIN PERSON",
       "date": "",
       "time": "",
       "location": "",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Sovereign Credit Today | An update on Poland",
-      "type": "Webinar\nSovereign Credit Today | An update on Poland\n\nPoland",
+      "type": "Webinar\nREPLAY\nSovereign Credit Today | An update on Poland\n",
       "date": "21 September 2026",
       "time": "13:00 BST",
       "location": "",
@@ -84,31 +84,40 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Inside South and Southeast Asia Q3",
-      "type": "Webinar\nInside South and Southeast Asia Q3\nThe AI Supercycle",
-      "date": "22 September 2026",
-      "time": "13:30 IST",
+      "name": "Pengxin International Mining Co.,Ltd",
+      "type": "Webinar\nPengxin International Mining Co.,Ltd\nBehind the firs",
+      "date": "24 September 2026",
+      "time": "11:00am HKT/BJT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/mip26516_inside_ssea_q3"
+      "url": "https://events.moodys.com/2026_mip29949_pengxin_international_mining_co_ltd"
     },
     {
-      "name": "Insurance solutions roadmap: Portfolio management capabilities",
-      "type": "Webinar\nInsurance solutions roadmap: Portfolio management ca",
-      "date": "22 September 2026",
-      "time": "7:00 AM PDT",
-      "location": "",
+      "name": "Financial Institutions Briefing - Nordics",
+      "type": "In Person Event\nFinancial Institutions Briefing - Nordics\nRe",
+      "date": "24 September",
+      "time": "08:30 - 11:45 CEST",
+      "location": "Grand Hôtel, Stockholm",
       "description": "",
-      "url": "https://events.moodys.com/evt-455_mau29066_portfolio_management_roadmap"
+      "url": "https://events.moodys.com/2026-mie26327-stockholm-briefing"
     },
     {
-      "name": "Emerging Markets - Türkiye Conference",
-      "type": "In Person Event\nEmerging Markets - Türkiye Conference\nRegist",
-      "date": "23 September 2026",
-      "time": "8:15 - 13:30 TRT",
+      "name": "Structured Finance",
+      "type": "live_tv\nVIRTUAL",
+      "date": "",
+      "time": "",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026_mie27899_turkiye-conference"
+      "url": "https://events.moodys.com/structured-finance-in-focus"
+    },
+    {
+      "name": "AI, Risk & Value Chain Transformation: Building the Resilient Enterprise",
+      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
+      "date": "24 September 2026",
+      "time": "12:30 - 16:30 CEST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/executive-roundtable-ai-risk-value-chain-transformation"
     },
     {
       "name": "Corporate Finance",
