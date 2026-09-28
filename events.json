@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-24T12:38:37.531Z",
-  "totalEvents": 25,
+  "scrapedAt": "2026-09-28T15:04:20.132Z",
+  "totalEvents": 26,
   "events": [
     {
       "name": "Calendar",
@@ -21,15 +21,6 @@
       "url": "https://events.moodys.com/credit-themes"
     },
     {
-      "name": "Sovereign Credit Today | An update on Poland",
-      "type": "Webinar\nREPLAY\nSovereign Credit Today | An update on Poland\n",
-      "date": "21 September 2026",
-      "time": "13:00 BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-sovereign-credit-today-poland"
-    },
-    {
       "name": "State of Nations",
       "type": "Virtual Event\nState of Nations\nCommon forces, different fate",
       "date": "17 November 2026",
@@ -37,6 +28,24 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/2026-mie26175-state-of-nations-2027"
+    },
+    {
+      "name": "Moody's Summit 2026",
+      "type": "In Person Event\nMoody's Summit 2026\nThe next chapter in the ",
+      "date": "7 October 2026",
+      "time": "09:00 - 15:15 Local time",
+      "location": "Mandarin Oriental Al Faisaliah, Riyadh",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26521-saudi-summit"
+    },
+    {
+      "name": "Banking Conference - France",
+      "type": "In Person Event\nBanking Conference - France\nschedule\nTuesday",
+      "date": "6 October",
+      "time": "09:00 - 13:30 CEST",
+      "location": "Kimpton St Honoré Paris, Paris",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26326-paris-banking-conference"
     },
     {
       "name": "Asia Credit Markets Replay",
@@ -84,22 +93,22 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Pengxin International Mining Co.,Ltd",
-      "type": "Webinar\nPengxin International Mining Co.,Ltd\nBehind the firs",
-      "date": "24 September 2026",
-      "time": "11:00am HKT/BJT",
-      "location": "",
+      "name": "Islamic Finance Briefing 2026",
+      "type": "In Person Event\nIslamic Finance Briefing 2026\nRegistration f",
+      "date": "28 September 2026",
+      "time": "13:30 - 16:30 MYT",
+      "location": "Mandarin Oriental, Kuala Lumpur",
       "description": "",
-      "url": "https://events.moodys.com/2026_mip29949_pengxin_international_mining_co_ltd"
+      "url": "https://events.moodys.com/2026-mip26378-islamic-finance-briefing-kl"
     },
     {
-      "name": "Financial Institutions Briefing - Nordics",
-      "type": "In Person Event\nFinancial Institutions Briefing - Nordics\nRe",
-      "date": "24 September",
-      "time": "08:30 - 11:45 CEST",
-      "location": "Grand Hôtel, Stockholm",
+      "name": "Islamic Finance in Focus",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
+      "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-mie26327-stockholm-briefing"
+      "url": "https://events.moodys.com/islamic-finance-in-focus"
     },
     {
       "name": "Structured Finance",
@@ -111,13 +120,22 @@
       "url": "https://events.moodys.com/structured-finance-in-focus"
     },
     {
-      "name": "AI, Risk & Value Chain Transformation: Building the Resilient Enterprise",
-      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "24 September 2026",
-      "time": "12:30 - 16:30 CEST",
-      "location": "",
+      "name": "Moody’s & ICC India Seminar: from compliance to resilience",
+      "type": "In Person Event\nMoody’s & ICC India Seminar: from compliance",
+      "date": "29 September 2026",
+      "time": "09:30 - 16:00 IST",
+      "location": "India Habitat Centre, New Delhi",
       "description": "",
-      "url": "https://events.moodys.com/executive-roundtable-ai-risk-value-chain-transformation"
+      "url": "https://events.moodys.com/2026-map28470-icc-india-moodys-seminar"
+    },
+    {
+      "name": "Kenya Risk Summit 2026",
+      "type": "In Person Event\nKenya Risk Summit 2026\nRisks abound: is Keny",
+      "date": "30 September 2026",
+      "time": "08:30 - 16:00 EAT",
+      "location": "JW Marriott, Westlands",
+      "description": "",
+      "url": "https://events.moodys.com/2026_09_mie26181_kenya_risk_summit"
     },
     {
       "name": "Corporate Finance",
@@ -217,15 +235,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
-    },
-    {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
