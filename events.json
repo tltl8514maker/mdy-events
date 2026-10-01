@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-09-28T15:04:20.132Z",
-  "totalEvents": 26,
+  "scrapedAt": "2026-10-01T14:18:47.404Z",
+  "totalEvents": 24,
   "events": [
     {
       "name": "Calendar",
@@ -93,49 +93,22 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Islamic Finance Briefing 2026",
-      "type": "In Person Event\nIslamic Finance Briefing 2026\nRegistration f",
-      "date": "28 September 2026",
-      "time": "13:30 - 16:30 MYT",
-      "location": "Mandarin Oriental, Kuala Lumpur",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mip26378-islamic-finance-briefing-kl"
-    },
-    {
-      "name": "Islamic Finance in Focus",
-      "type": "event_seat\nIN PERSON",
-      "date": "",
-      "time": "",
+      "name": "Sovereign Credit Today | Bolivia",
+      "type": "Webinar\nSovereign Credit Today | Bolivia\nBolivia’s ratings u",
+      "date": "2 October 2026",
+      "time": "10:00 AM – 11:00 AM EDT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/islamic-finance-in-focus"
+      "url": "https://events.moodys.com/2026-mie26474-placeholder"
     },
     {
-      "name": "Structured Finance",
-      "type": "live_tv\nVIRTUAL",
-      "date": "",
-      "time": "",
-      "location": "",
+      "name": "Financial Institutions Conference – Hong Kong SAR, China",
+      "type": "In Person Event\nFinancial Institutions Conference – Hong Kon",
+      "date": "7 October (Banking)",
+      "time": "Thursday, 8 October (Insurance)",
+      "location": "Four Seasons Hotel, Hong Kong",
       "description": "",
-      "url": "https://events.moodys.com/structured-finance-in-focus"
-    },
-    {
-      "name": "Moody’s & ICC India Seminar: from compliance to resilience",
-      "type": "In Person Event\nMoody’s & ICC India Seminar: from compliance",
-      "date": "29 September 2026",
-      "time": "09:30 - 16:00 IST",
-      "location": "India Habitat Centre, New Delhi",
-      "description": "",
-      "url": "https://events.moodys.com/2026-map28470-icc-india-moodys-seminar"
-    },
-    {
-      "name": "Kenya Risk Summit 2026",
-      "type": "In Person Event\nKenya Risk Summit 2026\nRisks abound: is Keny",
-      "date": "30 September 2026",
-      "time": "08:30 - 16:00 EAT",
-      "location": "JW Marriott, Westlands",
-      "description": "",
-      "url": "https://events.moodys.com/2026_09_mie26181_kenya_risk_summit"
+      "url": "https://events.moodys.com/2026-hong-kong-financial-institutions-conference"
     },
     {
       "name": "Corporate Finance",
@@ -193,7 +166,7 @@
     },
     {
       "name": "Public Finance (US Public Finance & Sub-Sovereign)",
-      "type": "live_tv\nWEBINAR",
+      "type": "event_seat\nIN PERSON",
       "date": "",
       "time": "",
       "location": "",
@@ -235,6 +208,15 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
