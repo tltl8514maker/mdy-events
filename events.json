@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-01T14:18:47.404Z",
-  "totalEvents": 24,
+  "scrapedAt": "2026-10-05T15:39:32.309Z",
+  "totalEvents": 22,
   "events": [
     {
       "name": "Calendar",
@@ -91,15 +91,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
-    },
-    {
-      "name": "Sovereign Credit Today | Bolivia",
-      "type": "Webinar\nSovereign Credit Today | Bolivia\nBolivia’s ratings u",
-      "date": "2 October 2026",
-      "time": "10:00 AM – 11:00 AM EDT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26474-placeholder"
     },
     {
       "name": "Financial Institutions Conference – Hong Kong SAR, China",
@@ -208,15 +199,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
-    },
-    {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
