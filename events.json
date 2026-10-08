@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-05T15:39:32.309Z",
-  "totalEvents": 22,
+  "scrapedAt": "2026-10-08T14:29:12.523Z",
+  "totalEvents": 28,
   "events": [
     {
       "name": "Calendar",
@@ -102,6 +102,51 @@
       "url": "https://events.moodys.com/2026-hong-kong-financial-institutions-conference"
     },
     {
+      "name": "レバレッジド・ファイナンス＆\nプライベート・クレジット・カンファレンス",
+      "type": "translate\narrow_drop_down\nIn Person Event\nレバレッジド・ファイナンス＆\nプライ",
+      "date": "2026年10月8日（木)",
+      "time": "12:00 - 16:00 JST",
+      "location": "アンダーズ東京, Tokyo",
+      "description": "",
+      "url": "https://events.moodys.com/jp/2026-mip26697-leveraged-finance-and-private-credit-conference"
+    },
+    {
+      "name": "Japan in Focus",
+      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
+      "date": "2026年10月8日（木)",
+      "time": "12:00 - 16:00 JST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/japan-in-focus"
+    },
+    {
+      "name": "Moody's Uzbekistan and CIS Summit",
+      "type": "In Person Event\nMoody's Uzbekistan and CIS Summit\n\n*This eve",
+      "date": "8 October 2026",
+      "time": "08:15 - 14:00 UZT",
+      "location": "InterContinental, Tashkent",
+      "description": "",
+      "url": "https://events.moodys.com/uzbekistan_and_cis_summit"
+    },
+    {
+      "name": "Financial Institutions Briefing - The Netherlands",
+      "type": "In Person Event\nFinancial Institutions Briefing - The Nether",
+      "date": "8 October",
+      "time": "08:30 - 12:00 CEST",
+      "location": "The Dylan Amsterdam, Amsterdam",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie28607-amsterdam-briefing"
+    },
+    {
+      "name": "Operationalizing AI in Financial Services with Decision-Grade Intelligence",
+      "type": "In Person Event\nOperationalizing AI in Financial Services wi",
+      "date": "October 8, 2026",
+      "time": "8:00 AM - 11:00 AM ET",
+      "location": "Lord & Taylor Building | Meeting Rooms: CONF US JFK27 B1.206 & 207, New York",
+      "description": "",
+      "url": "https://events.moodys.com/evt-438-mau29064-ip-ma_mv-namer-2026-aws-partner-workshop-registration"
+    },
+    {
       "name": "Corporate Finance",
       "type": "play_circle_filled\nWATCH",
       "date": "",
@@ -121,7 +166,7 @@
     },
     {
       "name": "Digital Economy",
-      "type": "event_seat\nIN PERSON",
+      "type": "live_tv\nWEBINAR",
       "date": "",
       "time": "",
       "location": "",
@@ -184,7 +229,7 @@
     },
     {
       "name": "Structured Finance",
-      "type": "live_tv\nVIRTUAL",
+      "type": "live_tv\nWEBINAR",
       "date": "",
       "time": "",
       "location": "",
@@ -199,6 +244,15 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
