@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-08T14:29:12.523Z",
-  "totalEvents": 28,
+  "scrapedAt": "2026-10-12T16:36:08.030Z",
+  "totalEvents": 26,
   "events": [
     {
       "name": "Calendar",
@@ -30,22 +30,13 @@
       "url": "https://events.moodys.com/2026-mie26175-state-of-nations-2027"
     },
     {
-      "name": "Moody's Summit 2026",
-      "type": "In Person Event\nMoody's Summit 2026\nThe next chapter in the ",
-      "date": "7 October 2026",
-      "time": "09:00 - 15:15 Local time",
-      "location": "Mandarin Oriental Al Faisaliah, Riyadh",
+      "name": "Banking Conference - UK",
+      "type": "In Person Event\nBanking Conference - UK\nschedule\nThursday, 2",
+      "date": "22 October",
+      "time": "09:00 - 13:30 BST",
+      "location": "TOGETHER, London",
       "description": "",
-      "url": "https://events.moodys.com/2026-mie26521-saudi-summit"
-    },
-    {
-      "name": "Banking Conference - France",
-      "type": "In Person Event\nBanking Conference - France\nschedule\nTuesday",
-      "date": "6 October",
-      "time": "09:00 - 13:30 CEST",
-      "location": "Kimpton St Honoré Paris, Paris",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26326-paris-banking-conference"
+      "url": "https://events.moodys.com/2026-mie26323-london-banking-conference"
     },
     {
       "name": "Asia Credit Markets Replay",
@@ -93,58 +84,49 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Financial Institutions Conference – Hong Kong SAR, China",
-      "type": "In Person Event\nFinancial Institutions Conference – Hong Kon",
-      "date": "7 October (Banking)",
-      "time": "Thursday, 8 October (Insurance)",
-      "location": "Four Seasons Hotel, Hong Kong",
-      "description": "",
-      "url": "https://events.moodys.com/2026-hong-kong-financial-institutions-conference"
-    },
-    {
-      "name": "レバレッジド・ファイナンス＆\nプライベート・クレジット・カンファレンス",
-      "type": "translate\narrow_drop_down\nIn Person Event\nレバレッジド・ファイナンス＆\nプライ",
-      "date": "2026年10月8日（木)",
-      "time": "12:00 - 16:00 JST",
-      "location": "アンダーズ東京, Tokyo",
-      "description": "",
-      "url": "https://events.moodys.com/jp/2026-mip26697-leveraged-finance-and-private-credit-conference"
-    },
-    {
-      "name": "Japan in Focus",
+      "name": "Financial Crime Breakfast Briefing",
       "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "2026年10月8日（木)",
-      "time": "12:00 - 16:00 JST",
+      "date": "13 October 2026",
+      "time": "",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/japan-in-focus"
+      "url": "https://events.moodys.com/evt-345-mae28532-ip-ma-bg-ea-2026-fin-crime-banking-briefing"
     },
     {
-      "name": "Moody's Uzbekistan and CIS Summit",
-      "type": "In Person Event\nMoody's Uzbekistan and CIS Summit\n\n*This eve",
-      "date": "8 October 2026",
-      "time": "08:15 - 14:00 UZT",
-      "location": "InterContinental, Tashkent",
+      "name": "Tokenized Money Market Funds (APAC Edition)",
+      "type": "Webinar\nTokenized Money Market Funds (APAC Edition)\nEvolutio",
+      "date": "13 October 2026",
+      "time": "16:00 - 17:00 SGT",
+      "location": "",
       "description": "",
-      "url": "https://events.moodys.com/uzbekistan_and_cis_summit"
+      "url": "https://events.moodys.com/2026-mip29114-tokenized-money-market-funds"
     },
     {
-      "name": "Financial Institutions Briefing - The Netherlands",
-      "type": "In Person Event\nFinancial Institutions Briefing - The Nether",
-      "date": "8 October",
-      "time": "08:30 - 12:00 CEST",
-      "location": "The Dylan Amsterdam, Amsterdam",
+      "name": "Cyber Resilience 2027: Managing Tomorrow's Risks Today",
+      "type": "Webinar\nCyber Resilience 2027: Managing Tomorrow's Risks Tod",
+      "date": "13 October 2026",
+      "time": "14:00 - 15:00 BST",
+      "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-mie28607-amsterdam-briefing"
+      "url": "https://events.moodys.com/evt-410-mae28810-wbn-ma_cg-ea-2026-moodys-x-bitsight-x-ivalua-the-mythos-era-virtual"
     },
     {
-      "name": "Operationalizing AI in Financial Services with Decision-Grade Intelligence",
-      "type": "In Person Event\nOperationalizing AI in Financial Services wi",
-      "date": "October 8, 2026",
-      "time": "8:00 AM - 11:00 AM ET",
-      "location": "Lord & Taylor Building | Meeting Rooms: CONF US JFK27 B1.206 & 207, New York",
+      "name": "Moody’s au Rendez-vous T3 2026",
+      "type": "Webinar\nMoody’s au Rendez-vous T3 2026\nschedule\nMardi 13 oct",
+      "date": "Mardi 13 octobre 2026",
+      "time": "15:00 CEST",
+      "location": "",
       "description": "",
-      "url": "https://events.moodys.com/evt-438-mau29064-ip-ma_mv-namer-2026-aws-partner-workshop-registration"
+      "url": "https://events.moodys.com/2026-mie28757-moodys-au-rendez-vous-t3"
+    },
+    {
+      "name": "Banking Briefing - Italy",
+      "type": "In Person Event\nBanking Briefing - Italy\nschedule\nThursday, ",
+      "date": "15 October",
+      "time": "09:00 - 11:30 CEST",
+      "location": "Palazzo Parigi Hotel & Grand Spa Milano, Milan",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26325-milan-banking-briefing"
     },
     {
       "name": "Corporate Finance",
@@ -202,7 +184,7 @@
     },
     {
       "name": "Public Finance (US Public Finance & Sub-Sovereign)",
-      "type": "event_seat\nIN PERSON",
+      "type": "live_tv\nWEBINAR",
       "date": "",
       "time": "",
       "location": "",
