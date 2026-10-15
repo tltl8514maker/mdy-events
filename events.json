@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-12T16:36:08.030Z",
-  "totalEvents": 26,
+  "scrapedAt": "2026-10-15T12:33:01.905Z",
+  "totalEvents": 25,
   "events": [
     {
       "name": "Calendar",
@@ -84,42 +84,6 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Financial Crime Breakfast Briefing",
-      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "13 October 2026",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/evt-345-mae28532-ip-ma-bg-ea-2026-fin-crime-banking-briefing"
-    },
-    {
-      "name": "Tokenized Money Market Funds (APAC Edition)",
-      "type": "Webinar\nTokenized Money Market Funds (APAC Edition)\nEvolutio",
-      "date": "13 October 2026",
-      "time": "16:00 - 17:00 SGT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mip29114-tokenized-money-market-funds"
-    },
-    {
-      "name": "Cyber Resilience 2027: Managing Tomorrow's Risks Today",
-      "type": "Webinar\nCyber Resilience 2027: Managing Tomorrow's Risks Tod",
-      "date": "13 October 2026",
-      "time": "14:00 - 15:00 BST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/evt-410-mae28810-wbn-ma_cg-ea-2026-moodys-x-bitsight-x-ivalua-the-mythos-era-virtual"
-    },
-    {
-      "name": "Moody’s au Rendez-vous T3 2026",
-      "type": "Webinar\nMoody’s au Rendez-vous T3 2026\nschedule\nMardi 13 oct",
-      "date": "Mardi 13 octobre 2026",
-      "time": "15:00 CEST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie28757-moodys-au-rendez-vous-t3"
-    },
-    {
       "name": "Banking Briefing - Italy",
       "type": "In Person Event\nBanking Briefing - Italy\nschedule\nThursday, ",
       "date": "15 October",
@@ -127,6 +91,33 @@
       "location": "Palazzo Parigi Hotel & Grand Spa Milano, Milan",
       "description": "",
       "url": "https://events.moodys.com/2026-mie26325-milan-banking-briefing"
+    },
+    {
+      "name": "UK Water 2026",
+      "type": "In Person Event\nUK Water 2026\nA new vision\n\nRegistration for",
+      "date": "15 October 2026",
+      "time": "08:00 - 14:00",
+      "location": "Together, London",
+      "description": "",
+      "url": "https://events.moodys.com/2026_10_emea_mie26188_mispif_ukwater_conf"
+    },
+    {
+      "name": "2026 Digital Infrastructure Conference",
+      "type": "In Person Event\n2026 Digital Infrastructure Conference\nData ",
+      "date": "15 October 2026",
+      "time": "2:00 - 6:00 PM ET",
+      "location": "Moody's Headquarters, New York",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26318-digital-infrastructure-conference"
+    },
+    {
+      "name": "Beyond the Breach",
+      "type": "Webinar\nBeyond the Breach\nWhen Cyber Becomes Credit Risk\nsch",
+      "date": "October 15, 2026",
+      "time": "3:00 PM EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26385-public-finance-october_webinar"
     },
     {
       "name": "Corporate Finance",
@@ -139,7 +130,7 @@
     },
     {
       "name": "Credit Market Dynamics",
-      "type": "event_seat\nIN PERSON",
+      "type": "live_tv\nWEBINAR",
       "date": "",
       "time": "",
       "location": "",
@@ -148,7 +139,7 @@
     },
     {
       "name": "Digital Economy",
-      "type": "live_tv\nWEBINAR",
+      "type": "event_seat\nIN PERSON",
       "date": "",
       "time": "",
       "location": "",
@@ -211,7 +202,7 @@
     },
     {
       "name": "Structured Finance",
-      "type": "live_tv\nWEBINAR",
+      "type": "event_seat\nIN PERSON",
       "date": "",
       "time": "",
       "location": "",
