@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-15T12:33:01.905Z",
-  "totalEvents": 25,
+  "scrapedAt": "2026-10-19T14:27:36.269Z",
+  "totalEvents": 23,
   "events": [
     {
       "name": "Calendar",
@@ -84,40 +84,31 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Banking Briefing - Italy",
-      "type": "In Person Event\nBanking Briefing - Italy\nschedule\nThursday, ",
-      "date": "15 October",
-      "time": "09:00 - 11:30 CEST",
-      "location": "Palazzo Parigi Hotel & Grand Spa Milano, Milan",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26325-milan-banking-briefing"
-    },
-    {
-      "name": "UK Water 2026",
-      "type": "In Person Event\nUK Water 2026\nA new vision\n\nRegistration for",
-      "date": "15 October 2026",
-      "time": "08:00 - 14:00",
-      "location": "Together, London",
-      "description": "",
-      "url": "https://events.moodys.com/2026_10_emea_mie26188_mispif_ukwater_conf"
-    },
-    {
-      "name": "2026 Digital Infrastructure Conference",
-      "type": "In Person Event\n2026 Digital Infrastructure Conference\nData ",
-      "date": "15 October 2026",
-      "time": "2:00 - 6:00 PM ET",
-      "location": "Moody's Headquarters, New York",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26318-digital-infrastructure-conference"
-    },
-    {
-      "name": "Beyond the Breach",
-      "type": "Webinar\nBeyond the Breach\nWhen Cyber Becomes Credit Risk\nsch",
-      "date": "October 15, 2026",
-      "time": "3:00 PM EDT",
+      "name": "Structured Finance",
+      "type": "event_seat\nIN PERSON",
+      "date": "",
+      "time": "",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-miu26385-public-finance-october_webinar"
+      "url": "https://events.moodys.com/structured-finance-in-focus"
+    },
+    {
+      "name": "Moody's Cyber Risk Modelling Workshop",
+      "type": "In Person Event\nMoody's Cyber Risk Modelling Workshop\nschedu",
+      "date": "20 October 2026",
+      "time": "08:30 - 13:25 BST",
+      "location": "The Minster Building, London",
+      "description": "",
+      "url": "https://events.moodys.com/evt-502-mae28271-ip-ma_ig-ea-2026-cyber-risk-workshop"
+    },
+    {
+      "name": "European Banks in Focus: Q3 2026 Update",
+      "type": "Webinar\nEuropean Banks in Focus: Q3 2026 Update\nschedule\nTue",
+      "date": "20 October 2026",
+      "time": "15:00 BST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26338-banking-update-q3"
     },
     {
       "name": "Corporate Finance",
@@ -217,15 +208,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
-    },
-    {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
