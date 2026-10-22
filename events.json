@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-10-19T14:27:36.269Z",
-  "totalEvents": 23,
+  "scrapedAt": "2026-10-22T12:52:58.266Z",
+  "totalEvents": 26,
   "events": [
     {
       "name": "Calendar",
@@ -84,31 +84,49 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Structured Finance",
-      "type": "event_seat\nIN PERSON",
-      "date": "",
-      "time": "",
-      "location": "",
+      "name": "オペレーショナル・レジリエンスを支える　サードパーティ・サイバーリスク管理",
+      "type": "Briefing\nオペレーショナル・レジリエンスを支える　サードパーティ・サイバーリスク管理\nサイバーリスク対策における",
+      "date": "2026年10月22日（木）",
+      "time": "3:30 - 6:30 PM",
+      "location": "ムーディーズ・ジャパン東京オフィス, Tokyo",
       "description": "",
-      "url": "https://events.moodys.com/structured-finance-in-focus"
+      "url": "https://events.moodys.com/jp/evt-522-ip-map29111-26-bank-fi-cyber-risk-workshop-japan"
     },
     {
-      "name": "Moody's Cyber Risk Modelling Workshop",
-      "type": "In Person Event\nMoody's Cyber Risk Modelling Workshop\nschedu",
-      "date": "20 October 2026",
-      "time": "08:30 - 13:25 BST",
-      "location": "The Minster Building, London",
-      "description": "",
-      "url": "https://events.moodys.com/evt-502-mae28271-ip-ma_ig-ea-2026-cyber-risk-workshop"
-    },
-    {
-      "name": "European Banks in Focus: Q3 2026 Update",
-      "type": "Webinar\nEuropean Banks in Focus: Q3 2026 Update\nschedule\nTue",
-      "date": "20 October 2026",
-      "time": "15:00 BST",
+      "name": "Japan in Focus",
+      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
+      "date": "2026年10月22日（木）",
+      "time": "3:30 - 6:30 PM",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-mie26338-banking-update-q3"
+      "url": "https://events.moodys.com/japan-in-focus"
+    },
+    {
+      "name": "Financial Institutions Conference – Japan",
+      "type": "translate\narrow_drop_down\nIn-Person Event\nFinancial Institut",
+      "date": "27 October (Banking)",
+      "time": "Wednesday, 28 October (Insurance)",
+      "location": "Andaz Tokyo, Tokyo",
+      "description": "",
+      "url": "https://events.moodys.com/2026-tokyo-financial-institutions-conference"
+    },
+    {
+      "name": "What Matters in EMEA Corporate Credit",
+      "type": "Webinar\nWhat Matters in EMEA Corporate Credit\nEuropean Retai",
+      "date": "27 October 2026",
+      "time": "09:00 EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie29100-what-matters-in-emea-corporate-credit"
+    },
+    {
+      "name": "Market-consistent scenario generation in the cloud",
+      "type": "Webinar\nMarket-consistent scenario generation in the cloud\ns",
+      "date": "27 October 2026,",
+      "time": "10:00 AM EDT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-536-mau30797-wbn-ma_ig-global-2026-market-consistent-scenario-generation-in-the-cloud"
     },
     {
       "name": "Corporate Finance",
@@ -121,7 +139,7 @@
     },
     {
       "name": "Credit Market Dynamics",
-      "type": "live_tv\nWEBINAR",
+      "type": "event_seat\nIN PERSON",
       "date": "",
       "time": "",
       "location": "",
@@ -208,6 +226,15 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
