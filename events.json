@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-10-22T12:52:58.266Z",
-  "totalEvents": 26,
+  "scrapedAt": "2026-10-26T13:59:56.606Z",
+  "totalEvents": 25,
   "events": [
     {
       "name": "Calendar",
-      "type": "event_seat\nIN PERSON",
+      "type": "live_tv\nWEBINAR",
       "date": "",
       "time": "",
       "location": "",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Banking Conference - UK",
-      "type": "In Person Event\nBanking Conference - UK\nschedule\nThursday, 2",
+      "type": "In Person Event\nREPLAY\nBanking Conference - UK\nschedule\nThur",
       "date": "22 October",
       "time": "09:00 - 13:30 BST",
       "location": "TOGETHER, London",
@@ -84,22 +84,13 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "オペレーショナル・レジリエンスを支える　サードパーティ・サイバーリスク管理",
-      "type": "Briefing\nオペレーショナル・レジリエンスを支える　サードパーティ・サイバーリスク管理\nサイバーリスク対策における",
-      "date": "2026年10月22日（木）",
-      "time": "3:30 - 6:30 PM",
-      "location": "ムーディーズ・ジャパン東京オフィス, Tokyo",
-      "description": "",
-      "url": "https://events.moodys.com/jp/evt-522-ip-map29111-26-bank-fi-cyber-risk-workshop-japan"
-    },
-    {
-      "name": "Japan in Focus",
-      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "2026年10月22日（木）",
-      "time": "3:30 - 6:30 PM",
+      "name": "Sovereign Credit Today | An update on France",
+      "type": "Webinar\nSovereign Credit Today | An update on France\nAn upda",
+      "date": "26 October 2026",
+      "time": "15:30 GMT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/japan-in-focus"
+      "url": "https://events.moodys.com/2026-mie30883-sovereign-credit-today"
     },
     {
       "name": "Financial Institutions Conference – Japan",
@@ -127,6 +118,15 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/evt-536-mau30797-wbn-ma_ig-global-2026-market-consistent-scenario-generation-in-the-cloud"
+    },
+    {
+      "name": "2026 Moody's Ratings CMBS/CRE CLO Fall Conference and Networking Event",
+      "type": "In Person Event\n2026 Moody's Ratings CMBS/CRE CLO Fall Confe",
+      "date": "27 October 2026",
+      "time": "1:00PM - 6:00PM EDT",
+      "location": "Moody's Global Headquarters, New York",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26356-cmbs-cre-clo-conference"
     },
     {
       "name": "Corporate Finance",
@@ -226,15 +226,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
-    },
-    {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
