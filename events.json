@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-10-26T13:59:56.606Z",
-  "totalEvents": 25,
+  "scrapedAt": "2026-10-29T14:02:07.506Z",
+  "totalEvents": 26,
   "events": [
     {
       "name": "Calendar",
-      "type": "live_tv\nWEBINAR",
+      "type": "event_seat\nIN PERSON",
       "date": "",
       "time": "",
       "location": "",
@@ -30,13 +30,22 @@
       "url": "https://events.moodys.com/2026-mie26175-state-of-nations-2027"
     },
     {
+      "name": "Digital Frontiers 2027",
+      "type": "In Person Event\nDigital Frontiers 2027\nThe new credit signal",
+      "date": "March 18, 2027",
+      "time": "9:00 - 4:00 PM EDT",
+      "location": "Quorum by Convene, New York",
+      "description": "",
+      "url": "https://events.moodys.com/2027-mcu28733-digital-frontiers"
+    },
+    {
       "name": "Banking Conference - UK",
       "type": "In Person Event\nREPLAY\nBanking Conference - UK\nschedule\nThur",
       "date": "22 October",
       "time": "09:00 - 13:30 BST",
       "location": "TOGETHER, London",
       "description": "",
-      "url": "https://events.moodys.com/2026-mie26323-london-banking-conference"
+      "url": "https://events.moodys.com/2026-mie26323-london-banking-conference/replay"
     },
     {
       "name": "Asia Credit Markets Replay",
@@ -46,15 +55,6 @@
       "location": "",
       "description": "What changes when higher rates, AI investment and shifting capital flows become structural rather than temporary? Across Singapore and Hong Kong, the Asia Credit Markets Summit replays examine how these shifts are reshaping funding, resilience and cr",
       "url": "https://events.moodys.com/acm-replay"
-    },
-    {
-      "name": "Credit Frontiers Europe 2026",
-      "type": "In Person Event\nREPLAY\nCredit Frontiers Europe 2026\nPrivate ",
-      "date": "Replay available",
-      "time": "",
-      "location": "The Chancery Rosewood, London",
-      "description": "Europe's private credit market is at an inflection point - growing fast, drawing new capital and rewriting the rules between banks, insurers and asset managers. But scale brings scrutiny. These four sessions put the opportunity, the ecosystem, the re",
-      "url": "https://events.moodys.com/2026-mie26604-credit-frontiers-europe-2026/Replay"
     },
     {
       "name": "Credit Frontiers 2026",
@@ -84,49 +84,49 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Sovereign Credit Today | An update on France",
-      "type": "Webinar\nSovereign Credit Today | An update on France\nAn upda",
-      "date": "26 October 2026",
-      "time": "15:30 GMT",
+      "name": "Moody’s Japan Insurance Forum 2026",
+      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
+      "date": "2026年10月29日 (木)",
+      "time": "14:15 - 17:20",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-mie30883-sovereign-credit-today"
+      "url": "https://events.moodys.com/jp/evt-492-ip-map28118-26-ins-jp-ins-forum"
     },
     {
-      "name": "Financial Institutions Conference – Japan",
-      "type": "translate\narrow_drop_down\nIn-Person Event\nFinancial Institut",
-      "date": "27 October (Banking)",
-      "time": "Wednesday, 28 October (Insurance)",
-      "location": "Andaz Tokyo, Tokyo",
-      "description": "",
-      "url": "https://events.moodys.com/2026-tokyo-financial-institutions-conference"
-    },
-    {
-      "name": "What Matters in EMEA Corporate Credit",
-      "type": "Webinar\nWhat Matters in EMEA Corporate Credit\nEuropean Retai",
-      "date": "27 October 2026",
-      "time": "09:00 EDT",
+      "name": "Japan in Focus",
+      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
+      "date": "2026年10月29日 (木)",
+      "time": "14:15 - 17:20",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-mie29100-what-matters-in-emea-corporate-credit"
+      "url": "https://events.moodys.com/japan-in-focus"
     },
     {
-      "name": "Market-consistent scenario generation in the cloud",
-      "type": "Webinar\nMarket-consistent scenario generation in the cloud\ns",
-      "date": "27 October 2026,",
-      "time": "10:00 AM EDT",
+      "name": "What is shaping corporate credit in Central Asia and the Caucasus?",
+      "type": "Webinar\nWhat is shaping corporate credit in Central Asia and",
+      "date": "29 October 2026",
+      "time": "9:00 GMT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/evt-536-mau30797-wbn-ma_ig-global-2026-market-consistent-scenario-generation-in-the-cloud"
+      "url": "https://events.moodys.com/2026-mie28765-webinar-for-corporates-for-cac-region"
     },
     {
-      "name": "2026 Moody's Ratings CMBS/CRE CLO Fall Conference and Networking Event",
-      "type": "In Person Event\n2026 Moody's Ratings CMBS/CRE CLO Fall Confe",
-      "date": "27 October 2026",
-      "time": "1:00PM - 6:00PM EDT",
-      "location": "Moody's Global Headquarters, New York",
+      "name": "The future of casualty & financial lines",
+      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
+      "date": "October 29, 2026",
+      "time": "8:00 AM - 11:00 AM",
+      "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-miu26356-cmbs-cre-clo-conference"
+      "url": "https://events.moodys.com/mau28239_the_future_of_casualty_financial_lines"
+    },
+    {
+      "name": "North America Banking & Finance Conference",
+      "type": "In Person Event\nNorth America Banking & Finance Conference\nA",
+      "date": "October 29",
+      "time": "8:30 AM - 2:30 PM EDT",
+      "location": "Moody's Headquarters | 52nd Floor, New York",
+      "description": "",
+      "url": "https://events.moodys.com/2026_miu26232_north-america-banking-conference"
     },
     {
       "name": "Corporate Finance",
@@ -148,7 +148,7 @@
     },
     {
       "name": "Digital Economy",
-      "type": "event_seat\nIN PERSON",
+      "type": "SPONSORSHIP",
       "date": "",
       "time": "",
       "location": "",
@@ -184,7 +184,7 @@
     },
     {
       "name": "Public Finance (US Public Finance & Sub-Sovereign)",
-      "type": "live_tv\nWEBINAR",
+      "type": "live_tv\nVIRTUAL",
       "date": "",
       "time": "",
       "location": "",
@@ -193,7 +193,7 @@
     },
     {
       "name": "Private Credit",
-      "type": "event_seat\nIN PERSON",
+      "type": "SPONSORSHIP",
       "date": "",
       "time": "",
       "location": "",
@@ -211,7 +211,7 @@
     },
     {
       "name": "Structured Finance",
-      "type": "event_seat\nIN PERSON",
+      "type": "SPONSORSHIP",
       "date": "",
       "time": "",
       "location": "",
@@ -226,6 +226,15 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
+    },
+    {
+      "name": "Confirm cancellation",
+      "type": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
