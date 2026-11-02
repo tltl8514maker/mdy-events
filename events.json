@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-10-29T14:02:07.506Z",
-  "totalEvents": 26,
+  "scrapedAt": "2026-11-02T16:55:10.003Z",
+  "totalEvents": 24,
   "events": [
     {
       "name": "Calendar",
-      "type": "event_seat\nIN PERSON",
+      "type": "SPONSORSHIP",
       "date": "",
       "time": "",
       "location": "",
@@ -84,49 +84,40 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Moody’s Japan Insurance Forum 2026",
-      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "2026年10月29日 (木)",
-      "time": "14:15 - 17:20",
+      "name": "2027 UK Housing Associations Outlook",
+      "type": "Webinar\n2027 UK Housing Associations Outlook\nschedule\nTuesda",
+      "date": "3 November 2026",
+      "time": "2:00 PM GMT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/jp/evt-492-ip-map28118-26-ins-jp-ins-forum"
+      "url": "https://events.moodys.com/2026-mie30878-uk-housing-associations-outlook"
+    },
+    {
+      "name": "Quarterly Update on US Banks – Q3",
+      "type": "Virtual Event\nQuarterly Update on US Banks – Q3\nschedule\nTue",
+      "date": "November 3, 2026",
+      "time": "10:00 AM EST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26266-quarterly-update-on-us-banks-q3"
+    },
+    {
+      "name": "From data complexity to sales insight",
+      "type": "Webinar\nFrom data complexity to sales insight\nTurning signal",
+      "date": "November 3, 2026",
+      "time": "11:00 am EST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-538-mau28748-wbn-ma_cg-global-2026-growth-strategy-webinar"
     },
     {
       "name": "Japan in Focus",
       "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "2026年10月29日 (木)",
-      "time": "14:15 - 17:20",
+      "date": "185 Mins",
+      "time": "29 October 2026",
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/japan-in-focus"
-    },
-    {
-      "name": "What is shaping corporate credit in Central Asia and the Caucasus?",
-      "type": "Webinar\nWhat is shaping corporate credit in Central Asia and",
-      "date": "29 October 2026",
-      "time": "9:00 GMT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie28765-webinar-for-corporates-for-cac-region"
-    },
-    {
-      "name": "The future of casualty & financial lines",
-      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "October 29, 2026",
-      "time": "8:00 AM - 11:00 AM",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/mau28239_the_future_of_casualty_financial_lines"
-    },
-    {
-      "name": "North America Banking & Finance Conference",
-      "type": "In Person Event\nNorth America Banking & Finance Conference\nA",
-      "date": "October 29",
-      "time": "8:30 AM - 2:30 PM EDT",
-      "location": "Moody's Headquarters | 52nd Floor, New York",
-      "description": "",
-      "url": "https://events.moodys.com/2026_miu26232_north-america-banking-conference"
     },
     {
       "name": "Corporate Finance",
@@ -226,15 +217,6 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
-    },
-    {
-      "name": "Confirm cancellation",
-      "type": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/sign-up?on_auth_redirect_to=https://events.moodys.com"
     }
   ]
 }
