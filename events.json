@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-02T16:55:10.003Z",
+  "scrapedAt": "2026-11-05T15:15:46.503Z",
   "totalEvents": 24,
   "events": [
     {
@@ -84,33 +84,6 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "2027 UK Housing Associations Outlook",
-      "type": "Webinar\n2027 UK Housing Associations Outlook\nschedule\nTuesda",
-      "date": "3 November 2026",
-      "time": "2:00 PM GMT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie30878-uk-housing-associations-outlook"
-    },
-    {
-      "name": "Quarterly Update on US Banks – Q3",
-      "type": "Virtual Event\nQuarterly Update on US Banks – Q3\nschedule\nTue",
-      "date": "November 3, 2026",
-      "time": "10:00 AM EST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26266-quarterly-update-on-us-banks-q3"
-    },
-    {
-      "name": "From data complexity to sales insight",
-      "type": "Webinar\nFrom data complexity to sales insight\nTurning signal",
-      "date": "November 3, 2026",
-      "time": "11:00 am EST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/evt-538-mau28748-wbn-ma_cg-global-2026-growth-strategy-webinar"
-    },
-    {
       "name": "Japan in Focus",
       "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
       "date": "185 Mins",
@@ -118,6 +91,33 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/japan-in-focus"
+    },
+    {
+      "name": "Development Finance Forum",
+      "type": "In Person Event\nDevelopment Finance Forum\nBlended finance: s",
+      "date": "5 November 2026",
+      "time": "8:15 – 13:00 GMT",
+      "location": "10 Gresham Street",
+      "description": "",
+      "url": "https://events.moodys.com/2026-development-finance-forum"
+    },
+    {
+      "name": "Financial Institutions Briefing - Canada",
+      "type": "In Person Event\nFinancial Institutions Briefing - Canada\nIns",
+      "date": "November 5",
+      "time": "9:00 AM - 12:00 PM EST",
+      "location": "Vantage Venues, Toronto",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26444-toronto-briefing"
+    },
+    {
+      "name": "From Data to Decisions: Building AI-Ready Supply Chains with SAP Business Data Cloud",
+      "type": "Webinar\nFrom Data to Decisions: Building AI-Ready Supply Cha",
+      "date": "5 November 2026",
+      "time": "2:00 PM GMT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-462-mae28794-wbn-ma_cg-ea-2026-sap-deloitte-webinar"
     },
     {
       "name": "Corporate Finance",
@@ -202,7 +202,7 @@
     },
     {
       "name": "Structured Finance",
-      "type": "SPONSORSHIP",
+      "type": "live_tv\nVIRTUAL",
       "date": "",
       "time": "",
       "location": "",
