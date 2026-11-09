@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-11-05T15:15:46.503Z",
-  "totalEvents": 24,
+  "scrapedAt": "2026-11-09T17:16:08.617Z",
+  "totalEvents": 26,
   "events": [
     {
       "name": "Calendar",
-      "type": "SPONSORSHIP",
+      "type": "live_tv\nVIRTUAL",
       "date": "",
       "time": "",
       "location": "",
@@ -84,44 +84,62 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Japan in Focus",
-      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "185 Mins",
-      "time": "29 October 2026",
+      "name": "Inside LatAm: Uruguay 2026",
+      "type": "Virtual\nInside LatAm: Uruguay 2026\nschedule\nMartes, 10 de no",
+      "date": "Martes, 10 de noviembre de 2026",
+      "time": "9:00 am hora local",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/japan-in-focus"
+      "url": "https://events.moodys.com/es/2026-miu26427-inside-uruguay-2026"
     },
     {
-      "name": "Development Finance Forum",
-      "type": "In Person Event\nDevelopment Finance Forum\nBlended finance: s",
-      "date": "5 November 2026",
-      "time": "8:15 – 13:00 GMT",
-      "location": "10 Gresham Street",
-      "description": "",
-      "url": "https://events.moodys.com/2026-development-finance-forum"
-    },
-    {
-      "name": "Financial Institutions Briefing - Canada",
-      "type": "In Person Event\nFinancial Institutions Briefing - Canada\nIns",
-      "date": "November 5",
-      "time": "9:00 AM - 12:00 PM EST",
-      "location": "Vantage Venues, Toronto",
-      "description": "",
-      "url": "https://events.moodys.com/2026-miu26444-toronto-briefing"
-    },
-    {
-      "name": "From Data to Decisions: Building AI-Ready Supply Chains with SAP Business Data Cloud",
-      "type": "Webinar\nFrom Data to Decisions: Building AI-Ready Supply Cha",
-      "date": "5 November 2026",
-      "time": "2:00 PM GMT",
+      "name": "Housing and Housing Finance Analyst Insights Series: Multifamily",
+      "type": "Webinar\nHousing and Housing Finance Analyst Insights Series:",
+      "date": "10 November 2026",
+      "time": "13:00 EST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/evt-462-mae28794-wbn-ma_cg-ea-2026-sap-deloitte-webinar"
+      "url": "https://events.moodys.com/2026-miu28325-housing-analyst-insight-multi-family"
+    },
+    {
+      "name": "Indonesia Credit Conference",
+      "type": "In Person Event\nIndonesia Credit Conference\nschedule\nWednesd",
+      "date": "11 November",
+      "time": "09:00 - 13:30 JKT",
+      "location": "The Langham, Jakarta",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mip26201-indonesia-credit-conference"
+    },
+    {
+      "name": "Armenia Sovereign, Banking and Covered Bond Briefing",
+      "type": "In Person Event\nArmenia Sovereign, Banking and Covered Bond ",
+      "date": "12 November 2026",
+      "time": "08:15 - 12:00 AMT",
+      "location": "Armenia Marriott Hotel Yerevan, Yerevan",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26396-armenia-briefing"
+    },
+    {
+      "name": "Q4 2026 CRE Quarterly Economic Briefing: New Supply Fades, Rates Bite",
+      "type": "Webinar\nQ4 2026 CRE Quarterly Economic Briefing: New Supply ",
+      "date": "This ondemand webinar will be available starting November 16th at",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-q4-cre-economic-briefing"
+    },
+    {
+      "name": "Economics in Focus",
+      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
+      "date": "15 Mins",
+      "time": "28 September 2026",
+      "location": "",
+      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
+      "url": "https://events.moodys.com/economics-in-focus"
     },
     {
       "name": "Corporate Finance",
-      "type": "play_circle_filled\nWATCH",
+      "type": "live_tv\nVIRTUAL",
       "date": "",
       "time": "",
       "location": "",
