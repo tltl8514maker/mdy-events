@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-11-12T15:51:30.993Z",
-  "totalEvents": 26,
+  "scrapedAt": "2026-11-16T16:54:55.395Z",
+  "totalEvents": 48,
   "events": [
     {
       "name": "Calendar",
@@ -84,33 +84,6 @@
       "url": "https://events.moodys.com/global-financial-institutions-series-2026"
     },
     {
-      "name": "Armenia Sovereign, Banking and Covered Bond Briefing",
-      "type": "In Person Event\nArmenia Sovereign, Banking and Covered Bond ",
-      "date": "12 November 2026",
-      "time": "08:15 - 12:00 AMT",
-      "location": "Armenia Marriott Hotel Yerevan, Yerevan",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26396-armenia-briefing"
-    },
-    {
-      "name": "Q4 2026 CRE Quarterly Economic Briefing: New Supply Fades, Rates Bite",
-      "type": "Webinar\nQ4 2026 CRE Quarterly Economic Briefing: New Supply ",
-      "date": "This ondemand webinar will be available starting November 16th at",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-q4-cre-economic-briefing"
-    },
-    {
-      "name": "Economics in Focus",
-      "type": "Moodys.com\nMoody's Analytics\nEvent Calendar\nFAQ\nContact us\nE",
-      "date": "THIS ONDEMAND WEBINAR WILL BE AVAILABLE STARTING NOVEMBER 16TH AT",
-      "time": "",
-      "location": "",
-      "description": "Tune in for Moody’s events across sustainable finance, physical and transition risks. The insight you need to make better decisions.",
-      "url": "https://events.moodys.com/economics-in-focus"
-    },
-    {
       "name": "Auto Capital Europe 2026",
       "type": "In Person Event\nAuto Capital Europe 2026\nCredit. Competition",
       "date": "17 November 2026",
@@ -127,6 +100,15 @@
       "location": "Vantage Venues, Toronto",
       "description": "",
       "url": "https://events.moodys.com/ta-25922_riskfrontier_portfoliostudio_user_forum_toronto"
+    },
+    {
+      "name": "Moody’s Insurance Solutions User Group - Toronto",
+      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
+      "date": "November 17, 2026",
+      "time": "9:00 AM - 4:30 PM ET",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/evt-457_mau28266_ip_ma_ig_2026_axis_ri_user_forum_2026_toronto"
     },
     {
       "name": "Corporate Finance",
@@ -211,7 +193,7 @@
     },
     {
       "name": "Structured Finance",
-      "type": "event_seat\nIN PERSON",
+      "type": "SPONSORSHIP",
       "date": "",
       "time": "",
       "location": "",
@@ -226,6 +208,222 @@
       "location": "",
       "description": "",
       "url": "https://events.moodys.com/sustainable-and-transition-finance"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/q0dqzjo4do"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/pkgr5kpqe6"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/5ldwnpx5do"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/qlgx9qyqgm"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/nodzlv0pep"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/y2d10xklgr"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/o7e3vzmmg1"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/wve6xkp3ep"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/pzg0mwzpd9"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/j3ejl8rvdp"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/1jdko8v3e5"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/56glr8wlg9"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/9memz80yg2"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/1xdnr8y4e0"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/31ep9817dn"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/zkevyo75e3"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/wney3rlxd4"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/3ng2oy2nd1"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/o7e3vz3mg1"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/zjd4x144g5"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/w5g5wj5lgn"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/w4d73lnxgo"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/k4g8lmold5"
+    },
+    {
+      "name": "Moody's Events — Hub Footer PhotoStream",
+      "type": "Download",
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/photos/moodys-events-hub-footer-photostream/4qe91npyg1"
     },
     {
       "name": "Confirm cancellation",
