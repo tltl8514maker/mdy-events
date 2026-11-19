@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-11-16T16:54:55.395Z",
-  "totalEvents": 48,
+  "scrapedAt": "2026-11-19T16:28:33.338Z",
+  "totalEvents": 49,
   "events": [
     {
       "name": "Calendar",
-      "type": "event_seat\nIN PERSON",
+      "type": "SPONSORSHIP",
       "date": "",
       "time": "",
       "location": "",
@@ -21,15 +21,6 @@
       "url": "https://events.moodys.com/credit-themes"
     },
     {
-      "name": "State of Nations",
-      "type": "Virtual Event\nState of Nations\nCommon forces, different fate",
-      "date": "17 November 2026",
-      "time": "14:00 GMT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie26175-state-of-nations-2027"
-    },
-    {
       "name": "Digital Frontiers 2027",
       "type": "In Person Event\nDigital Frontiers 2027\nThe new credit signal",
       "date": "March 18, 2027",
@@ -37,6 +28,15 @@
       "location": "Quorum by Convene, New York",
       "description": "",
       "url": "https://events.moodys.com/2027-mcu28733-digital-frontiers"
+    },
+    {
+      "name": "State of Nations",
+      "type": "Virtual Event\nREPLAY\nState of Nations\nCommon forces, differe",
+      "date": "17 November 2026",
+      "time": "14:00 GMT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-mie26175-state-of-nations-2027"
     },
     {
       "name": "Banking Conference - UK",
@@ -75,40 +75,49 @@
       "url": "https://events.moodys.com/financial-institutions-in-focus"
     },
     {
-      "name": "Global Financial Institutions Series 2026",
-      "type": "24\nSEP\nevent_seat\nIN PERSON\nThursday, 24 September | 08:30 -",
-      "date": "24 September",
-      "time": "08:30 - 11:45 CEST",
+      "name": "Outlooks 2027",
+      "type": "live_tv\n13 Virtual Events",
+      "date": "23 November 2026",
+      "time": "09:00 EST",
+      "location": "",
+      "description": "The series that brings the year ahead into focus through a series of analyst-led conversations on credit.",
+      "url": "https://events.moodys.com/outlooks-2027"
+    },
+    {
+      "name": "Sovereign Credit Today | An update on Panama",
+      "type": "Webinar\nSovereign Credit Today | An update on Panama\nPanama’",
+      "date": "19 November 2026",
+      "time": "14:00 GMT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/global-financial-institutions-series-2026"
+      "url": "https://events.moodys.com/2026-miu31119-sovereign-credit-today"
     },
     {
-      "name": "Auto Capital Europe 2026",
-      "type": "In Person Event\nAuto Capital Europe 2026\nCredit. Competition",
-      "date": "17 November 2026",
-      "time": "13:30 – 19:30 CET",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie29073-automotive-transition-2026"
-    },
-    {
-      "name": "RiskFrontier/PortfolioStudio User Forum 2026",
-      "type": "In Person Event\nRiskFrontier/PortfolioStudio User Forum 2026",
-      "date": "17 November 2026",
-      "time": "08:30 AM - 12:30 PM EST",
-      "location": "Vantage Venues, Toronto",
-      "description": "",
-      "url": "https://events.moodys.com/ta-25922_riskfrontier_portfoliostudio_user_forum_toronto"
-    },
-    {
-      "name": "Moody’s Insurance Solutions User Group - Toronto",
+      "name": "Beyond the front door: Knowing who you're really banking",
       "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "November 17, 2026",
-      "time": "9:00 AM - 4:30 PM ET",
+      "date": "19th November 2026",
+      "time": "",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/evt-457_mau28266_ip_ma_ig_2026_axis_ri_user_forum_2026_toronto"
+      "url": "https://events.moodys.com/evt-427-ip-mae28399-2026-ma-bg-fin-crime-london"
+    },
+    {
+      "name": "Sovereign Deep Dive: USA",
+      "type": "Webinar\nSovereign Deep Dive: USA\nUS fiscal pressures and pol",
+      "date": "November 19, 2026",
+      "time": "15:00 GMT",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2026-miu26425-sovereign-deep-dive-usa"
+    },
+    {
+      "name": "Public Finance Conference 2026",
+      "type": "In Person Event\nPublic Finance Conference 2026\nEmerging pres",
+      "date": "November 19",
+      "time": "12:00 - 5:30 PM EDT",
+      "location": "Moody's Headquarters | 52nd Floor, New York",
+      "description": "",
+      "url": "https://events.moodys.com/2026_miu26310_pfg_conference"
     },
     {
       "name": "Corporate Finance",
@@ -157,7 +166,7 @@
     },
     {
       "name": "Project & Infrastructure Finance",
-      "type": "event_seat\nIN PERSON",
+      "type": "live_tv\nVIRTUAL",
       "date": "",
       "time": "",
       "location": "",
@@ -184,7 +193,7 @@
     },
     {
       "name": "Sovereign & Supranational",
-      "type": "live_tv\nVIRTUAL",
+      "type": "play_circle_filled\nWATCH",
       "date": "",
       "time": "",
       "location": "",
