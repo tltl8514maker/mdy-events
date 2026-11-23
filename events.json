@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-11-19T16:28:33.338Z",
+  "scrapedAt": "2026-11-23T19:08:20.841Z",
   "totalEvents": 49,
   "events": [
     {
       "name": "Calendar",
-      "type": "SPONSORSHIP",
+      "type": "live_tv\nVIRTUAL",
       "date": "",
       "time": "",
       "location": "",
@@ -39,6 +39,15 @@
       "url": "https://events.moodys.com/2026-mie26175-state-of-nations-2027"
     },
     {
+      "name": "Development Finance Forum",
+      "type": "In Person Event\nREPLAY\nDevelopment Finance Forum\nBlended fin",
+      "date": "5 November 2026",
+      "time": "8:15 – 13:00 GMT",
+      "location": "10 Gresham Street",
+      "description": "",
+      "url": "https://events.moodys.com/2026-development-finance-forum/replay"
+    },
+    {
       "name": "Banking Conference - UK",
       "type": "In Person Event\nREPLAY\nBanking Conference - UK\nschedule\nThur",
       "date": "22 October",
@@ -57,24 +66,6 @@
       "url": "https://events.moodys.com/acm-replay"
     },
     {
-      "name": "Credit Frontiers 2026",
-      "type": "In Person Event\nREPLAY\nCredit Frontiers 2026\nschedule\nThursd",
-      "date": "April 23, 2026",
-      "time": "9:15 AM - 4:30 PM EDT",
-      "location": "Quorum by Convene, New York",
-      "description": "From AI-driven megadeals to private credit interconnectedness and default-cycle signals, these sessions examine how scale, structure and discipline are reshaping credit markets. Select a session below to watch the replay:",
-      "url": "https://events.moodys.com/2026-miu26271-credit-frontiers-2026/Replay"
-    },
-    {
-      "name": "Financial Institutions",
-      "type": "event_seat\nIN PERSON",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/financial-institutions-in-focus"
-    },
-    {
       "name": "Outlooks 2027",
       "type": "live_tv\n13 Virtual Events",
       "date": "23 November 2026",
@@ -84,40 +75,49 @@
       "url": "https://events.moodys.com/outlooks-2027"
     },
     {
-      "name": "Sovereign Credit Today | An update on Panama",
-      "type": "Webinar\nSovereign Credit Today | An update on Panama\nPanama’",
-      "date": "19 November 2026",
+      "name": "2027 Global Banks Outlook AMER/EMEA Edition",
+      "type": "Webinar\n2027 Global Banks Outlook AMER/EMEA Edition\nNavigati",
+      "date": "23 November 2026",
+      "time": "09:00 EST",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/2027-miu30783-global-banks-outlook-usa-emea"
+    },
+    {
+      "name": "Sovereign Credit Today | Hungary",
+      "type": "Webinar\nSovereign Credit Today | Hungary\nAn update on Hungar",
+      "date": "23 November 2026",
       "time": "14:00 GMT",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-miu31119-sovereign-credit-today"
+      "url": "https://events.moodys.com/2026-mie31121-sovereign-credit-today"
     },
     {
-      "name": "Beyond the front door: Knowing who you're really banking",
-      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
-      "date": "19th November 2026",
+      "name": "Structured Finance",
+      "type": "SPONSORSHIP",
+      "date": "",
       "time": "",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/evt-427-ip-mae28399-2026-ma-bg-fin-crime-london"
+      "url": "https://events.moodys.com/structured-finance-in-focus"
     },
     {
-      "name": "Sovereign Deep Dive: USA",
-      "type": "Webinar\nSovereign Deep Dive: USA\nUS fiscal pressures and pol",
-      "date": "November 19, 2026",
-      "time": "15:00 GMT",
+      "name": "2027 Global Banks Outlook APAC Edition",
+      "type": "Webinar\n2027 Global Banks Outlook APAC Edition\nNavigating th",
+      "date": "24 November 2026",
+      "time": "13:30 IST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026-miu26425-sovereign-deep-dive-usa"
+      "url": "https://events.moodys.com/2027-mip30807-2027-global-banks-outlook-apac"
     },
     {
-      "name": "Public Finance Conference 2026",
-      "type": "In Person Event\nPublic Finance Conference 2026\nEmerging pres",
-      "date": "November 19",
-      "time": "12:00 - 5:30 PM EDT",
-      "location": "Moody's Headquarters | 52nd Floor, New York",
+      "name": "Briefing sur le Maroc – 2026",
+      "type": "In Person Event\nBriefing sur le Maroc – 2026\nPerspectives de",
+      "date": "Mardi 24 Novembre 2026",
+      "time": "09h00 - 15h30 WET",
+      "location": "Hyatt Regency Casablanca, Casablanca",
       "description": "",
-      "url": "https://events.moodys.com/2026_miu26310_pfg_conference"
+      "url": "https://events.moodys.com/2026_mie28417_morocco-briefing"
     },
     {
       "name": "Corporate Finance",
@@ -175,7 +175,7 @@
     },
     {
       "name": "Public Finance (US Public Finance & Sub-Sovereign)",
-      "type": "event_seat\nIN PERSON",
+      "type": "live_tv\nVIRTUAL",
       "date": "",
       "time": "",
       "location": "",
