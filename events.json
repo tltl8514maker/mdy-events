@@ -1,10 +1,10 @@
 {
-  "scrapedAt": "2026-11-23T19:08:20.841Z",
-  "totalEvents": 49,
+  "scrapedAt": "2026-11-26T17:41:36.981Z",
+  "totalEvents": 48,
   "events": [
     {
       "name": "Calendar",
-      "type": "live_tv\nVIRTUAL",
+      "type": "SPONSORSHIP",
       "date": "",
       "time": "",
       "location": "",
@@ -68,56 +68,47 @@
     {
       "name": "Outlooks 2027",
       "type": "live_tv\n13 Virtual Events",
-      "date": "23 November 2026",
-      "time": "09:00 EST",
+      "date": "19 January 2027",
+      "time": "10:30-11:45 JST",
       "location": "",
       "description": "The series that brings the year ahead into focus through a series of analyst-led conversations on credit.",
       "url": "https://events.moodys.com/outlooks-2027"
     },
     {
-      "name": "2027 Global Banks Outlook AMER/EMEA Edition",
-      "type": "Webinar\n2027 Global Banks Outlook AMER/EMEA Edition\nNavigati",
-      "date": "23 November 2026",
-      "time": "09:00 EST",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2027-miu30783-global-banks-outlook-usa-emea"
-    },
-    {
-      "name": "Sovereign Credit Today | Hungary",
-      "type": "Webinar\nSovereign Credit Today | Hungary\nAn update on Hungar",
-      "date": "23 November 2026",
-      "time": "14:00 GMT",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/2026-mie31121-sovereign-credit-today"
-    },
-    {
-      "name": "Structured Finance",
-      "type": "SPONSORSHIP",
-      "date": "",
-      "time": "",
-      "location": "",
-      "description": "",
-      "url": "https://events.moodys.com/structured-finance-in-focus"
-    },
-    {
-      "name": "2027 Global Banks Outlook APAC Edition",
-      "type": "Webinar\n2027 Global Banks Outlook APAC Edition\nNavigating th",
-      "date": "24 November 2026",
+      "name": "Inside South and Southeast Asia - Q4",
+      "type": "Webinar\nInside South and Southeast Asia - Q4\nIndia and Indon",
+      "date": "26 November",
       "time": "13:30 IST",
       "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2027-mip30807-2027-global-banks-outlook-apac"
+      "url": "https://events.moodys.com/2026-mip29380-inside-ssea-q4"
     },
     {
-      "name": "Briefing sur le Maroc – 2026",
-      "type": "In Person Event\nBriefing sur le Maroc – 2026\nPerspectives de",
-      "date": "Mardi 24 Novembre 2026",
-      "time": "09h00 - 15h30 WET",
-      "location": "Hyatt Regency Casablanca, Casablanca",
+      "name": "ジャパン・コーポレート・クレジット・インサイト2027",
+      "type": "translate\narrow_drop_down\nウェビナー\nジャパン・コーポレート・クレジット・インサイト2027\n",
+      "date": "2026年12月1日（火）",
+      "time": "16:00 - 17:00（日本時間）",
+      "location": "",
       "description": "",
-      "url": "https://events.moodys.com/2026_mie28417_morocco-briefing"
+      "url": "https://events.moodys.com/jp/2026-mip26218-japanese-corporate-credit-insight-2027"
+    },
+    {
+      "name": "Japan in Focus",
+      "type": "Home\nEvent Calendar\nCredit Themes\nFAQ\nContact Us\nMOODY'S\nCon",
+      "date": "2026年12月1日（火）",
+      "time": "16:00 - 17:00（日本時間）",
+      "location": "",
+      "description": "",
+      "url": "https://events.moodys.com/japan-in-focus"
+    },
+    {
+      "name": "Cyber Credit Conference",
+      "type": "In Person Event\nCyber Credit Conference\nNew insights in an a",
+      "date": "December 1",
+      "time": "8:30 AM - 2:00 PM",
+      "location": "Moody's Headquarters | 52nd Floor, New York",
+      "description": "",
+      "url": "https://events.moodys.com/2026_miu28464_cyber_conference"
     },
     {
       "name": "Corporate Finance",
